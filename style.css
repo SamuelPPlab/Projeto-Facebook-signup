@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+}
+
+.top-bar {
+    background-color: blue;
+    padding: auto 181px;
+    color: white;
+}
+
+.navBar {
+    display: flex;
+    height: 83px;
+    justify-content: space-between;
+    
+}
+
+.main {
+    background-color: linear-gradient(white, #D3D8E8);;
+}
+
+.footer {
+    background-color: lightgrey;
+    height: 136px;
+}
