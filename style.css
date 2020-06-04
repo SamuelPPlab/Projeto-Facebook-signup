@@ -1,9 +1,12 @@
 .top-bar {
-  align-items: center;
+  background: linear-gradient(to top, #49659e, #3b5997, #49659e);
+  color: white;
   display: flex;
-  flex-direction: row;
-  height: auto;
-  width: 100%;
+  font-size: 12px;
+  height: 82px;
+  margin-left: -8px;
+  margin-top: -8px;
+  width: 1265px;
 }
 
 .nav {
@@ -13,6 +16,8 @@
   margin-left: 142.5px;
   margin-right: 142.5px;
   width: 980px;
+  height: 78px;
+  align-items: center;
 }
 
 .login-container {
@@ -22,3 +27,11 @@
   padding: 3px 3px 4px;
   width: 350px;
 }
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  font-weight: normal;
+}
+
