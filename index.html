@@ -9,43 +9,46 @@
 </head>
 
 <body>
-  <header class="top-bar">
-    <img class="facebook-logo" src="facebook-logo.png" width="170" />
-    <table>
-      <tbody>
-        <tr>
-          <td>
-            <label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
-          </td>
-          <td>
-            <label>Senha</label>
-          </td>
-        </tr>
-        <tr class="space-column">
-          <td>
-            <input id="user-email-phone" type="text" size="15px" />
-          </td>
-          <td>
-            <input id="user-password" type="password" size="15px" />
-          </td>
-          <td>
-            <button id="button-login">Entrar</button>
-          </td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>Esqueceu a conta?</td>
-        </tr>
-      </tbody>
-    </table>
+  <header class="header">
+    <div class="top-bar">
+      <img class="facebook-logo" src="facebook-logo.png" width="170" />
+      <table class="login-info">
+        <tbody>
+          <tr>
+            <td>
+              <label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
+            </td>
+            <td>
+              <label>Senha</label>
+            </td>
+          </tr>
+          <tr class="space-column">
+            <td>
+              <input id="user-email-phone" type="text" size="15px" />
+            </td>
+            <td>
+              <input id="user-password" type="password" size="15px" />
+            </td>
+            <td>
+              <button id="button-login">Entrar</button>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Esqueceu a conta?</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </header>
   <div class="container">
     <section class="left-box">
       <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
-      <img src="networking.png" alt="imagem mapa do mundo e conexões entre pessoas" width="537">
+      <img id="facebook-networking" src="networking.png" alt="imagem mapa do mundo e conexões entre pessoas"
+        width="537">
     </section>
     <section class="right-box">
-      <p>Abra uma conta.</p>
+      <h1>Abra uma conta</h1>
       <p>É rápido e fácil.</p>
     </section>
   </div>
