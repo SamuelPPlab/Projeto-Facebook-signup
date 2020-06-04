@@ -11,8 +11,8 @@
       <img class="facebook-logo" src="/facebook-logo-1.png" alt="facebook" />
       <nav>
         <div>
-          <label for="user-email-phone-label">Email ou telefone</label>
-          <input id="user-email-phone-label" type="text" />
+          <label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
+          <input id="user-email-phone" type="text" />
           <label for="user-password">Senha</label>
           <input class="pass" id="user-password" type="password" />
           <small>Esqueceu sua conta?</small>
@@ -20,30 +20,38 @@
         </div>
       </nav>
     </header>
-    <div>
-      <h2>
-        O Facebook ajuda você a se conectar e compartilhar com as pessoas que
-        fazem parte da sua vida.
-      </h2>
-      <img id="facebook-networking"
-        src="world-connect.png"
-        alt="pessoas se conectando ao redor do mundo"
-      />
-    </div>
-    <div>
-      <h1>Abra uma conta</h1>
-      <h3>É rápido e fácil.</h3>
+    <section>
       <div>
-        <input type="text" placeholder="Nome" />
-        <input type="text" placeholder="Sobrenome" />
+        <h2>
+          O Facebook ajuda você a se conectar e compartilhar com as pessoas que
+          fazem parte da sua vida.
+        </h2>
+        <img
+          id="facebook-networking"
+          src="world-connect.png"
+          alt="pessoas se conectando ao redor do mundo"
+        />
       </div>
+    </section>
+    <aside>
       <div>
-        <input type="text" placeholder="Celular ou email" />
+        <h1>Abra uma conta</h1>
+        <h3>É rápido e fácil.</h3>
+        <div>
+          <input type="text" placeholder="Nome" />
+          <input type="text" placeholder="Sobrenome" />
+        </div>
+        <div>
+          <input type="text" placeholder="Celular ou email" />
+        </div>
+        <div>
+          <input type="text" placeholder="Nova senha" />
+        </div>
+        <label for="">Data de nascimento</label>
+        <input type="date" name="" id="" />
       </div>
-      <div>
-        <input type="text" placeholder="Nova senha" />
-      </div>
-    </div>
+      <button type="submit" id="facebook-register">Cadastre-se</button>
+    </aside>
     <script src="script.js"></script>
   </body>
 </html>
