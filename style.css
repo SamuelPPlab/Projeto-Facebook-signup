@@ -34,3 +34,13 @@ body {
 .lado-esquerdo {
   width: 50%;
 }
+
+.linha {
+  display: block;
+}
+
+.button-login {
+  color: white;
+  background-color: blue;
+  
+}
