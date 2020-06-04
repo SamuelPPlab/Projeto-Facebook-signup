@@ -18,9 +18,15 @@
       <div>
         <form action="">
           <label id="user-email-phone-label" for="">Email ou telefone</label>
-          <input id="user-email-phone" type="text" />
+          <input
+            id="user-email-phone"
+            type="text"
+            required
+            value="mail-phone"
+            name="user-email-phone"
+          />
           <label for="">Senha</label>
-          <input type="password" />
+          <input type="password" id="user-password" required />
           <button id="button-login" type="button">Entrar</button>
         </form>
       </div>
@@ -38,18 +44,18 @@
         <p>É rápido e fácil.</p>
         <form action="">
           <input placeholder="Nome" type="text" value="nome" />
-          <input placeholder="Sobrenome" type="text" value="sobrenome" />
-          <input placeholder="Celular ou Email" type="text" value="email" />
-          <input placeholder="Nova senha" type="text" value="senha" />
+          <input placeholder="Sobrenome" type="text" value="sobrenome" /><br>
+          <input placeholder="Celular ou Email" type="text" value="email" /><br>
+          <input placeholder="Nova senha" type="text" value="senha" /><br>
           <label for="data">Data de nascimento</label>
           <input id="data" name="data" placeholder="dd/mm/aaaa" type="date" />
           <p>Gênero</p>
-          <input id="feminino" name="genero" type="radio" value="f" />
+          <input id="feminino" name="genero" type="radio" value="feminino" />
           <label for="feminino">Feminino</label>
-          <input id="masculino" name="genero" type="radio" value="m" />
+          <input id="masculino" name="genero" type="radio" value="masculino" />
           <label for="masculino">Masculino</label>
-          <input id="personalizado" name="genero" type="radio" value="p" />
-          <label for="personalizado">Personalizado</label>
+          <input id="personalizado" name="genero" type="radio" value="personalizado" />
+          <label for="personalizado">Personalizado</label><br>
           <button id="facebook-register" type="button">Cadastre-se</button>
         </form>
       </section>
