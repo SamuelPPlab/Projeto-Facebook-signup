@@ -106,3 +106,7 @@ header section {
   margin-top: 8px;
   width: 96%;
 }
+
+p {
+  color: darkgrey;
+}
