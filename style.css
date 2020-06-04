@@ -1,0 +1,12 @@
+body {
+  width: 100%;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: blue;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
