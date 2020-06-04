@@ -7,6 +7,6 @@ buttonLogin.addEventListener('click', function () {
 
 const birthDate = document.getElementById('birthdate');
 
-birthDate.DatePickerX.init({ format:'dd/mm/yyyy' });
+birthDate.DatePickerX.init({ format: 'dd/mm/yyyy' });
 
-validation.init('#username-email-phone');
+validation.init('#user-email-phone');
