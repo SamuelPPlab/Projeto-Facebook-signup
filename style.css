@@ -49,4 +49,44 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 36px;
   font-weight: 600;
+  margin-bottom: 5px;
+}
+
+section p {
+  color: rgb(29, 33, 41);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  margin: 0;
+}
+
+.registration-container {
+  margin: 0;
+  width: 400px;
+}
+
+.nameInput {
+  border: 1px solid rgb(204, 208, 213);
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 39px;
+  padding: 8px 10px;
+  width: 194px;
+}
+
+.nameInput:nth-child(1) {
+  margin-right: 6px;
+}
+
+.emailInput {
+  border: 1px solid rgb(204, 208, 213);
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 39px;
+  padding: 8px 10px;
+  width: 399px;
+}
+
+.inputLine {
+  height: 49px;
+  width: 400px;
 }
