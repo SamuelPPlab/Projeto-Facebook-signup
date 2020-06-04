@@ -15,4 +15,13 @@
 
 .conteiner {
   display: flex;
+  justify-content: center;
+}
+
+.coluna-esquerda {
+  width: 580px;
+}
+
+.coluna-direita {
+  width: 400px;
 }
