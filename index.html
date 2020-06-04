@@ -6,9 +6,9 @@
     <title>Facebook-entre ou cadastre-se</title>
     <link rel="stylesheet" href="style.css">
     <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
-    <script src="script.js"></script>
     <script src = "/libs/jquery-1.10.2.js"></script>
     <script src = "/libs/jquery-ui.js"></script>
+    <script src = "/libs/datepicker.js"></script>
 </head>
 <body>
     <header class="top-bar">
@@ -37,29 +37,31 @@
             <img src="img/networking.png"  id="facebook-networking" alt="Mapa do mundo">
         </div>
         <form class="formulario"  action="">
-            <h1 class="title">Abra uma conta</h1>
-            <h2>É rápido e fácil.</h2>
-            <div>
-                <input type="text" placeholder="Nome">
-                <input type="text" placeholder="Sobrenome">
+            <div class="main-form-inputs">
+                <h1 class="title">Abra uma conta</h1>
+                <h2>É rápido e fácil.</h2>
             </div>
-            <div>
-                <input type="text" placeholder="Celular ou email">
-                <input type="password" placeholder="Nova senha">
+            <div class="input-double main-form-inputs">
+                <input type="text" class="form-input" placeholder="Nome">
+                <input type="text" class="form-input" placeholder="Sobrenome">
+            </div>
+            <div class="input-large main-form-inputs">
+                <input type="text" class="main-form-inputs form-input" placeholder="Celular ou email">
+                <input type="password" class="form-input" placeholder="Nova senha">
                 <p>Data de nascimento</p>
             </div>
-            <div>
-                <input type="text" id="date-picker" placeholder="dd/mm/aaaa">
+            <div class="main-form-inputs">
+                <input type="text" id="date-picker" class="form-input" placeholder="dd/mm/aaaa">
                 <img src="img/interrogacao.png" alt="Ask image" class="interrogacao">
                 <p>Gênero</p>
             </div>
-            <div>
+            <div class="main-form-inputs">
                 <label for="fem"><input type="radio" id="fem">Feminino</label>
                 <label for="masc"><input type="radio" id="masc">Masculino</label>
                 <label for="personalizado"><input type="radio" id="personalizado">Personalizado</label>
                 <img src="img/interrogacao.png" alt="Ask image" class="interrogacao">
             </div>
-            <div>
+            <div class="main-form-submit">
                 <small>
                     Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.
                 </small>
