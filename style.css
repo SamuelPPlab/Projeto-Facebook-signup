@@ -1,22 +1,22 @@
 .top-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center;
   background-color: rgb(60, 89, 153);
-  height: 110px;
   color: white;
+  display: flex;
+  flex-direction: row;
   font-size: 10pt;
   font-weight: 700;
+  height: 110px;
+  justify-content: space-around;
 }
 
 .div-login {
-  display: flex;
   align-items: flex-start;
+  display: flex;
   margin-top: 10px;
 }
 
-.div-login :nth-child(1) {
+.div-login :nth-child( 1 ) {
   margin-right: 10px;
 }
 
@@ -26,11 +26,11 @@
 
 .mybtn {
   background-color: #365899;
+  border: 1px solid #29487d;
   color: white;
   font-weight: 700;
-  border: 1px solid #29487D;
-  margin-top: 17px;
   margin-left: 10px;
+  margin-top: 17px;
 }
 
 label {
@@ -38,6 +38,6 @@ label {
 }
 
 small {
-  display: block;
   color: lightgray;
+  display: block;
 }

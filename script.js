@@ -1,6 +1,6 @@
 // Variáveis
 const loginButton = document.getElementById('button-login');
-let emailInput = document.getElementById('user-email-phone')
+const emailInput = document.getElementById('user-email-phone');
 
 // Funções
 function alertaLogin() {
