@@ -2,15 +2,24 @@ body {
 
 }
 
-.topbar {
+.top-bar {
   background-color: rgb(59, 89, 152);
-  min-height: ;
   height: 80px;
+  display: flex;
+  justify-content: space-around;
 } 
+
+.facebook-logo {
+  display: block;
+  height: 80px;
+  width: 170px;
+}
 
 .enter-session  {
 
 }
+
+
 
 .main {
 
