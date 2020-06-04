@@ -35,3 +35,11 @@ button {
   margin-top: 10px;
   width: 170px;
 }
+
+.content {
+  display: flex;
+}
+
+.right-side {
+  margin-left: 50px;
+}
