@@ -17,19 +17,47 @@ body {
 header section {
   display: flex;
   max-height: 100%;
-  max-width: 40%;
+  max-width: 50%;
 }
 
 .esquerda {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 35%;
 }
 
 .direita {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 35%;
+}
+
+.btn {
+  align-self: center;
+}
+
+.button {
+  border: 1px solid #2f477a;
+  background: #2f477a;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-family: Helvetica, Arial, Sans-Serif;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 25%;
+  padding: 5px 10px;
+}
+
+.button:hover {
+  border-top-color: #192e57;
+  background: #192e57;
+  color: #ccc;
+}
+
+.button:active {
+  border-top-color: #1b435e;
+  background: #1b435e;
 }
 
 .facebook-logo {
@@ -38,13 +66,13 @@ header section {
 }
 
 .user-email-phone {
-  height: 30%;
-  width: 70%;
+  height: 10%;
+  width: 80%;
 }
 
 .user-email-phone-label {
   color: white;
-  font-size: 1em;
+  font-size: 0.9em;
   height: 30%;
-  width: 50%;
+  width: 60%;
 }
