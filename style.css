@@ -30,7 +30,7 @@ button {
   display: flex;
 }
 
-#facebook-logo {
+.facebook-logo {
   height: 34px;
   margin-top: 10px;
   width: 170px;
