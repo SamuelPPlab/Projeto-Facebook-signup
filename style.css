@@ -3,5 +3,10 @@
   color: white;
   display: flex;
   justify-content: space-around;
+  margin: 0px;
   width: 100%;
+}
+
+.space-column td {
+  padding-right: 10px;
 }
