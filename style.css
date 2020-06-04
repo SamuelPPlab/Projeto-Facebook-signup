@@ -1,7 +1,8 @@
 .top-bar {
   align-items: center;
-  background-color: cornflowerblue;
+  background-color: #47639e;
   border: 1px solid;
+  color: white;
   display: flex;
   height: 20vh;
   justify-content: space-around;

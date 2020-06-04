@@ -9,10 +9,21 @@
   <body>
     <header class="top-bar">
       <img src="facebookLogo.png" alt="Logo facebook" class="facebook-logo" />
-      <label for="user-email-phone" id="user-email-phone-label"
-        >Email ou telefone
-        <input type="text" id="user-email-phone" />
-      </label>
+      <div>
+        <label for="user-email-phone" id="user-email-phone-label">
+          Email ou telefone
+          <input
+            type="text"
+            id="user-email-phone"
+            placeholder="Digite seu texto aqui"
+          />
+        </label>
+        <label for="user-password">
+          Senha
+          <input type="password" placeholder="Digite esua senha" id="user-password"/>
+        </label>
+        <button id="button-login">Entrar</button>
+      </div>
     </header>
 
     <script src="script.js"></script>
