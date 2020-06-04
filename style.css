@@ -14,7 +14,7 @@ body {
 }
 
 .facebook-logo {
-  background-image: url("./imgs/facebook-logo.png");
+  background-image: url('./imgs/facebook-logo.png');
   background-size: cover;
   height: 43px;
   width: 183px;
