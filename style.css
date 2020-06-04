@@ -1,0 +1,24 @@
+.top-bar {
+    background-color: #3b5998;
+    display: flex;
+    justify-content: space-between;
+}
+
+.facebook-logo {
+    display: flex;
+}
+
+.user-email-phone {
+    display: flex;
+    height: 20px;
+}
+
+.password {
+    display: flex;
+    height: 20px
+}
+
+.button-login {
+    display: flex;
+    height: 20px;
+}
