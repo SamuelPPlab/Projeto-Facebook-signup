@@ -6,5 +6,3 @@ function alerta() {
 }
 
 submitButton.addEventListener('click', alerta);
-
-

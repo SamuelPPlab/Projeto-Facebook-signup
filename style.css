@@ -1,16 +1,16 @@
 .top-bar {
-  background-color: rgb(59 , 89 , 152);  
+  background-color: rgb(59, 89, 152);
   display: flex;
   height: 80px;
   justify-content: space-around;
-} 
+}
 
 .facebook-logo {
   height: 80px;
   width: 170px;
 }
 
-.enter-session {  
+.enter-session {
   align-items: center;
   display: flex;
   flex-direction: row;
