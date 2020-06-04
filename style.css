@@ -40,8 +40,12 @@ body {
   padding-left: 8px;
 }
 
-.button-login-field {
-  margin-left: 16px;
+.inputField .inputs {
+  max-width: 148px;
+}
+
+.btn-login-field {
+  padding-left: 8px;
 }
 
 .main {
@@ -54,7 +58,7 @@ body {
 
 .imagem {
   border: 1px solid red;
-  width: 40%;
+  width: 50%;
 }
 
 .interrogacao {
@@ -63,6 +67,8 @@ body {
 }
 
 .formulario {
+  display: flex;
+  flex-direction: column;
   width: 40%;
 }
 
