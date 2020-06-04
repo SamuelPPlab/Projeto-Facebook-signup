@@ -5,6 +5,11 @@
   justify-content: space-between;
 }
 
+.body {
+  margin: 0;
+  padding: 0;
+}
+
 .facebook-logo {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,6 +25,31 @@
 }
 
 .label-com-input {
+  justify-content: baseline;
   display: flex;
   flex-direction: column;
+}
+
+.link {
+  color: rgb(156 , 180 , 216);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.textos-cabecalho {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input-cabecalho {
+  margin-bottom: 4px;
+  margin-right: 15px;
+}
+
+.button-cabecalho {
+  background-color: rgb(56, 88, 152);
+  border: 1px solid black;
+  color: white;
+  font-weight: bold;
+  height: 18px;
 }

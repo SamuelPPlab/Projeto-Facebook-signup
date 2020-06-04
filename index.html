@@ -6,24 +6,25 @@
     <title>Facebook</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-  <body>
+  <body class="body">
     <header class="top-bar">
       <h1 class="facebook-logo">facebook</h1>
       <div class="entradas">
         <!--div das entradas e botão-->
         <div class="label-com-input">
           <!--div do email-->
-          <label id="user-email-phone-label" for="user-email-phone"
+          <label class="textos-cabecalho" id="user-email-phone-label" for="user-email-phone"
             >Email ou telefone</label
           >
-          <input type="text" name="user" id="user-email-phone" />
+          <input class="input-cabecalho" type="text" name="user" id="user-email-phone" />
         </div>
         <div class="label-com-input">
           <!--div da senha-->
-          <label id="senha-label" for="senha">Senha</label>
-          <input type="password" name="senha" id="senha" />
+          <label class="textos-cabecalho" id="senha-label" for="user-password">Senha</label>
+          <input class="input-cabecalho" type="password" name="senha" id="user-password" />
+          <spam><a class="link" href="#">Esqueceu a conta?</a></spam>
         </div>
-        <button>Entrar</button>
+        <button class="button-cabecalho" id="button-login">Entrar</button>
       </div>
     </header>
   </body>
