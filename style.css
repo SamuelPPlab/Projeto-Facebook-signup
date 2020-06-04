@@ -13,18 +13,18 @@ body {
   justify-content: space-around;
 }
 
-.ladoDireito{
+.ladoDireito {
   display: flex;
 }
 
 .emColuna {
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
+  align-items: baseline;
   padding: 10px;
 }
 
 button {
-  display: flex;
   align-self: center;
+  display: flex;
 }
