@@ -46,8 +46,8 @@ body {
 }
 
 .right-side {
-  width: 45%;
   max-width: 45%;
+  width: 45%;
 }
 
 .form {
