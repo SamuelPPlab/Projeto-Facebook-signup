@@ -12,3 +12,7 @@
 .facebook-logo {
   height: 70%;
 }
+
+.conteiner {
+  display: flex;
+}
