@@ -47,7 +47,26 @@
           <input type="text" placeholder="Sobrenome" />
           <input type="text" placeholder="Celular ou email" />
           <input type="password" placeholder="Nova senha" />
-          <h2>Data de nascimento</h2>
+          <label>Data de nascimento</label>
+          <label for="genero">
+            Gênero
+            <input
+              type="radio"
+              name="genero"
+              id="masculino"
+              value="Masculino"
+            />
+            <label for="masculino">Masculino</label><br />
+            <input type="radio" name="genero" id="feminino" value="Feminino" />
+            <label for="feminino">Feminino</label><br />
+            <input
+              type="radio"
+              name="genero"
+              id="personalizado"
+              value="personalizado"
+            />
+            <label for="personalizado">Personalizado</label><br />
+          </label>
         </form>
       </div>
     </div>
