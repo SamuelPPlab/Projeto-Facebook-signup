@@ -37,6 +37,19 @@ body {
   display: flex;
 }
 
+.main {
+  display: flex;
+}
+
+.legend {
+  max-width: 55%;
+}
+
+.right-side {
+  width: 45%;
+  max-width: 45%;
+}
+
 .form {
   display: flex;
   flex-direction: column;
