@@ -40,11 +40,11 @@ body {
 }
 
 .facebook-logo {
-  align-self: baseline;
+  align-self: center;
   display: flex;
   flex-direction: column;
+  height: 20vh;
   justify-content: center;
-  height: 15vh;;
 }
 
 .senha {
