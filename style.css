@@ -7,6 +7,22 @@
 }
 
 .dados-entrada-class {
+  align-items: center;
   display: flex;
   justify-content: space-between;
+}
+
+.corpo-pagina {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nome-sobrenome {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itens-sobrepostos {
+  display: flex;
+  flex-direction: column;
 }

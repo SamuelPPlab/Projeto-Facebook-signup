@@ -10,7 +10,7 @@
 <div class="top-bar">
   <div id="facebook-logo">
     <div id="imagem-logo">
-      <img src="Image/logo-cortado.png" width="55px">
+      <img class="facebook-logo" src="Image/logo-cortado.png" width="55px">
     </div>
   </div>
   <div id="dados-entrada">
@@ -37,7 +37,7 @@
     </form>
   </div>
 </div>
-<div>
+<div class="corpo-pagina">
   <div id="apresentacao">
     <div id="texto-apresentacao">
       O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
@@ -45,19 +45,23 @@
     <div id="imagem-apresentacao">
       <img id="facebook-networking" src="Image/networking.png" width="537px">
     </div>
-    <div id="formulario-cadastro">
-      <h1>Abra uma conta</h1>
-      <h2>É rápido e fácil.</h2>
-      <div id="formulario">
-        <form action="" method="GET">
+  </div>
+  <div id="formulario-cadastro">
+    <h1>Abra uma conta</h1>
+    <h2>É rápido e fácil.</h2>
+    <div id="formulario">
+      <form action="" method="GET">
+        <div class="nome-sobrenome">
           <input type="text" placeholder="Nome" required="required">
           <input type="text" placeholder="Sobrenome" required="required">
+        </div>
+        <div class="itens-sobrepostos">
           <input type="text" placeholder="Celular ou email" required="required">
           <input type="password" placeholder="Nova senha" required="required">
           <label for="">Data de nascimento</label>
           <input type="text" placeholder="dd/mm/aaaa">
           <div id="lista-genero">
-            <label for=""></label>
+            <label for="">Gênero</label>
             <label for="feminino">
               <input id="feminino" type="radio">
               Feminino
@@ -72,10 +76,12 @@
             </label>
           </div>
           <button type="button" id="facebook-register">Cadastre-se</button>
-        </form>
-      </div>
+        </div>
+
+      </form>
     </div>
   </div>
+</div>
 <div></div>
 </body>
 </html>
