@@ -64,6 +64,11 @@ section p {
   width: 400px;
 }
 
+.registration-top {
+  width: 400px;
+  padding-bottom: 20px;
+}
+
 .nameInput {
   border: 1px solid rgb(204, 208, 213);
   border-radius: 5px;
@@ -89,4 +94,16 @@ section p {
 .inputLine {
   height: 49px;
   width: 400px;
+}
+
+.b-date {
+  width: 400px;
+  margin-top: 10px;
+}
+
+.b-date p {
+  color: rgb(144, 148, 156);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
