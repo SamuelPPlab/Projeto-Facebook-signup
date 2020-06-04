@@ -56,8 +56,8 @@ header section {
 }
 
 .button:active {
-  border-top-color: #1b435e;
   background: #1b435e;
+  border-top-color: #1b435e;
 }
 
 .facebook-logo {
