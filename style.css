@@ -13,3 +13,47 @@ body {
   padding: 13px 0 0;
   width: 100%;
 }
+
+.facebook-logo {
+  width: 170px;
+}
+
+.signup {
+  display: flex;
+}
+
+.signup-left {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.user-email-phone {
+  border-radius: 0;
+}
+
+.signup-right {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.user-password {
+  border-radius: 0;
+}
+
+.form-button {
+  align-items: center;
+  display: flex;
+  padding: 10px;
+}
+
+.button-login {
+  background: #4466ad;
+  border: 1px solid #2f4981;
+  border-radius: 0;
+  color: white;
+  padding: 5px 10px;
+}
