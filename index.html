@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
 </head>
 <body>
 <div class="top-bar">
@@ -32,7 +35,7 @@
       </div>
       </div>
       <div>
-        <button id="button-login">Entrar</button> <!--o clicar no botão, um alert deve ser exibido com o email ou telefone digitado pelo usuário-->
+        <button id="button-login">Entrar</button>
       </div>
     </form>
   </div>
@@ -59,7 +62,7 @@
           <input type="text" placeholder="Celular ou email" required="required">
           <input type="password" placeholder="Nova senha" required="required">
           <label for="">Data de nascimento</label>
-          <input type="text" placeholder="dd/mm/aaaa">
+          <input id="data-nasc" type="text" placeholder="dd/mm/aaaa">
           <div  id="lista-genero" class="itens-sobrepostos">
             <label for="">Gênero</label>
             <div class="itens-em-linha">
@@ -86,4 +89,13 @@
 </div>
 <div></div>
 </body>
+<script>
+  $(function() {
+      $( "#data-nasc" ).datepicker({
+        changeMonth:true,
+        changeYear: true
+      });
+  });
+</script>
+<script src="script.js"></script>
 </html>
