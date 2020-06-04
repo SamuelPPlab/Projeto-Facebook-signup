@@ -11,27 +11,50 @@
     <section>
       <img class="facebook-logo" src="facebook.png" alt="Logo Facebook">
     </section>
-    <form>
+    <form id="signup">
       <div>
         <label for="user-email-phone-label">E-mail ou Telefone</label>
-        <input id="user-email-phone" type="email">
+        <input id="user-email-phone-label" type="email">
       </div>
       <div>
-        <label for="password">Senha</label>
-        <input id="password" type="password">
+        <label for="user-password">Senha</label>
+        <input id="user-password" type="password">
       </div>
       <div>
         <button id="button-login">Entrar</button>
       </div>
     </form>
   </header>
-    <section>
+    <section class="content-left">
       <h1>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h1>
       <img id="facebook-networking" src="networking.png" alt="Facebook conectando o mundo">
     </section>
-    <section>
+    <section class="content-right">
       <h2>Abra uma conta</h2>
       <p>É rápido e fácil</p>
+      <form id="signin">
+        <div>
+          <input type="text" placeholder="Nome">
+          <input type="text" placeholder="Sobrenome">
+        </div>
+        <div>
+          <input type="text" placeholder="Celular ou email">
+        </div>
+        <div>
+          <input type="password" placeholder="Nova senha">
+        </div>
+        <div>
+          <label for="date-of-birth">Data de nascimento</label>
+          <input id="date-of-birth" type="datetime-local" placeholder="dd/mm/aaaa">
+        </div>
+        <div>
+          <label for="gender">Gênero</label>
+          <input id="gender" type="radio" name="gender" value="feminino">Feminino
+          <input id="gender" type="radio" name="gender" value="masculino">Masculino
+          <input id="gender" type="radio" name="gender" value="personalizado">Personalizado
+        </div>
+      </form>
+      <button id="facebook-register">Cadastre-se</button>
     </section>
   <script src="script.js"></script>
 </body>
