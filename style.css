@@ -10,14 +10,40 @@ body {
 } 
 
 .facebook-logo {
-  display: block;
   height: 80px;
   width: 170px;
 }
 
 .enter-session  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#login-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#password-container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#user-email-phone{}
+
+#password{}
+
+#button-container{
+  display: flex;
+  align-content: center;
+  align-items: center;
 
 }
+
+
 
 
 
