@@ -10,19 +10,26 @@
 <body>
   <header class="top-bar">
     <div class="facebook-logo">Facebook</div>
-    <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
-    <input id="user-email-phone" type="text">
-    <label for="password" id="password-label">Senha</label>
-    <input id="password" type="password">
-    <button id="button-login">Entrar</button>
+    <div class="field">
+      <label for="user-email-phone" class="label" id="user-email-phone-label">Email ou telefone</label>
+      <div class="control"></div>
+        <input id="user-email-phone" type="text">
+      </div>
+    </div>
+    <div class="field">
+      <label for="password" id="password-label">Senha</label>
+      <div class="control">
+        <input id="password" type="password">
+      </div>
+    </div>
+    <div class="control">
+      <button id="button-login" class="button">Entrar</button>
+    </div>
   </header>
-
   <div>
     <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
   </div>
-
   <img id="facebook-networking" src="networking.png">
-
   <section id="create-account">
     <h1>Abra uma conta</h1>
     <p>É rápido e fácil.</p>
@@ -44,6 +51,7 @@
         <label for="personalizado">Personalizado</label>
         <input type="radio" name="gender" value="P" id="personalizado">
       </div>
+      <button id="facebook-register">Cadastre-se</button>
     </div>
   </section>
   <script src="script.js"></script>
