@@ -21,17 +21,17 @@ body {
   width: 50%;
 }
 
-.navBar h1 {
+.navBar .title {
   font-size: 42px;
   margin: 0;
 }
 
 .login {
+  align-items: flex-end;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   width: 50%;
-  align-items: flex-end;
 }
 
 .inputField {
@@ -49,8 +49,8 @@ body {
 }
 
 .imagem {
-  width: 40%;
   border: 1px solid red;
+  width: 40%;
 }
 
 .formulario {
