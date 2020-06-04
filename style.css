@@ -8,9 +8,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 1px;
-  margin-bottom: solid;
-  margin-bottom: #133882;
 }
 
 .login {
