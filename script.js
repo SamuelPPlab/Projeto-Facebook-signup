@@ -6,3 +6,5 @@ function alerta() {
 }
 
 submitButton.addEventListener('click', alerta);
+
+document.getElementById('data').DatePickerX.init();

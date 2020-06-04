@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="libs/DatePickerX-master/dist/css/DatePickerX.min.css">
   <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="libs/DatePickerX-master/dist/js/DatePickerX.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Facebook</title>
 </head>
@@ -20,6 +22,7 @@
       <div id="password-container" class="password-container">
         <label for="user-password" id="password-label">Senha</label>
         <input id="user-password" type="password">
+        <small>Esqueceu a senha?</small>
       </div>
       <div id="button-container" class="button-container">
         <button id="button-login" type="submit">Entrar</button>
@@ -47,9 +50,11 @@
       <p>Data de nascimento</p>
       <input type="text" id="data" placeholder="dd/mm/aaaa">
       <p>Gênero</p>
-      <input type="radio" id="" name="Feminino" />
-      <input type="radio" id="" name="Masculino" />
-      <input type="radio" id="" name="Personalizado" />
+      <div class="radio_items">
+          <label for="feminino"><input id="feminino" value="Feminino" type="radio" name="genero" checked>Feminino</label>
+          <label for="masculino"><input id="masculino" value="Masculino" type="radio" name="genero">Masculino</label>
+          <label for="personalizado"><input id="personalizado" value="Personalizado" type="radio" name="genero">Personalizado</label>
+      </div>
 
       <button id="facebook-register" type="submit">Cadastre-se</button>
   </form>
@@ -57,7 +62,6 @@
   </section>
 
   </main>
-
   <script src="script.js"></script>
 </body>
 </html>
