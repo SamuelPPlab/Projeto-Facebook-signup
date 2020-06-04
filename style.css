@@ -35,6 +35,13 @@
   word-spacing: -1px;
 }
 
+section p {
+  color: rgb(29, 33, 41);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  margin: 0;
+}
+
 .left-box p {
   margin: 0;
   width: 450px;
@@ -52,13 +59,6 @@
   margin-bottom: 5px;
 }
 
-section p {
-  color: rgb(29, 33, 41);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 19px;
-  margin: 0;
-}
-
 .registration-container {
   margin: 0;
   width: 400px;
@@ -73,7 +73,7 @@ section p {
   width: 194px;
 }
 
-.nameInput:nth-child(1) {
+.nameInput:nth-child( [1] ) {
   margin-right: 6px;
 }
 
