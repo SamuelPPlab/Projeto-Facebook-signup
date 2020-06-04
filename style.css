@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background-color: #3B5998;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.facebook-logo {
+  background-image: url(./imgs/facebook-logo.png);
+  background-size: cover;
+  height: 43px;
+  width: 183px;
+}
+
+.agrupamento-login-senha-botao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+
+}
+
+.agrupamento-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.agrupamento-senha {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+button {
+  align-self: center;
+}
