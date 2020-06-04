@@ -126,13 +126,13 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
 
 ### 1 - Posicionamento de elementos utilizando _CSS Flexbox_.
 
-### 2 - Uma barra azul na parte superior da página do **Facebook** com a classe `"top-bar"`.
+OK### 2 - Uma barra azul na parte superior da página do **Facebook** com a classe `"top-bar"`.
 
-### 3 - O logotipo do **Facebook** no canto superior esquerdo com a classe `"facebook-logo"`.
+OK### 3 - O logotipo do **Facebook** no canto superior esquerdo com a classe `"facebook-logo"`.
 
 ### 4 - Um campo de entrada de texto no canto superior direito para receber o email ou o telefone do usuário com o id `"user-email-phone"`.
 
-### 5 - Um título com o texto 'Email ou telefone' acima do campo de entrada de texto para email ou telefone com o id `"user-email-phone-label"`.
+OK### 5 - Um título com o texto 'Email ou telefone' acima do campo de entrada de texto para email ou telefone com o id `"user-email-phone-label"`.
 
 ### 6 - Um campo de entrada de texto para digitar a senha do usuário, posicionado no canto superior direito. O campo também deve estar posicionado à direita do campo de entrada de texto para email ou telefone.
 
