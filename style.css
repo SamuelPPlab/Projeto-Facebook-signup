@@ -1,10 +1,74 @@
-html {
+body {
   box-sizing: border-box;
+  color: #1c1e21;
+  font-family: -apple-system, '.SFNSText-Regular', sans-serif;
+  line-height: 1.34;
   margin: 0;
   padding: 0;
 }
 
-.top-bar .facebook-logo img {
-  width: 170px;
-  height: 34px;
+/* Header */
+.top-bar {
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783;
+  min-height: 42px;
 }
+
+.top-bar .container {
+  display: flex;
+  flex-direction: row;
+  height: 84px;
+  justify-content: space-around;
+}
+
+.top-bar .container .text-header {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0;
+  padding-left: 1px;
+}
+
+.top-bar .container .facebook-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 17px;
+}
+
+.top-bar .container .facebook-logo img {
+  width: 180px;
+}
+
+.top-bar .container .login-containers {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+/* o conteúdo do botão entrar */
+.top-bar .container .login-containers .button-login {
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  border-radius: 2px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  height: 16px;
+  text-align: center;
+}
+
+.top-bar .container .login-containers .user-container {
+  padding: 0 14px;
+}
+
+.top-bar .container .login-containers .password-container {
+  padding: 0 14px;
+}
+
+/* .linkItem {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+} */

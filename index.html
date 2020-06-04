@@ -8,20 +8,28 @@
 </head>
 <body>
   <header class="top-bar">
-    <nav>
+    <nav class="container">
       <section class="facebook-logo">
-        <a href="https://www.facebook.com/">
-          <img src="./facebook-logo.png" alt="Logomarca">
+        <a class="linkItem" href="https://www.facebook.com/">
+          <img src="./face-logo.svg" alt="Logomarca">
         </a>
       </section>
-      <section>
-        <label for="user-email-phone-label">Email ou telefone</label>
-        <input type="text" id="iduser-email-phone">
-        <label for="user-password">Senha</label>
-        <input type="text" id="user-password">
-        <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar"><span>Esqueceu a conta?</span></a>
+      <section class="login-containers">
+        <!-- user container -->
+        <section class="user-container">
+          <label for="user-email-phone"><h3 id="user-email-phone-label" class="text-header">Email ou telefone</h3></label>
+          <input type="text" id="user-email-phone">
+        </section>
+        <!-- password container -->
+        <section class="password-container">
+          <label for="user-password"><h3 class="text-header">Senha</h3></label>
+          <input type="password" id="user-password">
+        </section>
+        <button type="submit" id="button-login" class="button-login">Entrar</button>
       </section>
-      <button type="submit">Entrar</button>
+      <!-- <a class="linkItem" href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">
+        <h3 class="text-header">Esqueceu a conta?</h3>
+      </a> -->
     </nav>
   </header>
 
