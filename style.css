@@ -40,6 +40,10 @@ body {
   padding-left: 8px;
 }
 
+.button-login-field {
+  margin-left: 16px;
+}
+
 .main {
   background-image: linear-gradient(white, #d3d8e8);
   display: flex;
@@ -51,6 +55,11 @@ body {
 .imagem {
   border: 1px solid red;
   width: 40%;
+}
+
+.interrogacao {
+  height: 16px;
+  width: 16px;
 }
 
 .formulario {
