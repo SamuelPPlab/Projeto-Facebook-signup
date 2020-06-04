@@ -48,4 +48,10 @@ function years() {
 */
 //years();
 
-let 
+let datePick = document.getElementsbyClassName("birthday").DatePickerX.init()({format: })
+
+selectTag.DatePickerX.init();
+
+let datepick = document.getElementById("dataInicio").DatePickerX.init({"dd/mm/yyyy", 
+  format: "dd/mm/yyyy",
+  minDate: "01/01/1980",
