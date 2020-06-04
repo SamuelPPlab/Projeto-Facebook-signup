@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+/*----------------------------------------CONTAINER*/
+.container1 {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.center {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+/*----------------------------------------CABEÇALHO*/
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(59, 89, 152);
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  height: 95px;
+  border-bottom: 1px solid #133783;
+}
+
+.logo-div {
+  width: 60%;
+  display: flex;
+}
+
+.facebook-logo {
+  width: 170px;
+  height: 45px;
+  margin-top: 4%;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: row;
+  width: 42%;
+}
+
+.form {
+  margin: auto 5px;
+}
+
+#button-login {
+  line-height: 22px;
+  background-color: #4267b2;
+  color: white;
+  padding: 0 5px;
+  border: 1px solid darkslategray;
+}
+
+.input-login {
+  line-height: 22px;
+  background-color: #e8f0fe;
+  border: 1px solid black;
+}
+
+.sub-login {
+  color: #869fc9;
+  padding: 5px 0 0 0;
+  font-size: 0.9em;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+label {
+  display: block;
+  color: white;
+  font-weight: 500;
+  padding: 5px 0;
+}
+
+figure {
+  display: flex;
+}
+/*----------------------------------------MAIN CONTENT*/
+.main-content {
+  background-image: linear-gradient(white, rgb(194, 208, 229));
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 700px;
+}
+
+.center {
+  width: 1000px;
+}
+/*----------------------------------------MSG CONTENT*/
+#message-content {
+  width: 55%;
+  height: 100%;
+  background-size: contain;
+}
+
+#message-content h1 {
+  flex-wrap: wrap;
+  margin-top: 40px;
+  width: 60%;
+  color: rgb(14, 56, 95);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  width: 450px;
+  word-spacing: -1px;
+}
+/*----------------------------------------FORM CONTENT*/
+#form-content {
+  width: 40%;
+  height: 100%;
+  margin-left: 20px;
+}
+
+h1.form-title {
+  font-size: 38px;
+  padding: 25px 0 0;
+}
+
+h2.form-subtitle {
+  font-size: 20px;
+  color: #333333;
+  padding: 10px 0 20px;
+  font-weight: 100;
+}
+
+.data-input {
+  background-color: white;
+  color: lightslategray;
+  padding-left: 8px;
+  font-size: 18px;
+  line-height: 38px;
+  border: 1px solid rgb(197, 198, 204);
+  border-radius: 5px;
+  margin: 0 8px 10px 0px;
+}
+
+.firstname-input,
+.lastname-input {
+  width: 180px;
+}
+
+.email-input {
+  width: 380px;
+}

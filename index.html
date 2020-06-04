@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/css/DatePickerX.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container1">
+      <div class="top-bar">
+        <div class="center">
+          <div class="logo-div">
+            <img src="facebook-logo.png" class="facebook-logo" alt="Facebook logo" />
+          </div>
+          <div class="login-content">
+            <div class="form">
+              <label for="login" id="user-email-phone-label"
+                >E-mail ou telefone</label
+              >
+              <input
+                id="user-email-phone"
+                name="login"
+                type="text"
+                class="input-login"
+              />
+              <p class="sub-login hidden">Email Inválido</p>
+            </div>
+            <div class="form">
+              <label for="password">Senha</label>
+              <input id="password" type="password" class="input-login" />
+              <p class="sub-login">Esqueceu a conta?</p>
+            </div>
+            <div class="form">
+              <label class="hidden">Botão</label>
+              <button id="button-login">Entrar</button>
+              <p class="sub-login hidden">Hidden</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="center">
+          <div id="message-content">
+            <h1>
+              O Facebook ajuda você a se conectar e compartilhar com as pessoas
+              que fazem parte da sua vida.
+            </h1>
+            <img
+              src="networking.png"
+              width="537"
+              height="195"
+              id="facebook-networking"
+            />
+          </div>
+          <div id="form-content">
+            <div>
+              <h1 class="form-title">
+                Abra uma conta
+              </h1>
+              <h2 class="form-subtitle">É rápido e fácil.</h2>
+            </div>
+            <div class="name">
+              <input
+                type="text"
+                placeholder="Nome"
+                class="firstname-input data-input"
+              />
+              <input
+                type="text"
+                placeholder="Sobrenome"
+                class="lastname-input data-input"
+              />
+            </div>
+            <div class="data-mail-phone">
+              <input
+                class="data-input email-input"
+                placeholder="Celular ou email"
+              />
+            </div>
+            <div class="birthday">
+              <select class="day">
+                <option>Dia</option>
+              </select>
+              <select class="month">
+                <option>Mês</option>
+              </select>
+              <select class="year">
+                <option>Ano</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer></footer>
+    </div>
+    <script src="dist/js/DatePickerX.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
