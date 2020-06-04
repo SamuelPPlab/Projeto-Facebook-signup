@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="libs/DatePickerX.min.css">
+  <script src="libs/DatePickerX.min.js"></script>
+  <title>facebook project</title>
+</head>
+<body>
+  <header class="top-bar">
+    <p class="facebook-logo">facebook</p>
+    <div>
+      <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+      <input id="user-email-phone" type="text"  size="7">
+
+      <label for="user-password">senha</label>
+      <input id="user-password" type="password" size="7">
+
+      <button id="button-login">Entrar</button>
+    </div>
+  </header>
+  <section class="corpo">
+    <div class="corpo-box">
+      <p>
+        O Facebook ajuda você a se conectar e<br> compartilhar com as pessoas que fazem parte da sua vida.
+      </p>
+      <img id="facebook-networking" class="img-face"  src="img/networking.png" alt="">
+    </div>
+    <div class="corpo-box">
+      <p>Abra uma conta</p>
+      <p>É rápido e fácil.</p>
+      <form action="">
+        <input type="text" size="5" placeholder="Nome">
+        <input type="text" size="5" placeholder="Sobrenome">
+        <input type="text"  placeholder="Celular ou email">
+        <input type="password"  placeholder="Nova senha">
+        <br>
+        <label for="idade">Data de nascimento</label>
+        <input id="idade" type="text" class="data" placeholder="dd/mm/aaaa">
+        <br>
+        <div>
+          <label for="">Gênero</label>
+          <br>
+          <input type="radio" name="genero" id="feminino" value="Feminino" >
+          <label for="feminino">Feminino</label>
+          <input type="radio" name="genero" id="masculino" value="Masculino" >
+          <label for="masculino">Masculino</label>
+          <input type="radio" name="genero" id="personalizado" value="Personalizado" >
+          <label for="personalizado">Personalizado</label>
+        </div>
+        <br>
+        <button type="button" id="facebook-register">Cadastre-se</button>
+      </form>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
