@@ -1,28 +1,27 @@
 body {
-    font-family: 20px Helvetica, Arial, Sans-serif;
-    background-color: #D3D8E8;
+  background-color: #d3d8e8;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 h2 {
-    color: #0e385f;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 29px;
-    margin-top: 40px;
-    width: 450px;
-    word-spacing: -1px;
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 2;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
 }
 
 h3 {
-    color: #1d2129;
-    font-size: 19px;
+  color: #1d2129;
+  font-size: 19px;
 }
-
 
 .top-bar {
-    background-color: #3b5998 ;
+  background-color: #3b5998;
 }
 
-.facebook-logo{
-    width: 170px;
+.facebook-logo {
+  width: 170px;
 }
