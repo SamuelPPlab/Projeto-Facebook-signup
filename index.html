@@ -17,9 +17,9 @@
           <br />
           <input type="text" id="user-email-phone" />
         </div>
-        <div class="password" id="user-password">
-          <label for="pass">Senha</label> <br />
-          <input type="password" id="pass" />
+        <div class="password">
+          <label for="user-password">Senha</label> <br />
+          <input id="user-password" type="password" />
         </div>
         <button id="button-login" type="button">Entrar</button>
       </div>
@@ -43,8 +43,24 @@
         <input type="text" placeholder="Sobrenome" />
         <input type="text" placeholder="Celular ou email" />
         <input type="password" placeholder="Nova senha" />
-        <label for="Data">Data de Nascimento</label>
+        <label for="Data">Data de nascimento</label>
         <input id="Data" type="text" placeholder="dd/mm/aaaa" />
+        <label>Gênero</label>
+        <div class="genero-container">
+          <label for="Feminino">
+            <input id="Feminino" type="radio" name="Genero" />
+            Feminino
+          </label>
+          <label for="Masculino">
+            <input id="Masculino" type="radio" name="Genero" />
+            Masculino
+          </label>
+          <label for="Personalizado">
+            <input id="Personalizado" type="radio" name="Genero" />
+            Personalizado
+          </label>
+        </div>
+        <button id="facebook-register">Cadastre-se</button>
       </div>
     </article>
     <script src="script.js"></script>
