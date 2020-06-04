@@ -5,10 +5,10 @@ body {
 }
 
 .papa-div {
+  align-items: center;
   display: flex;
   justify-content: space-between;
   width: 980px;
-  align-items: center;
 }
 
 .top-bar {
@@ -27,8 +27,8 @@ body {
 }
 
 .facebook-logo {
-  width: 170px;
   height: 34px;
+  width: 170px;
 }
 
 .user-mail {
@@ -52,23 +52,23 @@ body {
 }
 
 .password p {
-  margin: 0;
   color: rgb(156, 180, 216);
+  margin: 0;
 }
 
 .password input {
-  margin: 4px 14px 4px 0px;
+  margin: 4px 14px 4px;
 }
 
 .question {
   height: 16px;
-  width: 16px;
   margin-left: 10px;
+  width: 16px;
 }
 
 .termos {
-  font-size: 11px;
   color: rgb(119, 119, 119);
+  font-size: 11px;
   width: 316px;
 }
 
@@ -93,14 +93,14 @@ body {
 }
 
 .right-column h1 {
-  font-size: 36px;
   color: rgb(51, 51, 51);
+  font-size: 36px;
   margin-bottom: 5px;
 }
 
 .right-column h2 {
-  font-size: 19px;
   color: rgb(29, 33, 41);
+  font-size: 19px;
   margin: 0;
   padding-bottom: 20px;
 }
@@ -120,10 +120,10 @@ body {
 }
 
 .right-column .label {
+  color: rgb(144, 148, 156);
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 5px;
-  color: rgb(144, 148, 156);
 }
 
 .genero-container {
@@ -144,7 +144,7 @@ body {
   width: 450px;
   color: rgb(14, 56, 95);
   font-weight: 700;
-  margin-left: ;
+  margin-left:;
 }
 
 .networking {
@@ -177,10 +177,10 @@ body {
   margin-top: 10px;
   padding-top: 15px;
 }
- .blue {
-     color: blue;
-     cursor: pointer;
- }
- .blue:hoovr {
-     text-decoration: underline;
- }
+.blue {
+  color: blue;
+  cursor: pointer;
+}
+.blue:hoovr {
+  text-decoration: underline;
+}
