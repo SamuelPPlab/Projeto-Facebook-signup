@@ -1,0 +1,7 @@
+.top-bar {
+  background-color: rgb(59, 89, 151);
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
