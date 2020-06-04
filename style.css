@@ -87,17 +87,22 @@ header section {
   color: #1b435e;
   height: 100%;
   padding: 35px;
-  width: 35%;
+  width: 25%;
 }
 
 .div-direita {
   height: 100%;
   padding: 35px;
-  width: 35%;
+  width: 25%;
 }
 
 .form-row {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+.email-senha {
+  margin-top: 8px;
+  width: 96%;  
 }
