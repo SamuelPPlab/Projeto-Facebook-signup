@@ -1,31 +1,30 @@
-* {
+body {
   margin: 0;
   padding: 0;
 }
 
 .top-bar {
-  background-color: #3B5998;
-  height: 80px;
+  align-items: center;
+  background-color: #3b5998;
+  color: white;
   display: flex;
   flex-direction: row;
+  height: 80px;
   justify-content: space-around;
-  align-items: center;
-  color: white;
 }
 
 .facebook-logo {
-  background-image: url(./imgs/facebook-logo.png);
+  background-image: url("./imgs/facebook-logo.png");
   background-size: cover;
   height: 43px;
   width: 183px;
 }
 
 .agrupamento-login-senha-botao {
+  align-items: baseline;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: baseline;
-
 }
 
 .agrupamento-login {
