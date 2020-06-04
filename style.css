@@ -11,13 +11,50 @@ body {
 }
 
 .navBar {
+  align-items: center;
   display: flex;
   height: 83px;
   justify-content: space-between;
 }
 
+.facebook-logo {
+  width: 50%;
+}
+
+.navBar h1 {
+  font-size: 42px;
+  margin: 0;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 50%;
+  align-items: flex-end;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+}
+
 .main {
   background-image: linear-gradient(white, #d3d8e8);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 181px;
+  padding-right: 181px;
+}
+
+.imagem {
+  width: 40%;
+  border: 1px solid red;
+}
+
+.formulario {
+  width: 40%;
 }
 
 .footer {
