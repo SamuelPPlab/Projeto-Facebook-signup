@@ -25,13 +25,13 @@
 }
 
 .label-com-input {
-  justify-content: baseline;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 
 .link {
-  color: rgb(156 , 180 , 216);
+  color: rgb(156, 180, 216);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
 }
@@ -50,6 +50,6 @@
   background-color: rgb(56, 88, 152);
   border: 1px solid black;
   color: white;
-  font-weight: bold;
+  font-weight: 200;
   height: 18px;
 }
