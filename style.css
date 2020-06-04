@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background-color: rgb(56, 88, 152);
+  display: flex;
+  height: 83px;
+  justify-content: space-between;
+}
+
+.facebook-logo {
+  color: white;
+  font-family: 'Tahoma';
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: 17px;
+  margin-left: 150px;
+}
+
+.entradas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.label-com-input {
+  display: flex;
+  flex-direction: column;
+}
