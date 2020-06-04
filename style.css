@@ -73,7 +73,7 @@ section p {
   width: 194px;
 }
 
-.nameInput:nth-child( [1] ) {
+.nameInput:first-child {
   margin-right: 6px;
 }
 
