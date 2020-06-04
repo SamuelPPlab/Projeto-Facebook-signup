@@ -16,8 +16,8 @@ body {
 }
 
 .corpo {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-around;
 }
 
