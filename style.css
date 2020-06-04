@@ -37,21 +37,21 @@ header section {
 }
 
 .button {
-  border: 1px solid #2f477a;
   background: #2f477a;
+  border: 1px solid #2f477a;
   color: white;
   cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 0.9em;
-  font-family: Helvetica, Arial, Sans-Serif;
+  padding: 5px 10px;
   text-decoration: none;
   vertical-align: middle;
   width: 25%;
-  padding: 5px 10px;
 }
 
 .button:hover {
-  border-top-color: #192e57;
   background: #192e57;
+  border-top-color: #192e57;
   color: #ccc;
 }
 
