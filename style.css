@@ -6,7 +6,7 @@ body{
     background-color:#ebedf0;
     font-size: 14px;
 }
-#cabecario{
+.top-bar{
     background-color:#29487d;
     display: flex;
     justify-content: space-around;
@@ -14,7 +14,7 @@ body{
     padding: 5px;
     width: 100%;    
 }
-#title{
+.facebook-logo{
     font-family: inherit;
     font-size: 2em;
     color:#ebedf0;
@@ -31,6 +31,6 @@ body{
     margin: 0 5px;
     
 }
-#entrar{
+#button-login{
     align-self: center;
 }
