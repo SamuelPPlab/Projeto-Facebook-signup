@@ -28,3 +28,8 @@ button {
   align-self: center;
   display: flex;
 }
+
+article {
+  display: flex;
+  flex-direction: row;
+}
