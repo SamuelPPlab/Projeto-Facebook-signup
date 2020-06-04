@@ -8,62 +8,95 @@
   </head>
   <body>
     <header class="top-bar">
-      <img src="facebook-logo.png" class="facebook-logo" />
-      <div class="login-container">
-        <div class="user-mail">
-          <label id="user-email-phone-label" for="user-email-phone"
-            >Email ou telefone</label
-          >
-          <br />
-          <input type="text" id="user-email-phone" />
+      <div class="papa-div">
+        <img src="facebook-logo.png" class="facebook-logo" />
+        <div class="login-container">
+          <div class="user-mail">
+            <label id="user-email-phone-label" for="user-email-phone"
+              >Email ou telefone
+              <br />
+              <input type="text" id="user-email-phone" />
+            </label>
+            <p></p>
+          </div>
+          <div class="password">
+            <label for="user-password"
+              >Senha
+              <br />
+              <input id="user-password" type="password" />
+            </label>
+            <p>Esqueceu a conta?</p>
+          </div>
+          <div class="gambiarra">
+            <p></p>
+            <button class="botao-login" id="button-login" type="button">
+              Entrar
+            </button>
+            <p></p>
+          </div>
         </div>
-        <div class="password">
-          <label for="user-password">Senha</label> <br />
-          <input id="user-password" type="password" />
-        </div>
-        <button id="button-login" type="button">Entrar</button>
       </div>
     </header>
     <article class="body-container">
-      <div class="right-column">
+      <div class="left-column">
         <p>
           O Facebook ajuda você a se conectar e compartilhar com as pessoas que
           fazem parte da sua vida.
         </p>
         <img
+          class="networking"
           id="facebook-networking"
           src="networking.png"
           alt="People networking."
         />
       </div>
-      <div class="left-column">
-        <p>Abra uma conta</p>
+      <div class="right-column">
+        <h1>Abra uma conta</h1>
         <p>É rápido e fácil.</p>
-        <input type="text" placeholder="Nome" />
-        <input type="text" placeholder="Sobrenome" />
-        <input type="text" placeholder="Celular ou email" />
-        <input type="password" placeholder="Nova senha" />
-        <label for="Data">Data de nascimento</label>
-        <input id="Data" type="text" placeholder="dd/mm/aaaa" />
-        <label>Gênero</label>
+        <div>
+          <input class="Nome input" type="text" placeholder="Nome" />
+          <input class="Nome input" type="text" placeholder="Sobrenome" />
+        </div>
+        <input class="input" type="text" placeholder="Celular ou email" />
+        <input class="input" type="password" placeholder="Nova senha" />
+        <label class="label" for="Data">Data de nascimento</label>
+        <div>
+        <input class="input Nome" id="Data" type="text" placeholder="dd/mm/aaaa" />
+        <img class="question" src="question.png" alt="Interrogação" />
+        </div>
+        <label class="label">Gênero</label>
         <div class="genero-container">
           <label for="Feminino">
-            <input id="Feminino" type="radio" name="Genero"
-            value="Feminino" />
+            <input id="Feminino" type="radio" name="Genero" value="Feminino" />
             Feminino
           </label>
           <label for="Masculino">
-            <input id="Masculino" type="radio" name="Genero"
-            value="Masculino" />
+            <input
+              id="Masculino"
+              type="radio"
+              name="Genero"
+              value="Masculino"
+            />
             Masculino
           </label>
           <label for="Personalizado">
-            <input id="Personalizado" type="radio" name="Genero"
-            value="Personalizado" />
+            <input
+              id="Personalizado"
+              type="radio"
+              name="Genero"
+              value="Personalizado"
+            />
             Personalizado
           </label>
         </div>
-        <button id="facebook-register">Cadastre-se</button>
+        <img class="question" src="question.png" alt="Interrogação" />
+        <p class="termos">
+          Ao clicar em Cadastre-se, você concorda com nossos <span class="blue">Termos</span>, <span class="blue">Política de
+            Dados</span> e <span class="blue">Política de Cookies</span>. Você pode receber notificações por SMS e
+          pode cancelar isso quando quiser.
+        </p>
+        <button class="cadastre-se" id="facebook-register">Cadastre-se</button>
+        <p class="criar-pagina"> <span class="blue">Criar uma página</span> para uma celebridade, banda ou empresa.</p>
       </div>
     </article>
     <script src="script.js"></script>
