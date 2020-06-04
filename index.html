@@ -2,6 +2,8 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -50,12 +52,6 @@
           <label>Data de nascimento</label>
           <label for="genero">
             Gênero
-            <input
-              type="radio"
-              name="genero"
-              id="masculino"
-              value="Masculino"
-            />
             <label for="feminino">Feminino</label><br />
             <input type="radio" name="genero" id="feminino" value="feminino" />
 
@@ -68,6 +64,12 @@
             />
 
             <label for="personalizado">Personalizado</label><br />
+            <input
+              type="radio"
+              name="genero"
+              id="personalizado"
+              value="personalizado"
+            />
           </label>
           <button id="facebook-register" type="submit">Cadastre-se</button>
         </form>
