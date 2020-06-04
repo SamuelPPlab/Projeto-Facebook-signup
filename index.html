@@ -9,30 +9,53 @@
 
 </head>
 <body>
-  <header class="top-bar"><img src="/facebookLogo.png" alt="Logo do Facebook" class="facebook-logo">
-    <input type="text" id="user-email-phone" class="user-email-phone">
-    <label for="user-email-phone" id="user-email-phone-label" class="user-email-phone-label">Email ou Telefone</label>
-    <input type="text" id="senha">Senha</input>
-    <label for="senha" id="senha-label" class="senha-label"></label>
-    <input type="button" id="button-login">Entrar</input>
+  <header class="top-bar"><img src="/facebook1.png" alt="Logo do Facebook" class="facebook-logo">
+    <div class="titulo">
+      <div class=e-mail>
+        <input type="text" id="user-email-phone" class="user-email-phone">
+        <label for="user-email-phone" id="user-email-phone-label" class="user-email-phone-label">Email ou Telefone</label>
+      </div>
+
+      <div class="password">
+        <input type="password" id="senha" class="senha">Senha</input>
+        <label for="senha" id="senha-label" class="senha-label"></label>
+      </div>
+
+        <button class="button-login" id="button-login">Entrar</button>
+    </div>
   </header>
+  <div class="pagina">
+    <div class="esquerda">
+      <p class="texto">O Facebook ajuda você a se conectar, e compartilhar com as pessoas que fazem parte da sua vida.</p>
+      <br>
+      <img src="/networking.png" alt="Foto mostrando pessoas conectadas pelo mundo" id="facebook-networking" class="facebook-networking">
+    </div>
 
-  <div>
-    <p class="texto">O Facebook ajuda você a se conectar, e compartilhar com as pessoas que fazem parte da sua vida.</p>
-    <img src="/networking.png" alt="Foto mostrando pessoas conectadas pelo mundo" id="facebook-networking" class="facebook-networking">
+    <div classe="direita">
+      <h1>Abra uma conta</h1>
+
+      <h3>É rápido e fácil.</h3>
+        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="Sobrenome"> <br> <br>
+        <input type="text" placeholder="Celular ou email"> <br> <br>
+        <input type="text" placeholder="Nova senha">
+
+      <h4>Data de Nascimento</h4>
+        <input type="date">
+
+      <h4>Gênero</h4>
+        <div>
+          <input name="sexo" value="f" type="radio"> Feminino
+          <input name="sexo" value="m" type="radio"> Masculino
+          <input name="sexo" value="p" type="radio"> Personalizado
+        </div>
+
+        <p>Ao clicar em cadastre-se você concorda com nossas Termos, Política de Dados e Política de Cookies. <br>
+          Você pode receber notificações via SMS e pode cancelar isso quando quiser.</p>
+
+        <button id="facebook-register" class="facebook-register">Cadastre-se</button>
+    </div>
   </div>
-
-  <h1>Abra uma conta</h1>
-
-  <h2>É rápido e fácil.</h2>
-    <input type="text" placeholder="Nome">
-    <input type="text" placeholder="Sobrenome"> <br>
-    <input type="text" placeholder="Celular ou email"> <br>
-    <input type="text" placeholder="Nova Senha">
-
-  <h3>Data de Nascimento</h3> <br>
-    <input type="data">
-
   <script src="script.js"></script>
 </body>
 </html>
