@@ -163,6 +163,11 @@ body {
   }
 }
 
+.hrClass{
+  display: flex;
+  margin-top: 10px;
+}
+
 .interrogacao {
   height: 16px;
   width: 16px;
