@@ -107,3 +107,8 @@ section p {
   font-weight: 700;
   margin-bottom: 5px;
 }
+
+.grad {
+  background-image: linear-gradient(white, rgb(211, 216, 232));
+  height: 640px;
+}
