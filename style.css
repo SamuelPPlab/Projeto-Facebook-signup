@@ -13,8 +13,13 @@ body {
   display: flex;
   font-size: 12px;
   height: 80px;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0;
+  padding-top:10px;
+}
+
+.input-field label {
+  color: white;
 }
 
 .facebook-logo {
@@ -22,10 +27,10 @@ body {
   width: 180px;
 }
 
-.container {
+/* .container {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 .lado-direito {
   padding-left: 10%;
@@ -40,13 +45,13 @@ body {
   padding-top: 5%;
   width: 50%;
 }
-
+/* 
 .logEsq {
   display: flex;
   justify-content: center;
   width: 50%;
-}
-
+} */
+/* 
 .formDir {
   align-items: flex-end;
   display: flex;
@@ -65,4 +70,4 @@ body {
 
 .button-login {
   float: right;
-}
+} */

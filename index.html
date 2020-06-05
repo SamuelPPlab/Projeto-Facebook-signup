@@ -3,54 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css" type="text/css" />
     <title>Facebook</title>
   </head>
   <body>
-    <header class="top-bar">
-      <section class="logEsq">
+    <header class="top-bar row">
+      <section class="logEsq col s12 m6">
         <img
           class="facebook-logo"
           src="facebook-logo.png"
           alt="Logo Facebook"
         />
       </section>
-      <section class="formDir">
+      <section class="formDir s6 right-align valign-wrapper">
           <form action="">
-            <div class="inputs">
-            <p id="user-email-phone-label">Email ou telefone</p>
-            <input
+            <div class="inputs input-field col s4 valign-wrapper">
+             <input
               id="user-email-phone"
               type="text"
               required
               value="mail-phone"
               name="user-email-phone"
             />
+            <label class="labelz" id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
             </div>
-            <div class="inputs">
-            <p>Senha</p>
+            <div class="inputs inputs input-field col s4 valign-wrapper">
             <input type="password" id="user-password" required />
+            <label class="labelz" id="user-password" for="user-password">Senha</label>
           </div>
-          <div class="inputs">
+          <div class="inputs input-field col s4 valign-wrapper">
           <button class="button-login" id="button-login" type="button">Entrar</button>
         </div>
         </form>
       </section>
     </header>
-    <div class="container">
-      <section class="lado-esquerdo">
+    <div class="container row">
+      <section class="lado-esquerdo col s6">
         <p class="text-main">
           O Facebook ajuda você a se conectar e compartilhar com as pessoas que
           fazem parte da sua vida.
         </p>
         <img id="facebook-networking" src="networking.png" alt="networking" />
       </section>
-      <section class="lado-direito">
-        <h1>Abra uma conta</h1>
+      <section class="lado-direito col s6">
+        <h3>Abra uma conta</h3>
         <p>É rápido e fácil.</p>
         <form action="">
+          <div class="input-field col s6">
           <input placeholder="Nome" type="text" value="nome" />
+        </div>
+        <div class="input-field col s6">
           <input placeholder="Sobrenome" type="text" value="sobrenome" />
+        </div>
           <input
             class="linha"
             placeholder="Celular ou Email"
@@ -72,21 +78,29 @@
             type="date"
           />
           <p>Gênero</p>
-          <input id="Feminino" name="genero" type="radio" value="Feminino" />
-          <label for="Feminino">Feminino</label>
-          <input id="masculino" name="genero" type="radio" value="Masculino" />
-          <label for="masculino">Masculino</label>
-          <input
-            id="personalizado"
-            name="genero"
-            type="radio"
-            value="Personalizado"
-          />
-          <label for="personalizado">Personalizado</label><br />
+          <p>
+            <label>
+              <input name="genero" type="radio" value="Feminino" checked id="Feminino"/>
+              <span>Feminino</span>
+            </label>
+          </p>
+          <p>
+            <label>
+              <input name="genero" type="radio" value="Masculino" id="Masculino"/>
+              <span>Masculino</span>
+            </label>
+          </p>
+          <p>
+            <label>
+              <input name="genero" type="radio" value="Personalizado" checked id="Personalizado"/>
+              <span>Personalizado</span>
+            </label>
+          </p>
           <button id="facebook-register" type="button">Cadastre-se</button>
         </form>
       </section>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
