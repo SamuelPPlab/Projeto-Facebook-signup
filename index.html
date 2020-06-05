@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link type="text/css" rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
   <title>Facebook - entre ou cadastre-se</title>
 </head>
 
@@ -67,24 +69,40 @@
         </div>
         <div class="b-date">
           <p>Data de nascimento</p>
+          <input type="text" id="datepicker" placeholder="dd/mm/aaaa" />
         </div>
         <div class="b-date">
           <p>Gênero</p>
           <div class="genero">
             <label for="feminino">
-              <input id="feminino" name="genero" class="radio" type="radio" value="feminino"/>Feminino
+              <input id="feminino" name="genero" class="radio" type="radio" value="feminino" />Feminino
             </label>
             <label for="masculino">
-              <input id="masculino" name="genero" class="radio" type="radio" value="masculino"/>Masculino
+              <input id="masculino" name="genero" class="radio" type="radio" value="masculino" />Masculino
             </label>
             <label for="personalizado">
-              <input id="personalizado" name="genero" class="radio" type="radio" value="personalizado"/>Personalizado
+              <input id="personalizado" name="genero" class="radio" type="radio" value="personalizado" />Personalizado
             </label>
           </div>
         </div>
     </div>
     </section>
   </div>
+  <script src="pikaday.js"></script>
+  <script>
+    var picker = new Pikaday({
+      field: document.getElementById('datepicker'),
+      format: 'DD/MM/YYYY',
+      toString(date, format) {
+        // you should do formatting based on the passed format,
+        // but we will just return 'D/M/YYYY' for simplicity
+        const day = date.getDate();
+        const month = date.getMonth() + 1;
+        const year = date.getFullYear();
+        return `${day}/${month}/${year}`;
+      }
+    });
+  </script>
 </body>
 <script type="text/javascript" src="script.js"></script>
 
