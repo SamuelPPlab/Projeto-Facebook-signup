@@ -3,9 +3,11 @@
   display: flex;
   height: 83px;
   justify-content: space-between;
+  min-width: 999px;
 }
 
 .body {
+  background-color: rgba(225, 227, 238, 1);
   margin: 0;
   padding: 0;
 }
@@ -28,6 +30,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-content: flex-end;
 }
 
 .link {
@@ -52,4 +55,51 @@
   color: white;
   font-weight: 200;
   height: 18px;
+}
+
+.dividir {
+  display: flex;
+  justify-content: space-between;
+  min-width: 999px;
+}
+
+button.dividir {
+  background-color: rgb(95, 156, 76);
+  border: 1px solid rgb(161, 183, 163);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  height: 40px;
+}
+
+.conf-img {
+  height: 194px;
+  width: auto;
+}
+
+.input-corpo {
+  border: 1px solid rgb(180, 180, 200);
+  border-radius: 6px;
+  height: 2em;
+}
+
+.texto-direito {
+  color: rgb(14, 56, 95);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.apresentacao {
+  min-width: 400px;
+  padding: 10px 100px 0 150px;
+}
+
+div {
+  border: 1px red solid;
+}
+
+.cadastro {
+  flex-direction: column;
+  min-width: 400px;
+  padding: 10px 50px 0 30px;
 }

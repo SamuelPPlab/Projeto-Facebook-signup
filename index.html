@@ -42,31 +42,69 @@
         <button class="button-cabecalho" id="button-login">Entrar</button>
       </div>
     </header>
-    <div>
-      <h2>
-        O Facebook ajuda você a se conectar e compartilhar com as pessoas que
-        fazem parte da sua vida.
-      </h2>
-      <img
-        id="facebook-networking"
-        src="networking.png"
-        alt="Figura networking"
-      />
+    <div class="dividir">
+      <div class="apresentacao">
+        <h2 class="texto-direito">
+          O Facebook ajuda você a se conectar e compartilhar com as pessoas que
+          fazem parte da sua vida.
+        </h2>
+        <img
+          class="conf-img"
+          id="facebook-networking"
+          src="networking.png"
+          alt="Figura networking"
+        />
+      </div>
+      <form class="cadastro">
+        <h2>Abra uma conta</h2>
+        <h3>É rápido e fácil.</h3>
+        <div class="nome">
+          <input class="input-corpo" id="nome" type="text" placeholder="Nome" />
+          <input
+            class="input-corpo"
+            id="sobrenome"
+            type="text"
+            placeholder="Sobrenome"
+          />
+        </div>
+        <div></div>
+        <div>
+          <input
+            class="input-corpo"
+            type="text"
+            placeholder="Celular ou email"
+          />
+        </div>
+        <div>
+          <input class="input-corpo" type="password" placeholder="Nova senha" />
+        </div>
+        <div><label for="data-de-nascimento">Data de nascimento</label></div>
+        <div>
+          <input
+            type="date"
+            name=""
+            id="data-de-nascimento"
+            placeholder="dd/mm/aaaa"
+          />
+        </div>
+        <div>
+          <label for="">Gênero</label>
+          <input type="radio" name="" id="" value="Feminino" /><label for=""
+            >Feminino</label
+          >
+          <input type="radio" name="" id="" value="Masculino" /><label for=""
+            >Masculino</label
+          >
+          <input type="radio" name="" id="" value="Personalizado" /><label
+            for=""
+            >Personalizado</label
+          >
+        </div>
+        <div>
+          <button class="dividir" id="facebook-register">Cadastre-se</button>
+        </div>
+      </form>
     </div>
-    <div class="cadastro">
-      <h2>Abra uma conta</h2>
-      <h2>É rápido e fácil.</h2>
-      <input type="text" placeholder="Nome"> <input type="text" placeholder="Sobrenome">
-      <input type="text" placeholder="Celular ou email">
-      <input type="password" placeholder="Nova senha">
-      <input type="date" name="" id="" placeholder="dd/mm/aaaa">
-      <label for="">Gênero</label>
-      <input type="radio" name="" id="" value="Feminino"><label for="">Feminino</label>
-      <input type="radio" name="" id="" value="Masculino"><label for="">Masculino</label>
-      <input type="radio" name="" id="" value="Personalizado"><label for="">Personalizado</label>
-      <button id="facebook-register">Cadastre-se</button>
-    </div>
-    <footer>
-    </footer>
+    <footer></footer>
   </body>
 </html>
