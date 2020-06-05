@@ -5,32 +5,34 @@ body {
 
 .top-bar {
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
   justify-content: space-between;
   margin: auto;
   width: 980px;
 }
 
 header {
-  background-color: rgb(62, 92, 154);
-  height: 65px;
-}
-
-.facebook-logo {
-  background: transparent url('images/kindpng_440522.png') no-repeat;
-  background-position: center;
-  background-size: 150px;
-  width: 50%;
+  background-color: rgb(59, 89, 152);
+  height: 82px;
+  width: 100%;
 }
 
 .facebook-logo img {
-  height: 55px;
+  height: 74px;
+  padding-top: 8px;
+}
+
+.facebook-logo {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .login {
-  align-items: center;
+  align-items: flex-end;
+  align-self: center;
   color: white;
   display: flex;
-  width: 50%;
+  justify-content: flex-end;
 }
 
 .email-phone , .password , .button {
@@ -40,7 +42,12 @@ header {
 }
 
 .container {
+  background: linear-gradient(to top, rgb(215, 220, 233) 20%, transparent 100%);
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 85vh;
+  justify-content: center;
+  min-width: 980px;
 }
 
 .espaco-cadastro {
@@ -54,6 +61,7 @@ header {
   color: #1c1e21;
   font-size: 20px;
   padding: 8px 10px;
+  width: 170px;
 }
 
 .input-celular-email , .input-password {
@@ -61,5 +69,13 @@ header {
 }
 
 .first-name-input {
-  margin-right: 10px;
+  margin-right: 15px;
+}
+
+.right-side {
+  width: 400px;
+}
+
+.left-side {
+  width: 580px;
 }
