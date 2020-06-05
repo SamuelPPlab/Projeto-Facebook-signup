@@ -12,12 +12,12 @@
     <img class="facebook-logo" src="./imgs/facebook-logo.png" width="143">
     <div class="ladoDireito">
       <div class="emColuna">
-        <label form="user-email-phone" id="user-email-phone-label">Email ou telefone<input type="text" id="user-email-phone" placeholder="seu email"></label>
+        <label form="user-email-phone" id="user-email-phone-label">Email ou telefone</label><input type="text" id="user-email-phone" placeholder="seu email">
       </div>
 
       <div class="emColuna">
-        <label form="password-label" id="user-password">Password
-          <input type="password" id="user-password"></label>
+        <label form="password-label" id="user-password">Password</label>
+        <input type="password" id="user-password">
         <a href="">Forgot Account?</a>
       </div>
       <div class="emColuna">
@@ -35,10 +35,14 @@
   <div class="right">
     <h1>Abra uma conta</h1>
     <h3>É rápido e fácil.</h3>
-    <input type="text" id="usuario" placeholder="Nome">
-    <input type="text" id="sobrenome" placeholder="Sobrenome"><br>
-    <input type="text" id="celular" placeholder="Celular ou email"><br>
-    <input type="password" id="novasenha" placeholder="Nova senha"><br>
+    <div class="teste">
+      <input type="text" class="usuario" placeholder="Nome" style="width:50%;">
+      <input type="text" class="sobrenome" placeholder="Sobrenome" style="width:50%;">
+    </div>
+    <div class="teste2">
+      <input type="text" class="celular" placeholder="Celular ou email" style="width:100%;"><br>
+    </div>
+    <input type="password" id="novasenha" placeholder="Nova senha" style="width:100%;"><br>
     <h4>Data de nascimento</h4>
     <input type="date" id="datanascimento" placeholder="dd/mm/aaaa"><br>
     <h4>Gênero</h4>
