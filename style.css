@@ -2,7 +2,7 @@ body {
   background-image: linear-gradient(white);
   box-sizing: border-box;
   font-family: Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin-left:0;
   padding: 0;
 }
 
@@ -27,16 +27,30 @@ body {
   width: 180px;
 }
 
-/* .container {
-  display: flex;
-  justify-content: space-between;
-} */
+.text-main {
+  color:rgb(60, 89, 152);
+  font-weight: bold;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
 
-.lado-direito {
+img .netwo{
+  margin-left: 5%;
+  width: 180px;
+}
+
+/*
+.Ocontainer {
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+section .lado-direito {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 5%;
-  width: 50%;
 }
 
 .lado-esquerdo {
@@ -44,7 +58,7 @@ body {
   padding-right: 10%;
   padding-top: 5%;
   width: 50%;
-}
+} */
 
 /* .logEsq {
   display: flex;
