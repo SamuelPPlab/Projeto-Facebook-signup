@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .top-bar {
@@ -41,5 +42,21 @@ button {
 }
 
 .right-side {
+  display: flex;
+  flex-direction: column;
   margin-left: 50px;
+  width: 480px;
+}
+
+.fullname {
+  display: flex;
+  flex-direction: row;
+}
+
+.fullname input {
+  flex-grow: 1;
+}
+
+.fullname input:nth-child(1) {
+  margin-right: 10px;
 }

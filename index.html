@@ -12,7 +12,8 @@
       <form class="login-form">
         <div class="login-column">
           <label id="user-email-phone-label" for="user-email-phone"
-            >Email ou telefone</label>
+            >Email ou telefone</label
+          >
           <input id="user-email-phone" type="text" name="user-email-phone" />
         </div>
         <div class="login-column">
@@ -25,12 +26,33 @@
     </header>
     <div class="content">
       <div class="left-side">
-        <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
-      <img id="facebook-networking" src="imgs/networking.png">
+        <p>
+          O Facebook ajuda você a se conectar e compartilhar com as pessoas que
+          fazem parte da sua vida.
+        </p>
+        <img id="facebook-networking" src="imgs/networking.png" />
       </div>
       <div class="right-side">
         <h1>Abra uma conta</h1>
         <p>É rápido e fácil.</p>
+        <div class="fullname">
+          <input type="text" name="user-name" placeholder="Nome" />
+          <input type="text" name="user-lastname" placeholder="Sobrenome" />
+        </div>
+        <input type="text" name="cellphone-email" placeholder="Celular ou email" />
+        <input type="text" name="new-password" placeholder="Nova senha" />
+        <label for="">Data de Nascimento</label>
+        <input id="" type="date" placeholder="dd/mm/aaaa" />
+        <label for="">Gênero</label>
+        <div id="gender-field">
+          <input id="feminino" name="gender" type="radio" />
+          <label for="feminino">Feminino</label>
+          <input id="masculino" name="gender" type="radio" />
+          <label for="masculino">Masculino</label>
+          <input id="personalizado" name="gender" type="radio" />
+          <label for="personalizado">Personalizado</label>
+          <button id="facebook-register">Cadastre-se</button>
+        </div>
       </div>
     </div>
     <script src="script.js"></script>
