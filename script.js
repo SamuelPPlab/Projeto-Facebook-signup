@@ -5,4 +5,4 @@ login.addEventListener('click', function () {
   if (enviarEmail !== 'undefined') {
     alert(enviarEmail);
   }
-  });
+});
