@@ -63,7 +63,7 @@
   min-width: 999px;
 }
 
-button.dividir {
+.btn-cadastrar {
   background-color: rgb(95, 156, 76);
   border: 1px solid rgb(161, 183, 163);
   border-radius: 5px;
