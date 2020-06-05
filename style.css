@@ -143,11 +143,23 @@ figure {
   padding-left: 8px;
 }
 
-.firstname-input, .lastname-input {
+.firstname-input , .lastname-input {
   width: 180px;
 }
 
-.email-input, .birthday {
+.email-input , .birthday {
   width: 380px;
 }
 
+.gender-options {
+  display: flex;
+}
+
+.gender-text {
+  color: rgb(144, 148, 156);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.4333px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
