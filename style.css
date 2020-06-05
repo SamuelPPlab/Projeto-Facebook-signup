@@ -34,9 +34,6 @@ body {
   width: 330px;
 }
 
-.h4 {
-  padding: 3px 0;
-}
 
 .login-box {
   font-size: 12px;
@@ -61,7 +58,7 @@ body {
   display: flex;
   height: 20px;
   margin-right: 33px;
-  margin-top: -16px;
+  margin-top: 14px;
   width: 146px;
 }
 
