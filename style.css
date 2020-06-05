@@ -106,7 +106,6 @@ body {
 .facebook-body .fb-content .img-text-content {
   display: flex;
   flex-direction: column;
-  /* flex-grow: 1; */
 }
 
 .facebook-body .fb-content .text-content {
