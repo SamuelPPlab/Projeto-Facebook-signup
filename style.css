@@ -105,8 +105,8 @@ figure {
 .message-content-h1 {
   color: rgb(14, 56, 95);
   flex-wrap: wrap;
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   line-height: 29px;
   margin-top: 40px;
   width: 450px;
@@ -143,12 +143,11 @@ figure {
   padding-left: 8px;
 }
 
-.firstname-input , 
-.lastname-input {
+.firstname-input, .lastname-input {
   width: 180px;
 }
 
-.email-input , 
-.birthday {
+.email-input, .birthday {
   width: 380px;
 }
+
