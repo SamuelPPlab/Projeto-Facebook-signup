@@ -31,7 +31,7 @@ checks:
       threshold: # language-specific defaults. an override will affect all languages.
 exclude_patterns:
   - "**/libs/*.css"
-  - pikaday.js
+  - "**/libs/*.js"
   - "**/*.{gif,png,jpeg,jpg}"
   - "node_modules/"
   - "**/libs/"
