@@ -9,7 +9,7 @@
   <body>
     <header class="top-bar">
       <img class="facebook-logo" src="imgs/facebook.png" />
-      <form class="login-form">
+      <div class="login-form">
         <div class="login-column">
           <label id="user-email-phone-label" for="user-email-phone"
             >Email ou telefone</label
@@ -22,7 +22,7 @@
           <a href="">Esqueceu a conta?</a>
         </div>
         <button id="button-login" name="button-login">Entrar</button>
-      </form>
+      </div>
     </header>
     <div class="content">
       <div class="left-side">
@@ -40,16 +40,16 @@
           <input type="text" name="user-lastname" placeholder="Sobrenome" />
         </div>
         <input type="text" name="cellphone-email" placeholder="Celular ou email" />
-        <input type="text" name="new-password" placeholder="Nova senha" />
-        <label for="">Data de Nascimento</label>
+        <input type="password" name="new-password" placeholder="Nova senha" />
+        <label for="">Data de nascimento</label>
         <input id="" type="date" placeholder="dd/mm/aaaa" />
         <label for="">Gênero</label>
         <div id="gender-field">
-          <input id="feminino" name="gender" type="radio" />
+          <input id="feminino" name="gender" type="radio" value="Feminino" />
           <label for="feminino">Feminino</label>
-          <input id="masculino" name="gender" type="radio" />
+          <input id="masculino" name="gender" type="radio" value="Masculino"/>
           <label for="masculino">Masculino</label>
-          <input id="personalizado" name="gender" type="radio" />
+          <input id="personalizado" name="gender" type="radio" value="Personalizado" />
           <label for="personalizado">Personalizado</label>
           <button id="facebook-register">Cadastre-se</button>
         </div>
