@@ -28,11 +28,11 @@ body {
 
 .login-container {
   align-content: center;
+  align-items: baseline;
   display: flex;
   margin-bottom: 15px;
   padding: 3px 3px 4px;
   width: 330px;
-  align-items: baseline;
 }
 
 .login-box {
@@ -70,7 +70,7 @@ body {
   text-decoration: none;
 }
 
-.container-col {
+.container-body {
   display: flex;
   flex-direction: row;
 }
@@ -81,6 +81,12 @@ body {
   flex-direction: column;
   margin-left: 128px;
   width: 40%;
+}
+
+.left-h1 {
+  font-family: sans-serif;
+  line-height: 25px;
+  width: 405px;
 }
 
 .right-side {
@@ -125,11 +131,6 @@ body {
   margin: 0 17px;
 }
 
-.btn-register {
-  height: 59px;
-  width: 400px;
-}
-
 .btn-text {
   margin-left: 20px;
 }
@@ -149,7 +150,6 @@ body {
 .create-page-text {
   color: #666;
   font-size: 12px;
-  font-weight: 550;
   margin: 13px 0 0;
   padding: 12px 0 0 3px;
 }
@@ -163,8 +163,8 @@ body {
   color: #7f7782;
   font-size: 11px;
   margin-left: 3px;
-  width: 325px;
   padding: 18px 0;
+  width: 325px;
 }
 
 .politician a {
