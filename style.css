@@ -15,7 +15,7 @@ body {
   height: 80px;
   justify-content: space-between;
   margin: 0;
-  padding-top:10px;
+  padding-top: 10px;
 }
 
 .input-field label {
@@ -45,14 +45,12 @@ body {
   padding-top: 5%;
   width: 50%;
 }
-/* 
-.logEsq {
+/* .logEsq {
   display: flex;
   justify-content: center;
   width: 50%;
 } */
-/* 
-.formDir {
+/*.formDir {
   align-items: flex-end;
   display: flex;
   flex-direction: row;
