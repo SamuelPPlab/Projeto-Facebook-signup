@@ -17,7 +17,7 @@
           <div class="login-content">
             <div class="form">
               <label for="login" id="user-email-phone-label"
-                >E-mail ou telefone</label
+                >Email ou telefone</label
               >
               <input
                 id="user-email-phone"
@@ -28,8 +28,8 @@
               <p class="sub-login hidden">Email Inválido</p>
             </div>
             <div class="form">
-              <label for="password">Senha</label>
-              <input id="password" type="password" class="input-login" />
+              <label for="user-password-label">Senha</label>
+              <input id="user-password" type="password" class="input-login" />
               <p class="sub-login">Esqueceu a conta?</p>
             </div>
             <div class="form">
@@ -79,20 +79,27 @@
                 placeholder="Celular ou email"
               />
             </div>
+            <div class="data-mail-phone">
+              <input
+                class="data-input email-input"
+                placeholder="Nova senha"
+              />
+            </div>
             <div class="birthday-container">
+              <p class="input-text">Data de nascimento</p>
               <input class="birthday data-input" type="text"
               placeholder="dd/mm/aaaa"
               />
             </div>
             <div class="gender-container">
-              <p class="gender-text">Gênero</p>
+              <p class="input-text">Gênero</p>
               <div class="gender-options">
                 <input type="radio" id="male" name="gender"/>
-                <label for="male">Masculino</label>
+                <label for="male" class="gender">Masculino</label>
                 <input type="radio" id="female" name="gender"/>
-                <label for="female">Feminino</label>
-                <input type="radio" id="other" name="gender"/>
-                <label for="other">Outro</label>
+                <label for="female" class="gender">Feminino</label>
+                <input type="radio" id="personalized" name="gender"/>
+                <label for="personalized" class="gender">Personalizado</label>
               </div>
             </div>
           </div>
