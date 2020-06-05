@@ -2,41 +2,45 @@
 <html lang="en">
 
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
- <link rel="stylesheet" href="/style.css">
- <script src="/script.js" defer></script>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
 </head>
 
 <body>
- <header class="top-bar">
-  <section class="nav">
-   <section class="facebook-logo">
-    <a href="">
-     <img src="/imagens/facebook-logo.png" alt="facebook-logo" width="180px">
-    </a>
-   </section>
-   <section class="login-container">
-    <section class="login-box">
-     <label id="user-email-phone-label" for="">
-      <h4 class="h4">E-mail ou Celular</h4>
-     </label>
-     <input class="input-login" type="text" id="user-email-phone">
+  <!-- header com fundo azul -->
+  <header class="top-bar">
+    <!-- nav contendo logo e login box -->
+    <section class="nav">
+      <!-- facebook logo  -->
+      <section class="facebook-logo">
+        <a href="">
+          <img src="/imagens/facebook-logo.png" alt="facebook-logo" width="180px">
+        </a>
+      </section>
+      <!-- container login - inputs, button e link recuperação de senha -->
+      <section class="login-container">
+        <!-- label e input email -->
+        <section class="login-box">
+          <label id="user-email-phone-label" for=""> Email ou telefone</label>
+          <input id="user-email-phone" type="text" class="input-login">
+        </section>
+        <!-- label e input senha -->
+        <section class="login-box">
+          <label id="user-password-label" class="password-label" for="">Senha</label>
+          <input id="user-password" type="password" class="input-login">
+          <!-- link recuperação de senha -->
+          <a href="#" class="forgot-password">Esqueceu sua senha?</a>
+        </section>
+        <!-- botão entrar -->
+        <button class="button-login" id="button-login">Entrar</button>
+      </section>
     </section>
-    <section class="login-box">
-     <label class="password-label" for="">
-      <h4 class="h4">Senha</h4>
-     </label>
-     <input class="input-login" type="password" class="password-input">
-   <a href="#" class="forgot-password">Esqueceu sua senha?</a>
     </section>
-   <button class="button-login" id="button-login">Entrar</button>
-   </section>
-  </section>
-  </section>
- </header>
+  </header>
 </body>
 
 </html>
