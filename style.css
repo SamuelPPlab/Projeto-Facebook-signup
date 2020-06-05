@@ -194,6 +194,14 @@ ul {
   padding-left: 10px;
 }
 
+.foot2 li {
+  color: rgb(56, 88, 152);
+  cursor: pointer;
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
 .foot-line li:first-child {
   color: rgb(115, 115, 115);
   padding-left: 0;
@@ -208,14 +216,6 @@ ul {
   margin-left: -20px;
   padding: 0;
   width: 1000px;
-}
-
-.foot2 li {
-  color: rgb(56, 88, 152);
-  cursor: pointer;
-  display: inline-block;
-  list-style-type: none;
-  padding-left: 20px;
 }
 
 .foot3 {
