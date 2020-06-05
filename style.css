@@ -20,11 +20,12 @@ body {
 }
 
 .fundo {
-  background-color: rgb(233, 235, 238);
+  background-color: linear-gradient(white, #d3d8e8);
   color: rgb(28, 30, 33);
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 16.083px;
+  min-width: 980px;
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -71,8 +72,24 @@ input {
 }
 
 .login-content {
+  align-content: center;
+  border: 1px solid;
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
-  width: 50%;
+  justify-content: center;
+  width: 30%;
+}
+
+.button {
+  background: none;
+  border: 1px solid #1d2a5b;
+  color: white;
+  cursor: pointer;
+  display: inline block;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+#create-account {
+ width: 80%;
 }
