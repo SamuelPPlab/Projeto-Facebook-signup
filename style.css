@@ -1,42 +1,44 @@
-* {
-  padding: 0;
-  margin: 0;
+body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
+  margin: 0;
+  padding: 0;
 }
-/*----------------------------------------CONTAINER*/
+
+/* ----------------------------------------CONTAINER */
 .container1 {
   display: flex;
   flex-direction: column;
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
 }
 
 .center {
-  width: 75%;
+  display: flex;
+  flex-direction: row;
   margin: 0 auto;
-  display: flex;
-  flex-direction: row;
+  width: 1000px;
 }
-/*----------------------------------------CABEÇALHO*/
+
+/* ----------------------------------------CABEÇALHO */
 .top-bar {
-  display: flex;
-  flex-direction: row;
   background-color: rgb(59, 89, 152);
   background-image: linear-gradient(#4e69a2, #3b5998 50%);
-  height: 95px;
   border-bottom: 1px solid #133783;
+  display: flex;
+  flex-direction: row;
+  height: 95px;
 }
 
 .logo-div {
-  width: 60%;
   display: flex;
+  width: 60%;
 }
 
 .facebook-logo {
-  width: 170px;
   height: 45px;
   margin-top: 4%;
+  width: 170px;
 }
 
 .login-content {
@@ -49,24 +51,24 @@
   margin: auto 5px;
 }
 
-#button-login {
-  line-height: 22px;
+.button-login {
   background-color: #4267b2;
-  color: white;
-  padding: 0 5px;
   border: 1px solid darkslategray;
+  color: white;
+  line-height: 22px;
+  padding: 0 5px;
 }
 
 .input-login {
-  line-height: 22px;
   background-color: #e8f0fe;
   border: 1px solid black;
+  line-height: 22px;
 }
 
 .sub-login {
   color: #869fc9;
-  padding: 5px 0 0 0;
   font-size: 0.9em;
+  padding: 5px 0 0;
 }
 
 .hidden {
@@ -74,8 +76,8 @@
 }
 
 label {
-  display: block;
   color: white;
+  display: block;
   font-weight: 500;
   padding: 5px 0;
 }
@@ -83,71 +85,70 @@ label {
 figure {
   display: flex;
 }
-/*----------------------------------------MAIN CONTENT*/
+
+/* ----------------------------------------MAIN CONTENT */
 .main-content {
   background-image: linear-gradient(white, rgb(194, 208, 229));
   display: flex;
   flex-direction: row;
-  width: 100%;
   height: 700px;
+  width: 100%;
 }
 
-.center {
-  width: 1000px;
-}
-/*----------------------------------------MSG CONTENT*/
-#message-content {
-  width: 55%;
-  height: 100%;
+/* ----------------------------------------MSG CONTENT */
+.message-content {
   background-size: contain;
+  height: 100%;
+  width: 55%;
 }
 
-#message-content h1 {
-  flex-wrap: wrap;
-  margin-top: 40px;
-  width: 60%;
+.message-content-h1 {
   color: rgb(14, 56, 95);
-  font-size: 20px;
+  flex-wrap: wrap;
   font-weight: 700;
+  font-size: 20px;
   line-height: 29px;
+  margin-top: 40px;
   width: 450px;
   word-spacing: -1px;
 }
-/*----------------------------------------FORM CONTENT*/
-#form-content {
-  width: 40%;
+
+/* ----------------------------------------FORM CONTENT */
+.form-content {
   height: 100%;
   margin-left: 20px;
+  width: 40%;
 }
 
-h1.form-title {
+.form-title {
   font-size: 38px;
   padding: 25px 0 0;
 }
 
-h2.form-subtitle {
+.form-subtitle {
+  color: #333;
   font-size: 20px;
-  color: #333333;
-  padding: 10px 0 20px;
   font-weight: 100;
+  padding: 10px 0 20px;
 }
 
 .data-input {
   background-color: white;
-  color: lightslategray;
-  padding-left: 8px;
-  font-size: 18px;
-  line-height: 38px;
   border: 1px solid rgb(197, 198, 204);
   border-radius: 5px;
-  margin: 0 8px 10px 0px;
+  color: lightslategray;
+  font-size: 18px;
+  line-height: 38px;
+  margin: 0 8px 10px 0;
+  padding-left: 8px;
 }
 
-.firstname-input,
+.firstname-input , 
 .lastname-input {
   width: 180px;
 }
 
-.email-input {
+.email-input , 
+.birthday {
   width: 380px;
 }
