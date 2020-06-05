@@ -4,7 +4,7 @@
   color: white;
   display: flex;
   flex-direction: row;
-  font-size: 10pt;
+  font-size: 11pt;
   font-weight: 700;
   height: 110px;
   justify-content: space-around;
@@ -37,7 +37,38 @@ label {
   display: block;
 }
 
-small {
+.top-bar small {
   color: lightgray;
   display: block;
+}
+
+body {
+  font-family: Helvetica;
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(233, 235, 238);
+  margin: 0;
+  display: flex;
+}
+
+.lado-esquerdo {
+  width: 50%;
+  padding-left: 20%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.lado-direito {
+  width: 50%;
+  padding-right: 15%;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.gender {
+  display: flex;
+  flex-direction: row;
 }

@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Helvetica' rel='stylesheet'>
   <title>Projeto - Página Inicial do Facebook</title>
 </head>
 
@@ -30,9 +31,43 @@
     </div>
   </header>
 
-  <section class="container"></section>
+  <section class="container">
+    <div class="lado-esquerdo">
+      <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
+      <img src="networking.png" id="facebook-networking">
+    </div>
+    <div class="lado-direito">
+      <h1>Abra uma conta</h1>
+      <h2>É rápido e fácil.</h2>
+      <form>
+        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="Sobrenome">
+        <input type="text" placeholder="Celular ou email" style="width: 367px;">
+        <input type="text" placeholder="Nova senha" style="width: 367px;">
+
+        <br><br>
+        <label for="nascimento">Data de nascimento:</label>
+        <input type="date" id="nascimento" name="nascimento">
+
+        <br>Gênero<br>
+        <div class="gender">
+        <input type="radio" id="feminino" name="genero" value="feminino">
+        <label for="feminino">Feminino</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="personalizado" name="genero" value="personalizado">
+        <label for="personalizado">Personalizado</label>
+        </div>
+        <br>
+        <small>Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados, e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</small>
+        <button type="submit" id="facebook-register">Cadastre-se</button>
+      </form>
+    </div>
+  </section>
+
   <footer></footer>
 
 </body>
 <script type="text/javascript" src="script.js"></script>
+
 </html>
