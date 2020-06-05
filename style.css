@@ -54,8 +54,10 @@ body {
 .button-login {
   background-color: #4267b2;
   border: 1px solid darkslategray;
+  border-radius: 2px;
   color: white;
-  line-height: 22px;
+  font-weight: 600;
+  line-height: 25px;
   padding: 0 5px;
 }
 
@@ -123,14 +125,15 @@ figure {
 
 .form-title {
   font-size: 38px;
-  padding: 25px 0 0;
+  padding: 2px 0 0;
+  margin: 20px 0;
 }
 
 .form-subtitle {
   color: #333;
   font-size: 20px;
   font-weight: 100;
-  padding: 10px 0 20px;
+  padding: 0 0 5px;
 }
 
 .data-input {
@@ -172,4 +175,49 @@ figure {
   line-height: 18px;
   padding: 0 10px 0 3px;
   vertical-align: middle;
+}
+
+.send-button {
+  background-color: rgb(105, 167, 78);
+  background-image: linear-gradient( rgb(103, 174, 85), rgb(87, 136, 67));
+  border-bottom-color: rgb(44, 81, 21);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 0.8px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(59, 110, 34);
+  border-left-style: solid;
+  border-left-width: 0.8px;
+  border-right-color: rgb(59, 110, 34);
+  border-right-style: solid;
+  border-right-width: 0.8px;
+  border-top-color: rgb(59, 110, 34);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-style: solid;
+  border-top-width: 0.8px;
+  box-shadow: rgb(164, 227, 136) 0px 1px 1px 0px inset;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: "Freight Sans Bold", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 23.93px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  min-width: 194px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
 }

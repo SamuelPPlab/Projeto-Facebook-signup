@@ -61,47 +61,53 @@
               </h1>
               <h2 class="form-subtitle">É rápido e fácil.</h2>
             </div>
-            <div class="name">
-              <input
-                type="text"
-                placeholder="Nome"
-                class="firstname-input data-input"
-              />
-              <input
-                type="text"
-                placeholder="Sobrenome"
-                class="lastname-input data-input"
-              />
-            </div>
-            <div class="data-mail-phone">
-              <input
-                class="data-input email-input"
-                placeholder="Celular ou email"
-              />
-            </div>
-            <div class="data-mail-phone">
-              <input
-                class="data-input email-input"
-                placeholder="Nova senha"
-              />
-            </div>
-            <div class="birthday-container">
-              <p class="input-text">Data de nascimento</p>
-              <input class="birthday data-input" type="text"
-              placeholder="dd/mm/aaaa"
-              />
-            </div>
-            <div class="gender-container">
-              <p class="input-text">Gênero</p>
-              <div class="gender-options">
-                <input type="radio" id="male" name="gender"/>
-                <label for="male" class="gender">Masculino</label>
-                <input type="radio" id="female" name="gender"/>
-                <label for="female" class="gender">Feminino</label>
-                <input type="radio" id="personalized" name="gender"/>
-                <label for="personalized" class="gender">Personalizado</label>
+            <form>
+              <div class="name">
+                <input
+                  type="text"
+                  placeholder="Nome"
+                  class="firstname-input data-input"
+                />
+                <input
+                  type="text"
+                  placeholder="Sobrenome"
+                  class="lastname-input data-input"
+                />
               </div>
-            </div>
+              <div class="data-mail-phone">
+                <input
+                  class="data-input email-input"
+                  placeholder="Celular ou email"
+                />
+              </div>
+              <div class="data-mail-phone">
+                <input 
+                  type="text"
+                  class="data-input email-input"
+                  placeholder="Nova senha"
+                />
+              </div>
+              <div class="birthday-container">
+                <p class="input-text">Data de nascimento</p>
+                <input class="birthday data-input" type="text"
+                placeholder="dd/mm/aaaa"
+                />
+              </div>
+              <div class="gender-container">
+                <p class="input-text">Gênero</p>
+                <div class="gender-options">
+                  <input type="radio" id="female" name="gender" checked/>
+                  <label for="female" class="gender">Feminino</label>
+                  <input type="radio" id="male" name="gender"/>
+                  <label for="male" class="gender">Masculino</label>
+                  <input type="radio" id="personalized" name="gender"/>
+                  <label for="personalized" class="gender">Personalizado</label>
+                </div>
+              </div>
+              <div class="register-container">
+                <button type="button" id="facebook-register" class="send-button">Cadastre-se</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
