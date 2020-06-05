@@ -45,12 +45,14 @@ body {
   padding-top: 5%;
   width: 50%;
 }
+
 /* .logEsq {
   display: flex;
   justify-content: center;
   width: 50%;
 } */
-/*.formDir {
+
+/* .formDir {
   align-items: flex-end;
   display: flex;
   flex-direction: row;
