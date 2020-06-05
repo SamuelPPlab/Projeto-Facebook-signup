@@ -1,7 +1,6 @@
 @font-face {
   font-family: FaceBook, sans-serif;
-  src: url('/fonts/facebook-letter-faces.ttf#iefix') format('embedded-opentype'),
-  url('/fonts/facebook-letter-faces.ttf') format('ttf');
+  src: url('/fonts/facebook-letter-faces.ttf#iefix') , url('/fonts/facebook-letter-faces.eot');
 }
 
 body {
