@@ -78,22 +78,58 @@ h1 {
   padding: 0;
 }
 
-.nome {
-  height: 30px;
-  margin-right: 3px;
-  padding: 0;
-  width: 42%;
+.nomeSobrenome {
+  display: flex;
 }
 
-.sobrenome {
+.nome {
+  border-color: rgb(235, 235, 235);
   border-radius: 5px;
   height: 30px;
   margin-bottom: 5px;
-  width: 42%;
+  margin-right: 2%;
+  padding: 0;
+  width: 49%;
+}
+
+.sobrenome {
+  border-color: rgb(235, 235, 235);
+  border-radius: 5px;
+  height: 30px;
+  margin-bottom: 5px;
+  width: 49%;
 }
 
 .celularEmail {
+  border-color: rgb(235, 235, 235);
   border-radius: 5px;
   height: 30px;
-  width: 85%;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.novaSenha {
+  border-color: rgb(235, 235, 235);
+  border-radius: 5px;
+  height: 30px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.dataNascimento {
+  border-color: rgb(235, 235, 235);
+}
+
+.texto {
+  color: gray;
+  margin-bottom: 2px;
+}
+
+.facebook-register {
+  background-color: #69a74e;
+  border-radius: 5px;
+  color: white;
+  height: 30px;
+  margin-top: 30px;
+  width: 140px;
 }
