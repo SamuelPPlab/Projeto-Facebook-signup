@@ -35,12 +35,13 @@ article {
 }
 
 .left {
+  margin: 5px;
   width: 50%;
-  margin: 5px;
 }
+
 .right {
-  margin: 5px;
   line-height: 2.0em;
+  margin: 5px;
   width: 480px;
 }
 
