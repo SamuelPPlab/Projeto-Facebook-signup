@@ -48,8 +48,8 @@ body {
 }
 
 .inputField .inputs {
-  padding: 5px 5px;
   max-width: 148px;
+  padding: 5px 5px;
 }
 
 .btn-login {
@@ -69,9 +69,9 @@ body {
   background-image: linear-gradient(white, #d3d8e8);
   display: flex;
   justify-content: space-between;
+  padding-bottom: 16px;
   padding-left: 181px;
   padding-right: 181px;
-  padding-bottom: 16px;
 }
 
 .imagem {
@@ -89,12 +89,12 @@ body {
   width: 42%;
 }
 
-.formulario-login{
+.formulario-login {
   display: none;
 }
 
 .form-input {
-  border: 1px solid lightgray; 
+  border: 1px solid lightgray;
   border-radius: 5px;
   font-size: 22px;
   padding: 8px;
