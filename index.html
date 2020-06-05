@@ -25,7 +25,9 @@
       <section class="login-container">
         <!-- label e input email -->
         <section class="login-box">
-          <label id="user-email-phone-label" for=""><h4>Email ou telefone</h4></label>
+          <label id="user-email-phone-label" for="">
+            <h4>Email ou telefone</h4>
+          </label>
           <input id="user-email-phone" type="text" class="input-login">
         </section>
         <!-- label e input senha -->
@@ -41,13 +43,51 @@
     </section>
     </section>
   </header>
-
-  <section class="left-side">
-    <h1>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h1>
-    <img src="/imagens/networking.png" alt="networking-facebook">
-  </section>
-  <section class="right-side">
-
+  <!-- container dividido em duas colunas -->
+  <section class="container-col">
+    <section class="left-side">
+      <h1>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h1>
+      <img id="facebook-networking" src="/imagens/networking.png" alt="networking-facebook">
+    </section>
+    <section class="right-side">
+      <h1>Abra uma conta.</h1>
+      <span>É rápido e fácil.</span>
+      <form class="register-container" action="">
+        <section class="container-name">
+          <label for="new-name">
+            <input type="text" placeholder="Nome" id="new-name" class="new-name">
+          </label>
+          <label for="new-lastName">
+            <input type="text" placeholder="Sobrenome" id="new-lastName" class="new-lastName">
+          </label>
+        </section>
+        <label for="new-phone-email">
+          <input type="text" placeholder="Celular ou email" id="new-phone-email" class="new-phone-email">
+        </label>
+        <label for="new-password">
+          <input type="password" placeholder="Nova Senha" id="new-password" class="new-password">
+        </label>
+        <label for="new-birth">
+          <span>Data de nascimento</span>
+          <input type="date" placeholder="dd/mm/aaaa" id="new-birth" class="new-birth">
+        </label>
+        <span>Gênero</span>
+        <section class="gender-type">
+          <input type="radio" id="gender" class="gender-f">
+          <label for="gender">Feminino</label>
+          <input type="radio" id="gender" class="gender-m">
+          <label for="gender">Masculino</label>
+          <input type="radio" id="gender" class="gender-p">
+          <label for="gender">Personalizado</label>
+        </section>
+        <button type="submit" class="btn-register">Cadastre-se</button>
+        <span class="create-page-text"><a href="">Criar uma Página</a> para uma celebridade, banda ou empresa</span>
+      </form>
+      <span class="politician">
+        Ao clicar em Cadastre-se, você concorda com nossos <a href="">Termos</a>, <a href="">Política de Dados</a> e <a
+          href="">Política de Cookies.</a> Você pode receber notificações por SMS e pode cancelar isso quando quiser.
+      </span>
+    </section>
   </section>
 </body>
 

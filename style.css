@@ -29,11 +29,11 @@ body {
 .login-container {
   align-content: center;
   display: flex;
-  margin-bottom: 7px;
+  margin-bottom: 15px;
   padding: 3px 3px 4px;
   width: 330px;
+  align-items: baseline;
 }
-
 
 .login-box {
   font-size: 12px;
@@ -48,8 +48,8 @@ body {
   color: white;
   display: flex;
   height: 23px;
-  margin-left: -10px;
-  margin-top: 18px;
+  margin-left: -4px;
+  margin-top: 32px;
 }
 
 .input-login {
@@ -67,5 +67,107 @@ body {
   display: flex;
   margin-bottom: -6px;
   margin-top: 2px;
+  text-decoration: none;
+}
+
+.container-col {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-side {
+  color: #0e385f;
+  display: flex;
+  flex-direction: column;
+  margin-left: 128px;
+  width: 40%;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 146px;
+  width: 40%;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.register-container input {
+  border-color: #c6cedc;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 0.5px;
+  color: #999;
+  font-size: 16px;
+  height: 37px;
+  margin: 3px 0;
+  width: 100%;
+}
+
+.container-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gender-type {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gender-type input {
+  margin: 0 17px;
+}
+
+.btn-register {
+  height: 59px;
+  width: 400px;
+}
+
+.btn-text {
+  margin-left: 20px;
+}
+
+.btn-register {
+  background: linear-gradient(#67ae55, #578843);
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px #a4e388;
+  color: white;
+  font-size: 19px;
+  height: 39px;
+  margin: 10px 0;
+  width: 194px;
+}
+
+.create-page-text {
+  color: #666;
+  font-size: 12px;
+  font-weight: 550;
+  margin: 13px 0 0;
+  padding: 12px 0 0 3px;
+}
+
+.create-page-text a {
+  color: #385898;
+  text-decoration: none;
+}
+
+.politician {
+  color: #7f7782;
+  font-size: 11px;
+  margin-left: 3px;
+  width: 325px;
+  padding: 18px 0;
+}
+
+.politician a {
+  color: #385897;
   text-decoration: none;
 }
