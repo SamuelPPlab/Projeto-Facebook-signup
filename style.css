@@ -122,21 +122,19 @@ spam {
 .btn-submit {
   background: #479152;
   border-radius: 4px;
-  border-top: 1px solid #257833;
-  box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
-  color: #ffffff;
-  font-family: Helvetica, Arial, Sans-Serif;
+  border-top: 1px solid #257833;  
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
   padding: 8.5px 17px;
-  text-decoration: none;
-  text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+  text-decoration: none;  
   vertical-align: middle;
 }
 
 .btn-submit:hover {
   background: #277d35;
   border-top-color: #277d35;
-  color: #ffffff;
+  color: white;
 }
 
 .btn-submit:active {
