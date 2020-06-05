@@ -4,19 +4,11 @@ body {
   padding: 0;
 }
 
-.conectar , .login-mobile , .login-mobile-button {
+.hide-on-pc {
   display: none;
 }
 
-.login-mobile-division , .mobile-cadastre {
-  display: none;
-}
-
-.mobile-forgot , .mobile-langs , .mobile-face-inc {
-  display: none;
-}
-
-.papa-div {
+.pappa-div {
   align-items: center;
   display: flex;
   justify-content: space-between;
