@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" media="(max-width: 376px)" href="mobilestyle.css">
+    <link rel="stylesheet" media="(min-width: 376.01px)" href="style.css" />
+    <title>Facebook</title>
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="papa-div">
+        <img src="facebook-logo.png" class="facebook-logo" />
+        <div class="login-container">
+          <table cellspacing="0">
+            <tr>
+              <td>
+                <label for="user-mail-phone">Email ou telefone</label>
+              </td>
+              <td>
+                <label for="user-password">Senha</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" id="user-email-phone" />
+              </td>
+              <td>
+                <input id="user-password" type="password" />
+              </td>
+              <td>
+                <button class="botao-login" id="button-login" type="button">
+                  Entrar
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="esqueceu-conta">Esqueceu a conta?</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </header>
+    <article class="body-container">
+      <div class="left-column">
+        <p>
+          O Facebook ajuda você a se conectar e compartilhar com as pessoas que
+          fazem parte da sua vida.
+        </p>
+        <img
+          class="networking"
+          id="facebook-networking"
+          src="networking.png"
+          alt="People networking."
+        />
+      </div>
+      <div class="right-column">
+        <h1>Abra uma conta</h1>
+        <h2>É rápido e fácil.</h2>
+        <div class="nome-sobrenome">
+          <input class="Nome input" type="text" placeholder="Nome" />
+          <input class="Nome input" type="text" placeholder="Sobrenome" />
+        </div>
+        <input class="input" type="text" placeholder="Celular ou email" />
+        <input class="input" type="password" placeholder="Nova senha" />
+        <label class="label" for="Data">Data de nascimento</label>
+        <div>
+          <input
+            class="input Nome"
+            id="Data"
+            type="text"
+            placeholder="dd/mm/aaaa"
+          />
+          <img class="question" src="question.png" alt="Interrogação" />
+        </div>
+        <label class="label genero">Gênero</label>
+        <div class="genero-container">
+          <label for="Feminino">
+            <input id="Feminino" type="radio" name="Genero" value="Feminino" />
+            Feminino
+          </label>
+          <label for="Masculino">
+            <input
+              id="Masculino"
+              type="radio"
+              name="Genero"
+              value="Masculino"
+            />
+            Masculino
+          </label>
+          <label for="Personalizado">
+            <input
+              id="Personalizado"
+              type="radio"
+              name="Genero"
+              value="Personalizado"
+            />
+            Personalizado
+          </label>
+        </div>
+        <img class="question" src="question.png" alt="Interrogação" />
+        <p class="termos">
+          Ao clicar em Cadastre-se, você concorda com nossos
+          <span class="blue">Termos</span>,
+          <span class="blue">Política de Dados</span> e
+          <span class="blue">Política de Cookies</span>. Você pode receber
+          notificações por SMS e pode cancelar isso quando quiser.
+        </p>
+        <button class="cadastre-se" id="facebook-register">Cadastre-se</button>
+        <p class="criar-pagina">
+          <span class="blue">Criar uma página</span> para uma celebridade, banda
+          ou empresa.
+        </p>
+      </div>
+    </article>
+    <script src="script.js"></script>
+  </body>
+</html>
