@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook-entre ou cadastre-se</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Facebook - entre ou cadastre-se</title>
+    <link rel="stylesheet" media="(min-width: 1232px)" href="style.css">
+    <link rel="stylesheet" media="(max-width: 1232px)" href="style-mobile.css">
     <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
     <script src = "/libs/jquery-1.10.2.js"></script>
     <script src = "/libs/jquery-ui.js"></script>
@@ -34,9 +35,9 @@
     <section class="main">
         <div class="imagem">
             <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
-            <img src="img/networking.png"  id="facebook-networking" alt="Mapa do mundo">
+            <img src="img/networking.png" class="facebook-networking"  id="facebook-networking" alt="Mapa do mundo">
         </div>
-        <form class="formulario"  action="">
+        <form class="formulario-cadastro"  action="">
             <div class="main-form-inputs">
                 <h1 class="title">Abra uma conta</h1>
                 <h2>É rápido e fácil.</h2>
@@ -68,6 +69,19 @@
                 <button class="btn-cadastrar" id="facebook-register">Cadastre-se</button>
             </div>
         </form>
+
+        <form class="formulario-login" action="">
+          <div class="input-large main-form-inputs">
+            <input type="text" class="main-form-inputs form-input" placeholder="Celular ou email">
+            <input type="password" class="form-input" placeholder="Nova senha">
+          </div>        
+          <div class="login-form-submit">
+              <button class="btn-login">Entrar</button>
+              <hr/>
+              <button class="btn-cadastrar">Criar nova conta</button>
+              <p><a class="forget-pass" href="#">Esqueceu a senha?</a></p>
+          </div>
+      </form>
     </section>
 
     <footer class="footer">

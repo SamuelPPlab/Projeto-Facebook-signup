@@ -1,0 +1,213 @@
+@font-face {
+  font-family: FaceBook;
+  src: url(/fonts/facebook-letter-faces.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background-image: linear-gradient(#4e69a2, #3b5998);
+  color: white;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.navBar {
+  align-items: center;
+  display: flex;
+  height: 83px;
+  justify-content: space-between;
+}
+
+.facebook-logo {
+  width: 50%;
+}
+
+.navBar .facebook-logo {
+  font-family: FaceBook;
+  font-size: 28px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.login {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.btn-login {
+  background-color: #3b5998;
+  border: 1px solid #182d5c;
+  border-radius: 3px;
+  color: white;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+}
+
+.inputField .inputs {
+  padding: 5px 5px;
+  max-width: 148px;
+}
+
+.btn-login-field {
+  padding-left: 12px;
+}
+
+.main {
+  background-image: linear-gradient(white, #d3d8e8);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.imagem {
+  width: 50%;
+}
+
+.formulario-login{
+  display: none;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 820px) {
+  .facebook-networking {
+    width: 100%;
+  }
+}
+
+.formulario-cadastro {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+}
+
+@media only screen and (max-width: 820px) {
+  .imagem {
+    display: none;
+  }
+  .formulario-cadastro {
+    width: 100%;
+  }
+}
+
+.btn-cadastrar {
+  background-image: linear-gradient(#67ae55, #578843);
+  border-color: #3b6e22;
+  box-shadow: inset 0 1px 1px #a4e388;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 16px;
+  padding: 8px 32px;
+}
+
+@media only screen and (max-width: 715px) {
+
+  .navBar {
+    height: 64px;
+  }
+
+  .facebook-logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .main {
+    align-items: flex-start;
+    height: calc(100vh - 136px - 64px);
+  }
+
+  .btn-login, .login-form-submit {
+    width: 100%;
+  }
+
+  .login, .formulario-cadastro{
+    display: none;
+  }
+
+  .btn-login {
+    background-color:  rgb(22, 112, 235);
+    border: 1px solid rgb(22, 112, 235);
+    padding: 10px;
+  }
+
+  .formulario-login{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .btn-cadastrar {
+    background-color: #488d26;
+    background-image: none;
+    border-width: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 16px;
+    margin-top: 16px;
+    padding: 8px 32px;
+  }
+}
+
+.interrogacao {
+  height: 16px;
+  width: 16px;
+}
+
+.form-input {
+  border: 1px solid lightgray; 
+  border-radius: 5px;
+  font-size: 22px;
+  padding: 8px;
+}
+
+.input-double .form-input {
+  width: 43%;
+}
+
+.input-double {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-large {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main-form-inputs {
+  margin-bottom: 16px;
+}
+
+.main-form-submit {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: lightgrey;
+  height: 136px;
+}
+
+.forget-pass {
+  text-decoration: none;
+  color: #3b5998;
+}
