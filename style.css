@@ -13,6 +13,19 @@
   width: 980px;
 }
 
+.button-login {
+  background-color: rgb(66, 103, 178);
+  border: 1px solid;
+  border-color: rgb(41, 72, 125);
+  border-radius: 2px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 2px 6px;
+  text-align: center;
+}
+
 .space-column td {
   padding-right: 10px;
 }
@@ -119,4 +132,26 @@ section p {
   font-size: 18px;
   line-height: 18px;
   padding: 5px 0 5px 4px;
+}
+
+.terms-text {
+  color: rgb(121, 119, 119);
+  font-size: 11px;
+  margin: 20px 0;
+  width: 316px;
+}
+
+.signup {
+  background: linear-gradient(rgb(121, 188, 100), rgb(87, 136, 67));
+  border: 1px solid;
+  border-color: rgb(59, 110, 34) rgb(59, 110, 34) rgb(44, 81, 21);
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgb(164, 227, 136);
+  color: white;
+  font-family: "Freight Sans Bold", Helvetica, Arial, sans-serif !important;
+  font-size: 19px;
+  font-weight: 700 !important;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
