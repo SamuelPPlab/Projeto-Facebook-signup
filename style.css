@@ -4,6 +4,18 @@ body {
   padding: 0;
 }
 
+.conectar , .login-mobile , .login-mobile-button {
+  display: none;
+}
+
+.login-mobile-division , .mobile-cadastre {
+  display: none;
+}
+
+.mobile-forgot , .mobile-langs , .mobile-face-inc {
+  display: none;
+}
+
 .papa-div {
   align-items: center;
   display: flex;
@@ -95,9 +107,11 @@ td input {
 
 .body-container {
   background: linear-gradient(white, rgb(211, 216, 232));
+  background-size: 150%;
   display: flex;
   justify-content: center;
   padding-top: 84px;
+  width: 100%;
 }
 
 .right-column {
@@ -123,8 +137,8 @@ h2 {
 
 .input {
   background-color: white;
-  border-radius: 5px;
   border: 1px solid rgb(189, 199, 216);
+  border-radius: 5px;
   font-size: 18px;
   height: 18px;
   margin: 0 0 10px;
@@ -191,8 +205,8 @@ h2 {
 
 .cadastre-se {
   background: linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
-  border-radius: 5px;
   border: 1px solid rgb(59, 110, 34);
+  border-radius: 5px;
   box-shadow: inset 0 1px 1px rgb(164, 227, 136);
   color: white;
   cursor: pointer;
@@ -218,10 +232,12 @@ h2 {
   margin-top: 10px;
   padding-top: 25px;
 }
+
 .blue {
   color: blue;
   cursor: pointer;
 }
+
 .blue:hover {
   text-decoration: underline;
 }
