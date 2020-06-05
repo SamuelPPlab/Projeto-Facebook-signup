@@ -9,7 +9,7 @@
     <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
     <script src = "/libs/jquery-1.10.2.js"></script>
     <script src = "/libs/jquery-ui.js"></script>
-    <script src = "/libs/datepicker.js"></script>
+    <script src = "script.js"></script>
 </head>
 <body>
     <header class="top-bar">
@@ -49,12 +49,12 @@
             <div class="input-large main-form-inputs">
                 <input type="text" class="main-form-inputs form-input" placeholder="Celular ou email">
                 <input type="password" class="form-input" placeholder="Nova senha">
-                <p>Data de nascimento</p>
+                <p class="texto" font-weight="bold">Data de nascimento</p>
             </div>
             <div class="main-form-inputs">
                 <input type="text" id="date-picker" class="form-input" placeholder="dd/mm/aaaa">
                 <img src="img/interrogacao.png" alt="Ask image" class="interrogacao">
-                <p>Gênero</p>
+                <p class="texto" font-weight="bold">Gênero</p>
             </div>
             <div class="main-form-inputs">
                 <label for="fem"><input type="radio" name="Feminino" value="Feminino" id="fem" checked>Feminino</label>
@@ -64,7 +64,7 @@
             </div>
             <div class="main-form-submit">
                 <small>
-                    Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.
+                    Ao clicar em Cadastre-se, você concorda com nossos <a href="/legal/terms/update" class="terms-link" target="_blank">Termos</a> , <a href="/about/privacy/update" class="terms-link" target="_blank">Política de Dados</a> e <a href="/policies/cookies/" class="terms-link" target="_blank">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.
                 </small>
                 <button class="btn-cadastrar" id="facebook-register">Cadastre-se</button>
             </div>
