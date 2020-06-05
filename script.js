@@ -1,1 +1,1 @@
-//so pra commit
+validation.init();
