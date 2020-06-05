@@ -12,23 +12,31 @@
 </head>
 <body>
   <header class="top-bar">
+    <div class="top-content">
     <img class="facebook-logo" src="logo.png">
-    <div class="field">
-      <label for="user-email-phone" class="label" id="user-email-phone-label">Email ou telefone</label>
-      <div class="control"></div>
-        <input id="user-email-phone" type="text">
+    <div class="login-content">
+      <div class="field">
+        <label for="user-email-phone" class="fb-label label" id="user-email-phone-label">Email ou telefone</label>
+        <div class="control"></div>
+          <input id="user-email-phone" class="inputtext login" type="text">
+        </div>
       </div>
-    </div>
-    <div class="field">
-      <label for="password" id="password-label">Senha</label>
+      <div class="field">
+        <label for="password" id="password-label" class="fb-label label">Senha</label>
+        <div class="control">
+          <input id="password" class="inputtext login" type="password">
+        </div>
+      </div>
       <div class="control">
-        <input id="password" type="password">
+        <button id="button-login" class="button">Entrar</button>
       </div>
-    </div>
-    <div class="control">
-      <button id="button-login" class="button">Entrar</button>
+      <div>
+        <a href="#">Esqueceu a conta?</a>
+      </div>
+      </div>
     </div>
   </header>
+<div class="fundo">
   <div>
     <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
   </div>
@@ -63,6 +71,7 @@
       <button id="facebook-register">Cadastre-se</button>
     </div>
   </section>
+</div>
   <script src="libs/DatePickerX.min.js"></script>
   <script src="script.js"></script>
 </body>
