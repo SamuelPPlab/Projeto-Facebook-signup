@@ -6,4 +6,4 @@ login.addEventListener('click', function () {
     alert('enviarEmail');
   }
   alert('Preencha os seus dados');
-}); 
+});
