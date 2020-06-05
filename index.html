@@ -46,19 +46,21 @@
         <h1 class="create-text">Abra uma conta</h1>
         <p class="quick-text">É rápido e fácil.</p>
       </div>
-      <div>
-        <div id="user-name">
-          <input id="firstname" type="text" placeholder="Nome">
-          <input id="lastname" type="text" placeholder="Sobrenome">
+      <div class="create-new-user">
+        <div class="user-name">
+          <input class="inputtext new-user-input" id="firstname" type="text" placeholder="Nome">
+          <input class="inputtext new-user-input" id="lastname" type="text" placeholder="Sobrenome">
         </div>
-        <input id="user-contact" type="text" placeholder="Celular ou email">
-        <input id="user-password" type="password" placeholder="Nova senha">
+        <input class="inputtext new-user-input new-user-contact" id="user-contact" type="text" placeholder="Celular ou email">
+        <input class="inputtext new-user-input new-user-contact" id="user-password" type="password" placeholder="Nova senha">
         <div>
           <h2>Data de nascimento</h2>
-          <input id="birthdate" type="text" placeholder="dd/mm/aaaa">
+          <input class="inputtext" id="birthdate" type="text" placeholder="dd/mm/aaaa">
         </div>
-        <div>
-          <h2>Gênero</h2>
+        <div class="gender-container">
+          <div class="g-text-container">
+            <h2 class="g-text">Gênero</h2>
+          </div>
           <div class="control">
             <label class="radio" for="feminino">
               <input type="radio" name="gender" value="Feminino" id="feminino" required="required">
@@ -69,10 +71,14 @@
             <label class="radio" for="personalizado">
               <input type="radio" name="gender" value="Personalizado" id="personalizado">
               Personalizado</label>
-
+          </div>
+          <div class="letras-miudas-container">
+            <p class="letras-miudas">Ao clicar em cadastre-se, você concorda com nossos <a href="#">Termos, Política de dados e Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
           </div>
         </div>
-        <button id="facebook-register">Cadastre-se</button>
+        <div class="sign-up">
+          <button class="fb-register-button" id="facebook-register">Cadastre-se</button>
+        </div>
       </div>
     </section>
   </div>
