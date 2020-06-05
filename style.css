@@ -29,7 +29,6 @@ body {
   align-items: center;
 }
 
-
 .login-container {
   align-content: center;
   display: flex;
@@ -39,11 +38,10 @@ body {
 }
 
 .h4 {
- padding: 3px 0px;
+  padding: 3px 0;
 }
 
 .login-box {
-  font-size: small;
   font-weight: 100;
   font-size: 12px;
   width: 170px;
@@ -76,4 +74,4 @@ body {
   margin-bottom: -6px;
   margin-top: 2px;
   text-decoration: none;
-} 
+}
