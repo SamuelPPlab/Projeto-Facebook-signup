@@ -87,22 +87,22 @@ body {
   border-radius: 5px;
   color: white;
   cursor: pointer;
-  font: 19px 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+  font: 19px 'Freight Sans Bold', Helvetica, Arial, sans-serif;
   height: 39px;
   margin: 10px 0;
+  min-width: 194px;
   padding: 7px 20px;
   position: relative;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
-  min-width: 194px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .sign-up {
-  width: 400px;
   height: 59px;
+  width: 400px;
 }
 
-#create-account {
- width: 80%;
+.create-account {
+  width: 80%;
 }
 
 .reset-password {
@@ -117,8 +117,8 @@ body {
   height: 640px;
   margin-left: auto;
   margin-right: auto;
-  zoom: 1;
   width: 80%;
+  zoom: 1;
 }
 
 .img-connect {
@@ -126,6 +126,7 @@ body {
   height: 195px;
   width: 537px;
 }
+
 .fb-call {
   color: #0e385f;
   font-size: 20px;
@@ -143,7 +144,7 @@ body {
 }
 
 .create-text {
-  color: #333333;
+  color: #333;
   font: 36px Helvetica, Arial, sans-serif;
   font-weight: 600;
   margin: 0 0 5px;
@@ -168,7 +169,7 @@ body {
   width: 194px;
 }
 
-.new-user-contact{
+.new-user-contact {
   width: 399px;
 }
 
@@ -192,11 +193,11 @@ input {
 }
 
 .create-new-user {
-  flex-direction: column;
-  justify-content: space-between;
   border: 1px solid black;
-  width: 400px;
+  flex-direction: column;
   height: 423.83px;
+  justify-content: space-between;
+  width: 400px;
 }
 
 .gender-container {
@@ -214,10 +215,10 @@ input {
   font-family: inherit;
   font-size: 16px;
   font-weight: 700;
-  width: 400px;
   height: 21px;
   margin-bottom: 5px;
   margin-top: 10px;
+  width: 400px;
 }
 
 .letras-miudas-container {
