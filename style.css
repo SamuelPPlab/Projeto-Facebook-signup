@@ -1,6 +1,6 @@
 @font-face {
-  font-family: FaceBook;
-  src: url(/fonts/facebook-letter-faces.ttf);
+  font-family: FaceBook, sans-serif;
+  src: url('/fonts/facebook-letter-faces.ttf') format('ttf');
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 }
 
 .navBar .facebook-logo {
-  font-family: FaceBook;
+  font-family: FaceBook, sans-serif;
   font-size: 28px;
   font-weight: 300;
   margin: 0;
@@ -49,7 +49,7 @@ body {
 
 .inputField .inputs {
   max-width: 148px;
-  padding: 5px 5px;
+  padding: 5px;
 }
 
 .btn-login {

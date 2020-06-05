@@ -1,6 +1,6 @@
 @font-face {
   font-family: FaceBook, sans-serif;
-  src: url("/fonts/facebook-letter-faces.ttf");
+  src: url('/fonts/facebook-letter-faces.ttf') format('ttf');
 }
 
 body {
@@ -137,7 +137,7 @@ body {
     width: 100%;
   }
 
-  .login , .formulario-cadastro{
+  .login , .formulario-cadastro {
     display: none;
   }
 
