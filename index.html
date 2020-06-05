@@ -37,7 +37,7 @@
           </tr>
           <tr>
             <td></td>
-            <td>Esqueceu a conta?</td>
+            <td class="forget-pass">Esqueceu a conta?</td>
           </tr>
         </tbody>
       </table>
@@ -90,26 +90,81 @@
           Política de Dados e Política de Cookies. Você pode receber notificações
           por SMS e pode cancelar isso quando quiser.
         </p>
-        <button class="signup" id="facebook-register" >Cadastre-se</button>
+        <button class="signup" id="facebook-register">Cadastre-se</button>
     </div>
     </section>
   </div>
-  <script src="pikaday.js"></script>
-  <script>
-    var picker = new Pikaday({
-      field: document.getElementById('datepicker'),
-      format: 'DD/MM/YYYY',
-      toString(date, format) {
-        // you should do formatting based on the passed format,
-        // but we will just return 'D/M/YYYY' for simplicity
-        const day = date.getDate();
-        const month = date.getMonth() + 1;
-        const year = date.getFullYear();
-        return `${day}/${month}/${year}`;
-      }
-    });
-  </script>
+  <footer class="footer">
+    <div class="foot-container">
+      <div class="foot-line">
+        <ul>
+          <li>Português (Brasil)</li>
+          <li>English (US)</li>
+          <li>Español</li>
+          <li>Français (France)</li>
+          <li>Italiano</li>
+          <li>العربية</li>
+          <li>Deutsch</li>
+          <li>हिन्दी</li>
+          <li>中文(简体)</li>
+          <li>日本語</li>
+        </ul>
+      </div>
+      <div class="foot2">
+        <ul>
+          <li>Cadastre-se</li>
+          <li>Entrar</li>
+          <li>Messenger</li>
+          <li>Facebook Lite</li>
+          <li>Watch</li>
+          <li>Pessoas</li>
+          <li>Páginas</li>
+          <li>Categorias de Página</li>
+          <li>Locais</li>
+          <li>Jogos</li>
+          <li>Locais</li>
+          <li>Marketplace</li>
+          <li>Facebook Pay</li>
+          <li>Grupos</li>
+          <li>Oculus</li>
+          <li>Portal</li>
+          <li>Instagram</li>
+          <li>Local</li>
+          <li>Campanhas de arrecadação de fundos</li>
+          <li>Serviços</li>
+          <li>Sobre</li>
+          <li>Criar anúncio</li>
+          <li>Criar Página</li>
+          <li>Desenvolvedores</li>
+          <li>Carreiras</li>
+          <li>Privacidade</li>
+          <li>Cookies</li>
+          <li>Opções de anúncio</li>
+          <li>Termos</li>
+          <li>Ajuda</li>
+        </ul>
+      </div>
+      <div class="foot3">
+        <p>Facebook © 2020</p>
+      </div>
+    </div>
+  </footer>
 </body>
 <script type="text/javascript" src="script.js"></script>
+<script src="pikaday.js"></script>
+<script>
+  var picker = new Pikaday({
+    field: document.getElementById('datepicker'),
+    format: 'DD/MM/YYYY',
+    toString(date, format) {
+      // you should do formatting based on the passed format,
+      // but we will just return 'D/M/YYYY' for simplicity
+      const day = date.getDate();
+      const month = date.getMonth() + 1;
+      const year = date.getFullYear();
+      return `${day}/${month}/${year}`;
+    }
+  });
+</script>
 
 </html>
