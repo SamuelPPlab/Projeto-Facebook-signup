@@ -179,20 +179,15 @@ figure {
 
 .send-button {
   background-color: rgb(105, 167, 78);
-  background-image: linear-gradient( rgb(103, 174, 85), rgb(87, 136, 67));
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  background-image: linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
   border-color: rgb(59, 110, 34) rgb(59, 110, 34) rgb(44, 81, 21) rgb(59, 110, 34);
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-radius: 5px;
   border-style: solid;
   border-width: 0.8px;
   box-shadow: rgb(164, 227, 136) 0 1px 1px 0 inset;
-  color: rgb(255, 255, 255);
+  color: white;
   cursor: pointer;
-  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
-  text-align: center;
-  text-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px;
+  font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
   font-size: 19px;
   font-weight: 700;
   letter-spacing: normal;
@@ -200,4 +195,6 @@ figure {
   margin: 10px 0;
   min-width: 194px;
   padding: 7px 20px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px;
 }
