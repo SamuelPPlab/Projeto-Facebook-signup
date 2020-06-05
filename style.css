@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background-color: #3b5999;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+}
