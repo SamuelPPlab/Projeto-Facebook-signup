@@ -110,3 +110,36 @@ header section {
 p {
   color: darkgrey;
 }
+
+.interrogacao {
+  width: 5%;
+}
+
+spam {
+  color: blue;
+}
+
+.btn-submit {
+  background: #479152;
+  border-radius: 4px;
+  border-top: 1px solid #257833;
+  box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: Helvetica, Arial, Sans-Serif;
+  padding: 8.5px 17px;
+  text-decoration: none;
+  text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+  vertical-align: middle;
+}
+
+.btn-submit:hover {
+  background: #277D35;
+  border-top-color: #277D35;
+  color: #FFFFFF;
+}
+
+.btn-submit:active {
+  background: #257833;
+  border-top-color: #257833;
+}
