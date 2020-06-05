@@ -112,3 +112,11 @@ section p {
   background-image: linear-gradient(white, rgb(211, 216, 232));
   height: 640px;
 }
+
+.genero {
+  color: rgb(29, 33, 41);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 5px 0 5px 4px;
+}
