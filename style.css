@@ -115,19 +115,19 @@ p {
   width: 5%;
 }
 
- em {
+em {
   color: blue;
 }
 
 .btn-submit {
   background: #479152;
   border-radius: 4px;
-  border-top: 1px solid #257833;  
+  border-top: 1px solid #257833; 
   color: white;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
   padding: 8.5px 17px;
-  text-decoration: none;  
+  text-decoration: none;
   vertical-align: middle;
 }
 
