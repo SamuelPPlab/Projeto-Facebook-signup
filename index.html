@@ -24,7 +24,7 @@
       <div id="password-container" class="password-container">
         <label for="user-password" id="password-label">Senha</label>
         <input id="user-password" type="password">
-        <small>Esqueceu a senha?</small>
+        <small><a class="if-forgot" href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">Esqueceu a conta?</a></small>
       </div>
       <div id="button-container" class="button-container">
         <button class="button-login" id="button-login" type="submit">Entrar</button>
@@ -35,21 +35,23 @@
   <main class="main">
 
     <section class="container left-side">
-      <h3>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h3>
+      <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
       <img src="networking.png" id="facebook-networking" alt width="537" height="195">
     </section>
 
     <section class="right-side">
       <h1>Abra uma conta</h1>
-      <h4>É rápido e fácil.</h4>
+      <h3>É rápido e fácil.</h3>
       <form class="form" action="" method="">
-        <input type="text" id="nome" placeholder="Nome">
-        <input type="text" id="sobrenome" placeholder="Sobrenome">
-        <input type="text" id="login" placeholder="Celular ou email">
-        <input type="password" id="nova_senha" placeholder="Nova senha">
-        <p>Data de nascimento</p>
-        <input type="text" id="data" placeholder="dd/mm/aaaa">
-        <p>Gênero</p>
+        <div class="div-full-name">
+        <input type="text" id="nome" class="input fullname" placeholder="Nome">
+        <input type="text" id="sobrenome" class="input fullname" placeholder="Sobrenome">
+      </div>
+        <input type="text" id="login" class="input" placeholder="Celular ou email">
+        <input type="password" id="nova_senha" class="input" placeholder="Nova senha">
+        <label class="label" for="data">Data de nascimento</label>
+        <input type="text" id="data" class="date" placeholder="dd/mm/aaaa">
+        <label class="label gender">Gênero</label>
         <div class="radio_items">
           <label for="feminino"><input id="feminino" value="Feminino" type="radio" name="genero"
               checked>Feminino</label>
@@ -59,7 +61,7 @@
         </div>
         <p class="terms">Ao clicar em Cadastre-se, você concorda com nossos <a href="https://www.facebook.com/legal/terms/update">Termos</a>, <a href="https://www.facebook.com/about/privacy/update">Política de Dados</a> e <a href="https://www.facebook.com/policies/cookies/">Política de Cookies</a>. Você pode
           receber notificações por SMS e pode cancelar isso quando quiser.</p>
-        <button id="facebook-register" type="submit">Cadastre-se</button>
+        <button id="facebook-register" class="register" type="submit">Cadastre-se</button>
       </form>
 
     </section>
