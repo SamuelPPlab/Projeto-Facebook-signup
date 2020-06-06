@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <link href="style.css" rel="stylesheet" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css"/>
+  <script src="libs/moment.min.js"></script>
+  <script src="libs/pikaday.js"></script>
   <title>Facebook</title>
 </head>
+
 <body>
 
   <nav class="container top-bar">
@@ -28,34 +33,37 @@
 
   <main class="main">
 
-  <section class="container legend">
-    <h3>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h3>
-    <img src="networking.png" id="facebook-networking">
-  </section>
+    <section class="container legend">
+      <h3>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h3>
+      <img src="networking.png" id="facebook-networking">
+    </section>
 
-  <section class="right-side">
-    <h1>Abra uma conta</h1>
-    <p>É rápido e fácil.</p>
-    <form class="form" action="" method="">
-      <input type="text" id="nome" placeholder="Nome">
-      <input type="text" id="sobrenome" placeholder="Sobrenome">
-      <input type="text" id="login" placeholder="Celular ou email">
-      <input type="password" id="nova_senha" placeholder="Nova senha">
-      <p>Data de nascimento</p>
-      <input type="text" id="data" placeholder="dd/mm/aaaa">
-      <p>Gênero</p>
-      <div class="radio_items">
-          <label for="feminino"><input id="feminino" value="Feminino" type="radio" name="genero" checked>Feminino</label>
+    <section class="right-side">
+      <h1>Abra uma conta</h1>
+      <p>É rápido e fácil.</p>
+      <form class="form" action="" method="">
+        <input type="text" id="nome" placeholder="Nome">
+        <input type="text" id="sobrenome" placeholder="Sobrenome">
+        <input type="text" id="login" placeholder="Celular ou email">
+        <input type="password" id="nova_senha" placeholder="Nova senha">
+        <p>Data de nascimento</p>
+        <input type="text" id="data" placeholder="dd/mm/aaaa">
+        <p>Gênero</p>
+        <div class="radio_items">
+          <label for="feminino"><input id="feminino" value="Feminino" type="radio" name="genero"
+              checked>Feminino</label>
           <label for="masculino"><input id="masculino" value="Masculino" type="radio" name="genero">Masculino</label>
-          <label for="personalizado"><input id="personalizado" value="Personalizado" type="radio" name="genero">Personalizado</label>
-      </div>
+          <label for="personalizado"><input id="personalizado" value="Personalizado" type="radio"
+              name="genero">Personalizado</label>
+        </div>
 
-      <button id="facebook-register" type="submit">Cadastre-se</button>
-  </form>
+        <button id="facebook-register" type="submit">Cadastre-se</button>
+      </form>
 
-  </section>
+    </section>
 
   </main>
   <script src="script.js"></script>
 </body>
+
 </html>
