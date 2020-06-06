@@ -88,8 +88,8 @@ img .netwo {
 }
 
 .topR {
-  margin:0px;
-  padding:0px;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
@@ -110,9 +110,9 @@ h2 {
 }
 
 .inputing {
-  line-height: 3em;
   border-color: #bdc7d8;
   border-radius: 5px;
+  line-height: 3em;
   margin: 0;
 }
 
@@ -131,7 +131,7 @@ h2 {
 }
 
 .mgZ {
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 
@@ -139,7 +139,7 @@ h2 {
   color: grey;
   font-size: 0.7em;
   padding-bottom: 15px;
-  padding-top: 7px;  
+  padding-top: 7px;
 }
 
 .btnCadas {
@@ -148,7 +148,7 @@ h2 {
   border: 1px solid;
   border-color: #3b6e22 #3b6e22 #2c5115;
   border-radius: 5px;
-  color: #fff;
+  color: white;
   display: inline-block;
   font-size: 19px;
   letter-spacing: 1px;
