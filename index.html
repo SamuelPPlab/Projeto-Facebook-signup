@@ -5,10 +5,8 @@
   <meta charset="UTF-8">
   <link href="style.css" rel="stylesheet" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css" />
-  <script src="libs/moment.min.js"></script>
-  <script src="libs/pikaday.js"></script>
+  
   <!-- <link rel="stylesheet" href="dist/css/DatePickerX.min.css">
   <script src="dist/js/DatePickerX.min.js"></script> -->
   <title>Facebook</title>
@@ -22,12 +20,12 @@
     <div class="enter-session">
       <div id="login-container" class="login-container">
         <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
-        <input id="user-email-phone" type="text">
+        <input class="top-input" id="user-email-phone" type="text">
       </div>
       <div id="password-container" class="password-container">
         <label for="user-password" id="password-label">Senha</label>
-        <input id="user-password" type="password">
-        <small><a class="if-forgot" href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">Esqueceu a conta?</a></small>
+        <input class="top-input" id="user-password" type="password">
+        <a class="if-forgot" href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">Esqueceu a conta?</a>
       </div>
       <div id="button-container" class="button-container">
         <button class="button-login" id="button-login" type="submit">Entrar</button>
@@ -55,7 +53,7 @@
         <label class="label" for="data">Data de nascimento</label>
         <input type="text" id="data" class="input date" placeholder="dd/mm/aaaa">
         <label class="label gender">Gênero</label>
-        <div class="radio_items">
+        <div class="gender-div">
           <label for="feminino"><input id="feminino" value="Feminino" type="radio" name="genero"
               checked>Feminino</label>
           <label for="masculino"><input id="masculino" value="Masculino" type="radio" name="genero">Masculino</label>
@@ -69,12 +67,10 @@
       <p class="page"><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
 
     </section>
-
   </main>
-
-  
+  <script src="libs/moment.min.js"></script>
+  <script src="libs/pikaday.js"></script>
   <script src="script.js"></script>
-
 </body>
 
 </html>
