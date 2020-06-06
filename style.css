@@ -132,6 +132,7 @@ h2 {
 .rightz {
   align-items: flex-end;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .mgZ {
