@@ -14,3 +14,6 @@ submitButton.addEventListener('click', alerta);
 //   maxDate: new Date(),
 //   yearRange: [1910, 2020],
 // });
+
+// const formDate = document.getElementById('data');
+// formDate.DatePickerX.init({ format: 'dd/mm/yyyy' });
