@@ -3,106 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css" type="text/css" />
     <title>Facebook</title>
   </head>
   <body>
-    <header class="top-bar row">
-      <section class="logEsq col s12 m6">
+    <header class="top-bar">
+      <section class="logEsq">
         <img
           class="facebook-logo"
           src="facebook-logo.png"
           alt="Logo Facebook"
         />
       </section>
-      <section class="formDir s6 right-align valign-wrapper">
-          <form action="">
-            <div class="inputs input-field col s4 valign-wrapper">
-             <input
-              id="user-email-phone"
-              type="text"
-              required
-              value="mail-phone"
-              name="user-email-phone"
-            />
-            <label class="labelz" id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
+      <section class="formDir">
+            <div class="inputs">
+              <small class="gambi1"> alinhando na gambi</small>
+              <input id="user-email-phone" type="text" required name="user-email-phone"/>
+            <label class="labelz" id="user-email-phone-label" for="user-email-phone">Email ou Telefone</label>
             </div>
-            <div class="inputs inputs input-field col s4 valign-wrapper">
-            <input type="password" id="user-password" required />
+            <div class="inputs">
+              <small class="esqueceuZe">Esqueceu a senha?</small>
+              <input type="password" id="user-password" required />
             <label class="labelz" id="user-password" for="user-password">Senha</label>
-          </div>
-          <div class="cypress"></div>
-          <div class="inputs input-field col s4 valign-wrapper">
-            <button id="button-login" class="button" type="button">Entrar</button>
+            </div>
+           <div class="inputs">
+            <button id="button-login" class="buttontop" type="button">Entrar</button>
         </div>
-        </form>
-      </section>
+        </section>
     </header>
-    <div class="Ocontainer row">
-      <section class="lado-esquerdo col s6">
+    <div class="Ocontainer">
+      <section class="lado-esquerdo">
         <p class="text-main"><strong>
           O Facebook ajuda você a se conectar e compartilhar com as pessoas que
           fazem parte da sua vida.</strong>
         </p>
         <img id="facebook-networking" src="networking.png" alt="networking" class="netwo" />
       </section>
-      <section class="lado-direito col s6">
-        <h3>Abra uma conta</h3>
-        <p>É rápido e fácil.</p>
-        <form action="">
-          <div class="input-field col s6">
-          <input placeholder="Nome" type="text" value="nome" />
+      <section class="lado-direito">
+        <h2 class="topR">Abra uma conta</h2>
+        <h4 class="topR">É rápido e fácil.</h4>
+      <div class="oneline">
+         <div class="noming">
+          <input class="inputing" placeholder="Nome" type="text"/>
         </div>
-        <div class="input-field col s6">
-          <input placeholder="Sobrenome" type="text" value="sobrenome" />
+        <div class="noming">
+          <input class="inputing" placeholder="Sobrenome" type="text"/>
         </div>
-        <div class="cypress col s6"></div>
-          <input
-            class="linha col s6"
-            placeholder="Celular ou Email"
-            type="text"
-            value="email"
-          />
-          <input
-            class="linha"
-            placeholder="Nova senha"
-            type="text"
-            value="senha"
-          />
-          <label for="data">Data de nascimento</label>
-          <input
-            class="linha"
-            id="data"
-            name="data"
-            placeholder="dd/mm/aaaa"
-            type="date"
-          />
-          <p>Gênero</p>
-          <p>
-            <label>
+      </div>
+      <div class="coln">
+      <input class="inputing" placeholder="Celular ou Email" type="text"/>
+      </div>
+      <div class="coln">
+      <input class="inputing" placeholder="Nova senha" type="password"/>
+      </div>
+      <div class="coln">
+      <label class="esqueceuZe" for="data">Data de nascimento</label>
+          <input class="inputing" id="data" name="data" placeholder="dd/mm/aaaa" type="date"/>
+      </div>
+          <div class="coln"> 
+          <p class="esqueceuZe mgZ">Gênero</p>
+          <label>
               <input name="genero" type="radio" value="Feminino" checked id="Feminino"/>
               <span>Feminino</span>
-            </label>
-          </p>
-          <p>
-            <label>
+          <label>
               <input name="genero" type="radio" value="Masculino" id="Masculino"/>
               <span>Masculino</span>
-            </label>
-          </p>
-          <p>
-            <label>
+          </label>
+          <label>
               <input name="genero" type="radio" value="Personalizado" checked id="Personalizado"/>
               <span>Personalizado</span>
             </label>
-          </p>
-          <button id="facebook-register" type="button">Cadastre-se</button>
-        </form>
+          </div>
+          <small class="vaiC">By clicking Sign Up, you agree to our Terms, Data Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</small>
+        <button class="btnCadas" id="facebook-register" type="button">Cadastre-se</button>
       </section>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

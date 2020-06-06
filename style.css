@@ -13,13 +13,37 @@ body {
   display: flex;
   font-size: 12px;
   height: 80px;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0;
   padding-top: 10px;
 }
 
-.input-field label {
+.gambi1 {
+  color: rgb(60, 89, 152);
+}
+
+.esqueceuZe {
+  color: rgb(156, 180, 216);
+}
+
+.buttontop {
+  background: rgb(60, 89, 152);
+  border-radius: 3px;
   color: white;
+  font-weight: 800;
+}
+
+.formDir {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  line-height: 2em;
+  padding-left: 10px;
 }
 
 .facebook-logo {
@@ -40,17 +64,20 @@ img .netwo {
   width: 180px;
 }
 
-/*
 .Ocontainer {
   align-content: center;
   display: flex;
   justify-content: space-around;
 }
 
-section .lado-direito {
+.lado-direito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 5%;
+  width: 50%;
 }
 
 .lado-esquerdo {
@@ -58,30 +85,77 @@ section .lado-direito {
   padding-right: 10%;
   padding-top: 5%;
   width: 50%;
-} */
+}
 
-/* .logEsq {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-} */
+.topR {
+  margin:0px;
+  padding:0px;
+}
 
-/* .formDir {
-  align-items: flex-end;
+h2 {
+  font-size: 2.5em;
+}
+
+.oneline {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin: 0;
-  width: 50%;
+  justify-content: space-between;
+  line-height: 3em;
+  margin-top: 20px  ;
 }
 
-.inputs {
+.noming {
+  width: 40%;
+}
+
+.inputing {
+  line-height: 3em;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.lining {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.coln {
   display: flex;
   flex-direction: column;
-  padding-left: 5px;
-  padding-right: 5px;
+  margin-top: 10px;
+  width: 100%;
 }
 
-.button-login {
-  float: right;
-} */
+.mgZ {
+  margin:0;
+  padding: 0;
+}
+
+
+.vaiC {
+  color: grey;
+  font-size: 0.7em;
+  padding-bottom: 15px;
+  padding-top: 7px;  
+}
+
+.btnCadas {
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 19px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+}
