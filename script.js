@@ -8,10 +8,11 @@ function alerta() {
 submitButton.addEventListener('click', alerta);
 
 
-var picker = new Pikaday({
+const picker = new Pikaday({
   field: document.getElementById('data'),
   firstDay: 1,
   format: 'DD/MM/YYYY',
   maxDate: new Date(),
-  yearRange: [1900, 2020],
+  yearRange: [1910, 2020],
 });
+console.log(picker);
