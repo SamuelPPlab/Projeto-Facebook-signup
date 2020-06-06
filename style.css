@@ -40,7 +40,7 @@ body {
 
 .inputs {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   line-height: 2em;
   padding-left: 10px;
