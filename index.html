@@ -1,8 +1,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width : 500px)"/>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen and (min-width : 501px)"/>
     <title>Facebook</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
         </div>
     </header>
 
-    <section>
+    <section class="responsive">
         <div class="esquerda">
             <p class="textDescript"><strong>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</strong></p>
             <div>
@@ -55,6 +56,35 @@
             </div>
             <button id="facebook-register" class="facebook-register"><strong>Cadastre-se</strong></button>
         </div>
+    </section>
+
+    <section class="mobile">
+        <div>
+            <p class="conectar">Você deve se conectar primeiro.</p>
+        </div>
+        <div class="inpCont">
+            <input class="inp" type="text" placeholder=" Número de celular ou email">
+            <input class="inp" type="password" placeholder=" Senha">
+            <button class="ent"><strong>Entrar</strong></button>
+        </div>
+        <hr>
+        <button class="nova"><strong>Criar nova conta</strong></button>
+        <p class="esqueceu"><strong>Esqueceu a senha?</strong></p>
+        <div class="lenguage">
+            <div class="divLeng">
+                <p class="brasil leng"><strong>Português (Brasil)</strong></p>
+                <p class="leng">Português</p>
+                <p class="leng">Español</p>
+                <p class="leng">Deutsch</p>
+            </div>
+            <div class="divLeng">
+                <p class="leng">English (US)</p>
+                <p class="leng">Français (France)</p>
+                <p class="leng">Italiano</p>
+                <p class="leng">日本語</p>
+            </div>
+        </div>
+        <p class="final"><strong>Facebook, Inc.</strong></p>
     </section>
 
     <script type="text/javascript" src="script.js"></script>

@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: #29487d;
+  display: flex;
+  height: 7%;
+  justify-content: space-around;
+  padding: 0;
+  width: 100%;
+}
+
+.facebook-logo {
+  height: 120%;
+  margin: 0 auto;
+  padding: 2px 0;
+}
+
+.inputCabeca {
+  display: none;
+}
+
+.responsive {
+  display: none;
+}
+
+.conectar {
+  background-color: #ffeea2;
+  border-bottom: 1.2px solid #f3d242;
+  color: #7a6b25;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-top: 0;
+  padding: 5px;
+}
+
+.inpCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.inp {
+  align-self: center;
+  background-color: rgb(247, 247, 247);
+  border-color: rgb(235, 235, 235);
+  border-radius: 5px;
+  height: 30px;
+  width: 80%;
+}
+
+.ent {
+  align-self: center;
+  background-color: rgb(45, 105, 218);
+  border-color: rgb(45, 105, 218);
+  border-radius: 5px;
+  color: white;
+  height: 30px;
+  margin: 10px auto;
+  width: 80%;
+}
+
+hr:after {
+  background: white;
+  color: black;
+  content: ' ou ';
+  display: inline-block;
+  font-size: 1em;
+  padding: 0 0.5em;
+  position: relative;
+  top: -0.7em;
+}
+
+hr {
+  border: 0;
+  border-top: 0.5px solid rgb(204, 204, 204);
+  height: 0.1px;
+  margin: 10px 10%;
+  overflow: visible;
+  padding: 0;
+  text-align: center;
+}
+
+.nova {
+  align-self: center;
+  background-color: #299c1e;
+  border-color: #299c1e;
+  border-radius: 5px;
+  color: white;
+  height: 30px;
+  line-height: 12px;
+  margin: 20px 32% 0;
+  width: 35%;
+}
+
+.esqueceu {
+  color: rgb(100, 100, 100);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin-bottom: 40px;
+  margin-left: 34%;
+}
+
+.lenguage {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10%;
+  width: 80%;
+}
+
+.divLeng {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+.leng {
+  margin: 1px;
+}
+
+.brasil {
+  color: rgb(97, 78, 57);
+}
+
+.final {
+  color: rgb(97, 78, 57);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-left: 40%;
+}
