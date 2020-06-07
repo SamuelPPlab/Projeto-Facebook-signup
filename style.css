@@ -1,9 +1,9 @@
 .top-bar {
-  width: 60%;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   min-height: 80px;
+  width: 60%;
 }
 
 .azul {
@@ -25,9 +25,9 @@
 }
 
 .login {
+  color: white;
   display: flex;
   margin-top: 10px;
-  color: white;
 }
 
 .email input,
@@ -37,14 +37,14 @@
 }
 
 .facebook-logo {
-  width: 170px;
   height: 35px;
   padding-top: 5px;
+  width: 170px;
 }
 
 .imagem {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .input-login {
@@ -53,9 +53,9 @@
 
 .botao-entrar {
   background-color: #4166b2;
+  border: 1px solid #29487c;
   color: white;
   padding: 5px;
-  border: 1px solid #29487c;
 }
 
 .recuperacao {
@@ -69,8 +69,8 @@
 .corpo {
   display: flex;
   margin: 0 auto;
-  width: 60%;
   max-width: 60%;
+  width: 60%;
 }
 
 .corpoParte {
@@ -80,8 +80,8 @@
 }
 
 .double {
-  width: 100%;
   margin-left: 0;
+  width: 100%;
 }
 
 .single {
@@ -90,8 +90,8 @@
 
 .single-container {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -106,17 +106,17 @@
 }
 
 .help {
-  margin-right: auto;
   color: #0e385f;
   font-weight: bold;
-  width: 75%;
+  margin-right: auto;
   margin-top: 30px;
+  width: 75%;
 }
 
 .inputForms {
-  padding: 10px;
   border-radius: 4px;
   margin-bottom: 10px;
+  padding: 10px;
 }
 
 .teste {
@@ -124,8 +124,8 @@
 }
 
 h1 {
-  margin: 20px 0 10px 0;
   font-size: 35px;
+  margin: 20px 0 10px 0;
 }
 
 h2 {
