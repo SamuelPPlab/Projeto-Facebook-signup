@@ -1,8 +1,8 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
   background: white;
   color: #1c1e21;
   direction: ltr;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.34;
   margin: 0;
   padding: 0;
@@ -41,7 +41,7 @@ body {
 }
 
 .if-forgot {
-  color: rgb(156 ,180 ,216);
+  color: rgb(156 , 180 , 216);
   cursor: pointer;
   text-decoration: none;
 }
@@ -55,7 +55,7 @@ body {
   border-radius: 0;
   margin: 0;
   padding-bottom: 4px;
-  width: 142px; 
+  width: 142px;
 }
 
 .button-login {
@@ -211,15 +211,16 @@ h3 {
   margin-right: 4px;
 }
 
-/* por algum motivo n vai */
-
 .page a {
   color: blue;
   text-decoration: none;
 }
 
-.page a:hover {
-  text-decoration: underline;
+.terms {
+  color: #777;
+  font-size: 11px;
+  padding: 11px 0;
+  width: 316px;
 }
 
 .terms a {
@@ -228,15 +229,12 @@ h3 {
   text-decoration: none;
 }
 
-.terms a:hover {
+.page a:hover {
   text-decoration: underline;
 }
 
-.terms {
-  color: #777;
-  font-size: 11px;
-  padding: 11px 0;
-  width: 316px;
+.terms a:hover {
+  text-decoration: underline;
 }
 
 .register {
@@ -262,9 +260,9 @@ h3 {
 }
 
 .page {
-    color: #666;
-    font-size: 13px;
-    font-weight: 700;
-    margin-top: 10px;
-    padding-top: 15px;
+  color: #666;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 10px;
+  padding-top: 15px;
 }
