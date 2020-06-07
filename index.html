@@ -4,16 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css" />
-  <!-- <link
-      rel="stylesheet"
-      href="https://antonlapshin.github.io/popup-validation/validation.min.css"
-    /> -->
-  <link rel="stylesheet" media="screen and (min-width: 562.01px)" href="style.css" />
-
-  <!-- <link rel="stylesheet" href="dist/css/DatePickerX.min.css">
-  <script src="dist/js/DatePickerX.min.js"></script> -->
-  <title>Facebook</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css"/>
+  <link rel="stylesheet" href="https://antonlapshin.github.io/popup-validation/validation.min.css" />
+  <link rel="stylesheet" href="style.css"/>
+  <title>Facebook sign-up page</title>
 </head>
 
 <body>
@@ -52,23 +46,23 @@
       <h3>É rápido e fácil.</h3>
       <form class="form" action="" method="">
         <div class="div-full-name">
-          <input type="text" class="input fullname" placeholder="Nome">
-          <input type="text" class="input fullname" placeholder="Sobrenome">
+          <input type="text" class="input fullname validate" placeholder="Nome" data-validate="required">
+          <input type="text" class="input fullname validate" placeholder="Sobrenome" data-validate="required">
         </div>
-        <input type="text" id="login" class="input" placeholder="Celular ou email">
-        <input type="password" id="nova_senha" class="input" placeholder="Nova senha">
+        <input type="text" id="login" class="input validate" placeholder="Celular ou email" data-validate="required">
+        <input type="password" id="nova_senha" class="input validate" placeholder="Nova senha" data-validate="required">
         <label class="label" for="data">Data de nascimento</label>
         <div class="date-info">
-        <input type="text" id="data" class="input date" placeholder="dd/mm/aaaa">
+        <input type="text" id="data" class="input date validate" placeholder="dd/mm/aaaa" data-validate="required">
         <img class="moreinfo" src="moreinfo.png" alt="question mark">
       </div>
         <label class="label gender">Gênero</label>
         <div class="gender-div">
           <label class="gender-label" for="feminino">
-            <input id="feminino" value="Feminino" type="radio" name="genero"
+            <input id="feminino" value="Feminino" type="radio" name="genero" data-validate="required"
               checked>Feminino</label>
           <label class="gender-label" for="masculino">
-            <input id="masculino" value="Masculino" type="radio" name="genero">Masculino</label>
+            <input id="masculino" value="Masculino" type="radio" name="genero" data-validate="required">Masculino</label>
           <label class="gender-label" for="personalizado">
             <input id="personalizado" value="Personalizado" type="radio"
               name="genero">Personalizado</label>
@@ -86,7 +80,7 @@
 
     </section>
   </main>
-  <!-- <script src="https://antonlapshin.github.io/popup-validation/validation.min.js"></script> -->
+  <script src="https://antonlapshin.github.io/popup-validation/validation.min.js"></script>
   <script src="libs/moment.js"></script>
   <script src="libs/pikaday.js"></script>
   <script src="script.js"></script>
