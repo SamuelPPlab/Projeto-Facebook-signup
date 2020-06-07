@@ -1,9 +1,9 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
-  font-weight:normal;
-  height:20px;
-  line-height:20px;
+  font-weight: normal;
+  height: 20px;
+  line-height: 20px;
   margin: 0;
   padding: 0;
 }
@@ -36,7 +36,7 @@ body {
 }
 
 article {
-  background:linear-gradient(white, #D3D8E8);
+  background: linear-gradient(white, #d3d8e8);
   display: flex;
   flex-direction: row;
   font-size: 16px;
@@ -71,7 +71,7 @@ h4 {
 }
 
 .textoFacebook {
-  color: #0E385F;
+  color: #0e385f;
   font-size: 18px;
   font-weight: bold;
 }
@@ -84,11 +84,15 @@ h4 {
   width: 480px;
 }
 
-.teste, .celular, .password {
+.teste,
+.celular,
+.password {
   display: flex;
 }
 
-.celular input, .password input, .teste input {
+.celular input,
+.password input,
+.teste input {
   border-radius: 8px;
   border: 1px solid grey;
   flex-grow: 1;
@@ -112,7 +116,8 @@ h4 {
   padding: 4px;
 }
 
-.button-login, .button-login:focus {
+.button-login,
+.button-login:focus {
   background-color: #4267b2;
   border: 1px solid rgba(0, 0, 0, 0.308);
   color: white;
@@ -129,5 +134,5 @@ input {
 
 @font-face {
   font-family: SFProText-Regular;
-  src: url('./fonts/regular');
+  src: url("./fonts/regular");
 }
