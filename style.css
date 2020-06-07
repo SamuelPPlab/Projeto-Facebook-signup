@@ -10,7 +10,7 @@
   background-color: #3b5998;
 }
 
-.email, .senha, .data {
+.email , .senha , .data {
   display: inline-block;
 }
 
@@ -28,7 +28,7 @@
   margin-top: 10px;
 }
 
-.email input, .senha input, .data input {
+.email input , .senha input , .data input {
   display: block;
 }
 
@@ -121,7 +121,7 @@
 
 h1 {
   font-size: 35px;
-  margin: 20px 0 10px 0;
+  margin: 20px 0 10px;
 }
 
 h2 {
