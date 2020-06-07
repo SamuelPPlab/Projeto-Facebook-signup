@@ -10,9 +10,7 @@
   background-color: #3b5998;
 }
 
-.email,
-.senha,
-.data {
+.email, .senha, .data {
   display: inline-block;
 }
 
@@ -30,9 +28,7 @@
   margin-top: 10px;
 }
 
-.email input,
-.senha input,
-.data input {
+.email input, .senha input, .data input {
   display: block;
 }
 
@@ -107,7 +103,7 @@
 
 .help {
   color: #0e385f;
-  font-weight: bold;
+  font-weight: 700;
   margin-right: auto;
   margin-top: 30px;
   width: 75%;
