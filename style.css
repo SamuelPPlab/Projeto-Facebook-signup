@@ -1,16 +1,23 @@
+body {
+  margin: 0;
+}
+
 .header {
-  background-color: rgb(59, 89, 151);
+  background-image: linear-gradient(rgb(78,	105,	162), rgb(59,	89,	152) 50%);
   width: 100%;
 }
 
 .top-bar {
-  background-color: rgb(59, 89, 151);
   color: white;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   padding-top: 13px;
   width: 980px;
+}
+
+.facebook-logo {
+  padding-top: 20px;
 }
 
 .login-info label {
@@ -24,6 +31,7 @@
   border-color: rgb(41, 72, 125);
   border-radius: 2px;
   color: white;
+  cursor: pointer;
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
@@ -51,7 +59,7 @@
 }
 
 .left-box {
-  color: rgb(14, 56, 95);
+  color: rgba(14, 56, 95);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -61,20 +69,17 @@
   word-spacing: -1px;
 }
 
-section p {
+.right-box {
   color: rgb(29, 33, 41);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 19px;
   margin: 0;
+  width: 40%;
 }
 
 .left-box p {
   margin: 0;
   width: 450px;
-}
-
-.right-box {
-  width: 40%;
 }
 
 .main-title {
@@ -161,6 +166,7 @@ section p {
   border-radius: 5px;
   box-shadow: 0 1px 1px rgb(164, 227, 136);
   color: white;
+  cursor: pointer;
   font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
   font-size: 19px;
   font-weight: 700;
