@@ -9,7 +9,6 @@ body {
 .top-bar {
   align-items: center;
   background: rgb(60, 89, 152);
-  border: 1px solid rgb(19, 55, 131);
   color: white;
   display: flex;
   font-size: 12px;
@@ -53,17 +52,14 @@ body {
 }
 
 .text-main {
-  color: rgb(13, 56, 95);
-  flex-wrap: wrap;
+  color: rgb(60, 89, 152);
   font-size: 20px;
   font-weight: 800;
-  line-height: 30px;
-  margin: 0;
 }
 
 .netwo {
   margin-left: 5%;
-  width: 450px;
+  width: 380px;
 }
 
 .Ocontainer {
@@ -76,12 +72,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 3% 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
   width: 50%;
 }
 
 .lado-esquerdo {
-  padding: 3% 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
   width: 50%;
 }
 
@@ -104,7 +104,7 @@ h2 {
 }
 
 .noming {
-  width: 48.5%;
+  width: 40%;
 }
 
 .inputing {
@@ -157,7 +157,7 @@ h2 {
   letter-spacing: 1px;
   margin-bottom: 10px;
   margin-top: 10px;
+  min-width: 194px;
   padding: 7px 20px;
   text-align: center;
-  width: 200px;
 }
