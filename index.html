@@ -4,20 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css"
-    />
-    <!-- <link
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css" />
+  <!-- <link
       rel="stylesheet"
       href="https://antonlapshin.github.io/popup-validation/validation.min.css"
     /> -->
-    <link
-      rel="stylesheet"
-      media="screen and (min-width: 562.01px)"
-      href="style.css"
-    />
+  <link rel="stylesheet" media="screen and (min-width: 562.01px)" href="style.css" />
 
   <!-- <link rel="stylesheet" href="dist/css/DatePickerX.min.css">
   <script src="dist/js/DatePickerX.min.js"></script> -->
@@ -27,9 +19,11 @@
 <body>
 
   <nav class="container top-bar">
-    <img class="facebook-logo" src="logo.png">
+    <div class="logo-container-left">
+      <img class="facebook-logo" src="logo.png">
+    </div>
 
-    <div class="enter-session">
+    <div class="session-container-right">
       <div id="login-container" class="login-container">
         <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
         <input class="top-input" id="user-email-phone" type="text">
@@ -58,21 +52,28 @@
       <h3>É rápido e fácil.</h3>
       <form class="form" action="" method="">
         <div class="div-full-name">
-          <input type="text" id="nome" class="input fullname" placeholder="Nome">
-          <input type="text" id="sobrenome" class="input fullname" placeholder="Sobrenome">
+          <input type="text" class="input fullname" placeholder="Nome">
+          <input type="text" class="input fullname" placeholder="Sobrenome">
         </div>
         <input type="text" id="login" class="input" placeholder="Celular ou email">
         <input type="password" id="nova_senha" class="input" placeholder="Nova senha">
         <label class="label" for="data">Data de nascimento</label>
+        <div class="date-info">
         <input type="text" id="data" class="input date" placeholder="dd/mm/aaaa">
+        <img class="moreinfo" src="moreinfo.png" alt="question mark">
+      </div>
         <label class="label gender">Gênero</label>
         <div class="gender-div">
-          <label for="feminino"><input id="feminino" value="Feminino" type="radio" name="genero"
+          <label class="gender-label" for="feminino">
+            <input id="feminino" value="Feminino" type="radio" name="genero"
               checked>Feminino</label>
-          <label for="masculino"><input id="masculino" value="Masculino" type="radio" name="genero">Masculino</label>
-          <label for="personalizado"><input id="personalizado" value="Personalizado" type="radio"
+          <label class="gender-label" for="masculino">
+            <input id="masculino" value="Masculino" type="radio" name="genero">Masculino</label>
+          <label class="gender-label" for="personalizado">
+            <input id="personalizado" value="Personalizado" type="radio"
               name="genero">Personalizado</label>
         </div>
+        <img class="moreinfo" src="moreinfo.png" alt="question mark">
         <p class="terms">Ao clicar em Cadastre-se, você concorda com nossos <a
             href="https://www.facebook.com/legal/terms/update">Termos</a>, <a
             href="https://www.facebook.com/about/privacy/update">Política de Dados</a> e <a

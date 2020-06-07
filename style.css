@@ -19,23 +19,26 @@ body {
   font-size: 12px;
   height: 83px;
   justify-content: space-around;
-  /* justify-content: center; */
   margin: 0;
   padding: 0;
   position: fixed;
   width: 100%;
 }
 
+.logo-container-left {
+  margin-right: 126px;
+}
+
 .facebook-logo {
   height: 34px;
   margin-top: 13px;
   width: 170px;
+
 }
 
-.enter-session {
+.session-container-right {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
 }
 
 .if-forgot {
@@ -43,7 +46,7 @@ body {
   cursor: pointer;
   font-weight: normal;
   text-decoration: none;
-  
+
 }
 
 .if-forgot:hover {
@@ -78,19 +81,24 @@ body {
   background-color: rgb(54, 88, 153);
 }
 
+.moreinfo {
+  height: 19px;
+  margin-left: 10px;
+  width: 19px;
+  margin-top: 5px;
+}
+
 .login-container {
   display: flex;
   flex-direction: column;
   padding: 0 0 0 14px;
-  border-color: #1d2a5b;
-    margin: 0;
-    width: 142px;
 }
 
 .password-container {
   display: flex;
   flex-direction: column;
   padding: 0 0 0 14px;
+
 }
 
 .button-container {
@@ -109,18 +117,17 @@ body {
 .main {
   background: linear-gradient(white, rgb(211, 216, 232));
   display: flex;
-  /* justify-content: center; */
   padding-top: 84px;
   width: 100%;
 }
 
 .left-side {
-  width: 50%;
-  margin-left: 180px;
+  width: 52%;
+  margin-left: 150px;
 }
 
 h2 {
-  color: #0e385f;
+  color: rgb(14, 56, 95);
   font-size: 20px;
   font-weight: bold;
   line-height: 29px;
@@ -132,9 +139,13 @@ h2 {
 .network {
   width: 537px;
   height: 195px;
+  margin-top: -19px;
+  padding: 0;
 }
 .right-side {
-  width: 50%;
+  width: 48%;
+  /* max-width: 400px; isso ficou no form*/
+  margin-top: -10px;
 }
 
 h1 {
@@ -155,17 +166,15 @@ h3 {
 .form {
   display: flex;
   flex-direction: column;
-  width: 377px;
-
-  /* algo para deixar espaço entre cada elemento */
+  max-width: 400px;
 }
-
-
 
 .right-side .label {
   color: #90949c;
-    font-size: 16px;
-    font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 6px;
+
 }
 
 .input {
@@ -177,6 +186,7 @@ h3 {
   padding: 8px 10px;
   width: 377px;
   padding-bottom: 4px;
+  margin-bottom: 10px;
 }
 
 .fullname {
@@ -185,25 +195,28 @@ h3 {
 
 .div-full-name {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .date {
   font-size: 13px;
-    height: 30px;
-    padding: 5px;
-    width: 172px;
+  padding: 5px;
+  width: 172px;
+}
+
+.date-info {
+  display: flex;
 }
 
 .gender-div {
   color: rgb(29, 33, 41);
     font-size: 18px;
-    /* font-weight: normal;
-    line-height: 18px; */
+    font-weight: normal;
+    line-height: 18px;
     padding: 0 10px 0 3px;
 }
 
-.gender-div .label {
+.gender-div .gender-label {
   margin-right: 4px;
 }
 /* por algum motivo n vai */
