@@ -59,7 +59,7 @@ h1 {
 }
 
 h3 {
-  font-weight: normal;
+  font-weight: 600;
 }
 
 h4 {
@@ -84,7 +84,7 @@ h4 {
   width: 480px;
 }
 
-.teste, .celular, .password {
+.teste , .celular , .password {
   display: flex;
 }
 
@@ -92,7 +92,7 @@ input {
   font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
 }
 
-.celular input, .password input, .teste input {
+.celular input , .password input , .teste input {
   border: 1px solid grey;
   border-radius: 8px;
   flex-grow: 1;
@@ -116,7 +116,7 @@ input {
   padding: 4px;
 }
 
-.button-login:focus, .button-login {
+.button-login , .button-login:focus {
   background-color: #4267b2;
   border: 1px solid rgba(0, 0, 0, 0.308);
   color: white;
@@ -127,7 +127,9 @@ input {
   cursor: pointer;
 }
 
+/*
 @font-face {
   font-family: SFProText-Regular;
   src: url('./fonts/regular');
 }
+ */
