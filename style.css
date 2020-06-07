@@ -1,139 +1,138 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .top-bar {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    min-height: 80px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  min-height: 80px;
 }
 
 .azul {
-    background-color: #3b5998;
+  background-color: #3b5998;
 }
 
-.email,.senha,.data {
-    display: inline-block;
+.email,
+.senha,
+.data {
+  display: inline-block;
 }
 
 .email {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .senha {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 
 .login {
-    display: flex;
-    margin-top: 10px;
-    color: white;
+  display: flex;
+  margin-top: 10px;
+  color: white;
 }
 
-.email input,.senha input,.data input {
-    display: block;
+.email input,
+.senha input,
+.data input {
+  display: block;
 }
 
 .facebook-logo {
-    width: 170px;
-    height: 35px;
-    padding-top: 5px;
+  width: 170px;
+  height: 35px;
+  padding-top: 5px;
 }
 
 .imagem {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .input-login {
-    padding: 4px;
+  padding: 4px;
 }
 
 .botao-entrar {
-    background-color: #4166b2;
-    color: white;
-    padding: 5px;
-    border: 1px solid #29487c;
+  background-color: #4166b2;
+  color: white;
+  padding: 5px;
+  border: 1px solid #29487c;
 }
 
 .recuperacao {
-    position: absolute;
+  position: absolute;
 }
 
 .recuperacao a {
-    color: #8ea7d0;
+  color: #8ea7d0;
 }
 
 .corpo {
-    display: flex;
-    margin: 0 auto;
-    width: 60%;
-    max-width: 60%;
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+  max-width: 60%;
 }
 
 .corpoParte {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 .double {
-    width: 100%;
-    margin-left: 0;
+  width: 100%;
+  margin-left: 0;
 }
 
 .single {
-    width: 100%;
+  width: 100%;
 }
 
 .single-container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
 }
 
 .double-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .double-container:last-child {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .help {
-    margin-right: auto;
-    color: #0e385f;
-    font-weight: bold;
-    width: 75%;
-    margin-top: 30px;
+  margin-right: auto;
+  color: #0e385f;
+  font-weight: bold;
+  width: 75%;
+  margin-top: 30px;
 }
 
 .inputForms {
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 
 .teste {
-    margin-left: 35px;
+  margin-left: 35px;
 }
 
 h1 {
-    margin: 20px 0 10px 0; 
-    font-size: 35px;
+  margin: 20px 0 10px 0;
+  font-size: 35px;
 }
 
 h2 {
-    font-size: medium;
-    margin-bottom: 20px;
+  font-size: medium;
+  margin-bottom: 20px;
 }
 
 body {
-    background-image: linear-gradient(#fefefe, #d3d8e8);
+  background-image: linear-gradient(#fefefe, #d3d8e8);
 }
