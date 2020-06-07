@@ -84,15 +84,15 @@ h4 {
   width: 480px;
 }
 
-.teste,
-.celular,
-.password {
+.teste, .celular, .password {
   display: flex;
 }
 
-.celular input,
-.password input,
-.teste input {
+input {
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+
+.celular input, .password input, .teste input {
   border-radius: 8px;
   border: 1px solid grey;
   flex-grow: 1;
@@ -116,8 +116,7 @@ h4 {
   padding: 4px;
 }
 
-.button-login,
-.button-login:focus {
+.button-login:focus, .button-login {
   background-color: #4267b2;
   border: 1px solid rgba(0, 0, 0, 0.308);
   color: white;
@@ -126,10 +125,6 @@ h4 {
 .button-login:hover {
   background-color: #3b5998;
   cursor: pointer;
-}
-
-input {
-  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
 }
 
 @font-face {
