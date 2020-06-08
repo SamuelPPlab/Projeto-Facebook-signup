@@ -15,7 +15,7 @@ body {
   font-size: 12px;
   justify-content: space-around;
   line-height: 1.92em;
-  padding: 0 0 0 14px
+  padding: 0 0 0 14px;
 }
 
 .login-form {
@@ -59,8 +59,8 @@ body {
 a {
   color: white;
   cursor: pointer;
-  text-decoration: none;
   opacity: 0.6;
+  text-decoration: none;
 }
 
 .content {
@@ -78,7 +78,7 @@ a {
   align-items: center;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: wrap;
   max-width: 50%;
 }
 
@@ -99,6 +99,6 @@ a {
   flex-grow: 1;
 }
 
-.fullname input:nth-child( 1) {
+.fullname input:nth-child( 1 ) {
   margin-right: 10px;
 }
