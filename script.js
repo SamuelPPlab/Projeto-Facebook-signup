@@ -1,4 +1,5 @@
 /*global validation*/
+
 validation.init();
 
 const submitButton = document.getElementById('button-login');
