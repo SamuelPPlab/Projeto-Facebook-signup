@@ -10,7 +10,7 @@
   "globals": {
     "$": true,
     "Pikaday": true
-  }
+  },
   "env": {
     "browser": true,
     "node": true,
