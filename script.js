@@ -25,5 +25,5 @@ const picker = new Pikaday({
     const month = parseInt(parts[1], 10) - 1;
     const year = parseInt(parts[2], 10);
     return new Date(year, month, day);
-    },
-  });
+  },
+});
