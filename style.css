@@ -1,3 +1,29 @@
+body {
+  background-color: #d3d8e8;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  color: #0e385f;
+  font-size: 20px;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+h3 {
+  color: #0e385f;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+
 header {
   background-color: #3b5998;
   background-image: linear-gradient(#4e69a2, #3b5998 50%);
@@ -7,107 +33,48 @@ header {
   min-height: 82px;
 }
 
-.top-bar {
-  align-items: center;
+#button-login {
+  align-self: center;
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  color: #fff;
+  color: 2px 6px;
+  cursor: pointer;
   display: flex;
-  height: 82px;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: 980px;
+  font-size: 12px;
+  font-weight: 700;
+  justify-content: center;
+  padding:2px 6px;
+  margin-left: 14px;
+  width: 50px;
 }
 
 .facebook-logo {
   background-repeat: no-repeat;
   background-size: auto;
   display: inline-block;
-  height: 34px;
   margin-bottom: 15px;
   width: 170px;
 }
 
-.forms {
+.top-bar {
+  align-items: center;
+  background-color: #3b5998;
   display: flex;
+  height: 82px;
+  justify-content: space-between;
 }
 
-.user-email-phone .user-email-phone-label {
+
+#user-email-phone, #user-email-phone-label {
   display: flex;
   flex-direction: column;
   font-size: 12px;
   margin-left: 14px;
-}
-
-.label-user {
-  padding-bottom: 4px;
-}
-
-.linkpassword {
-  color: #9cb4d8;
-  padding-top: 4px;
-  text-decoration: none;
-}
-
-.linkpassword:hover {
-  text-decoration: underline;
-}
-
-.button-login {
-  align-self: center;
-  background-color: #4267b2;
-  border: none;
-  border-color: #29487d;
-  color: white;
-  cursor: pointer;
-  display: flex;
-  font-size: 12px;
-  font-weight: 700;
-  justify-content: center;
-  margin-left: 14px;
-  padding: 2px 6px;
-  width: 50px;
-}
-
-.button-login:hover {
-  background-color: #365899;
-  border-color: #29487d;
 }
 
 .input {
   border: none;
   height: 23px;
   width: 150px;
-}
-
-h3 {
-  color: #0e385f;
-  font-family: inherit;
-  font-size: 20px;
-  font-weight: 100;
-  line-height: 29px;
-  margin-top: 40px;
-  width: 450px;
-  word-spacing: -1px;
-}
-
-.main {
-  background: linear-gradient(white, #d3d8e8);
-  padding: 40px 0;
-}
-
-.text-abertura {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-  margin-left: 440px;
-}
-
-.img-network {
-  display: flex;
-  margin-left: 440px;
-}
-
-.text-info {
-  color: #333;
-  font-size: 19px;
-  line-height: 126%;
-  margin-bottom: 20px;
 }
