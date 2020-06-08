@@ -45,12 +45,14 @@
       <h1>Abra uma conta</h1>
       <h3>É rápido e fácil.</h3>
       <form class="form" action="" method="">
+        <div class="bottom-inputs">
         <div class="div-full-name">
           <input type="text" class="input fullname validate" placeholder="Nome" data-validate="required">
           <input type="text" class="input fullname validate" placeholder="Sobrenome" data-validate="required">
         </div>
         <input type="text" id="login" class="input validate" placeholder="Celular ou email" data-validate="required">
         <input type="password" id="nova_senha" class="input validate" placeholder="Nova senha" data-validate="required">
+      </div>
         <label class="label" for="data">Data de nascimento</label>
         <div class="date-info">
         <input type="text" id="data" class="input date validate" placeholder="dd/mm/aaaa" data-validate="required">
@@ -58,12 +60,12 @@
       </div>
         <label class="label gender">Gênero</label>
         <div class="gender-div">
-          <label class="gender-label" for="feminino">
+          <label for="feminino">
             <input id="feminino" value="Feminino" type="radio" name="genero" data-validate="required"
               checked>Feminino</label>
-          <label class="gender-label" for="masculino">
+          <label for="masculino">
             <input id="masculino" value="Masculino" type="radio" name="genero" data-validate="required">Masculino</label>
-          <label class="gender-label" for="personalizado">
+          <label for="personalizado">
             <input id="personalizado" value="Personalizado" type="radio"
               name="genero">Personalizado</label>
         </div>
