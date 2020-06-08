@@ -6,14 +6,14 @@ body {
 }
 
 .background {
-  background: #29487d;
+  background: rgb(41, 72, 125);
   background-image: linear-gradient(#fefefe, #d3d8e8);
   min-height: 730px;
 }
 
 .text-open-an-account {
-  color: #333333;
-  font-weight: bold;
+  color: rgb(51, 51, 51);
+  font-weight: 700;
   margin-left: 15px;
   margin-top: 35px;
 }
@@ -25,8 +25,8 @@ body {
 }
 
 .data-nascimento {
-  color: #8f949b;
-  font-weight: bold;
+  color: rgb(143, 148, 155);
+  font-weight: 700;
 }
 
 .male {
@@ -38,8 +38,8 @@ body {
 }
 
 .gender {
-  color: #8f949b;
-  font-weight: bold;
+  color: rgb(143, 148, 155);
+  font-weight: 700;
   margin-bottom: 10px;
 }
 
@@ -58,7 +58,7 @@ body {
 
 .cadastrar {
   background-image: linear-gradient(#75b760, #578843);
-  border: 1px solid #3b6d21;
+  border: 1px solid rgb(59, 109, 33);
   border-radius: 5px;
   color: white;
   font-size: 19px;
@@ -72,13 +72,13 @@ body {
 .create-a-page {
   color: rgb(102, 110, 122);
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 700;
   margin-left: 15px;
   margin-top: 35px;
 }
 
 .create-a-page a {
-  color: #244485;
+  color: rgb(36, 68, 133);
   text-decoration: none;
 }
 
@@ -93,11 +93,11 @@ body {
 }
 
 ::placeholder {
-  color: #999999;
+  color: rgb(153, 153, 153);
 }
 
 .form-sign-in {
-  border: 1px solid #bdc7d8;
+  border: 1px solid rgb(189, 199, 216);
   border-radius: 5px;
   font-size: 18px;
   margin-bottom: 10px;
@@ -144,7 +144,7 @@ body {
 }
 
 .forgot-password a {
-  color: #8ea7d0;
+  color: rgb(142, 167, 208);
   font-size: 12px;
   text-decoration: none;
 }
@@ -154,10 +154,10 @@ body {
 }
 
 .text-face {
-  color: #0e385f;
+  color: rgb(14, 56, 95);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.4em;
   margin-bottom: 12px;
   margin-top: 35px;
@@ -168,13 +168,15 @@ body {
   color: white;
   margin-top: 15px;
 }
+
 .inputs button {
   background-color: #4267b2;
-  border: 1px solid #29487d;
+  border: 1px solid rgb(41, 72, 125);
   color: white;
   height: 23px;
   padding: 0 5px;
 }
+
 .input-email {
   display: inline-block;
   margin-right: 5px;
@@ -194,8 +196,9 @@ body {
   display: block;
   height: 22px;
 }
+
 .top-bar {
-  background: #3b5998;
+  background: rgb(59, 89, 152);
   background-image: linear-gradient(#4d67a0, #3b5998);
   height: 82px;
   width: 100%;
