@@ -14,4 +14,4 @@ const picker = new Pikaday({
   format: 'DD/MM/YYYY',
   maxDate: new Date(),
   yearRange: [1910, 2020],
-}) ;
+});
