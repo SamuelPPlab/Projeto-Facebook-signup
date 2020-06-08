@@ -7,6 +7,10 @@
     "arrow-parens": [2, "always"],
     "no-param-reassign": "off"
   },
+  "globals": {
+    "$": true,
+    "Pikaday": true
+  },
   "env": {
     "browser": true,
     "node": true,
