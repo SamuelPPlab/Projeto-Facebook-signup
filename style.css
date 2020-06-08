@@ -54,8 +54,8 @@ body {
   border: 1px solid rgb(29, 42, 91);
   border-radius: 0;
   margin: 4px 0 4px 0;
-  padding-bottom: 4px;
-  width: 146px;
+  padding: 3px 0 3px 0;
+  width: 148px;
 }
 
 .button-login {
@@ -268,6 +268,7 @@ h3 {
   color: #666;
   font-size: 13px;
   font-weight: 700;
+  margin-bottom: 40px;
   margin-top: 10px;
   padding-top: 15px;
 }
