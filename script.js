@@ -1,4 +1,4 @@
-/*global validation*/
+/* global validation */
 
 validation.init();
 
