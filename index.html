@@ -3,84 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="facebook.png" />
     <link rel="stylesheet" href="libs/pikaday.css">
     <link rel="stylesheet" href="style.css" />
-    <title>Facebook - Entre ou Cadastre-se</title>
+    <title>Facebook - entre ou cadastre-se</title>
   </head>
   <body>
-    <header>
-      <div class="azul">
-        <div class="top-bar">
-          <div class="imagem">
-            <img src="facebook-logo.png" class="facebook-logo" />
+    <div class="background">
+      <header class="top-bar">
+        <div class="container">
+          <div class="image">
+            <img class="facebook-logo" src="facebook-logo.png" alt="Facebook Logo" />
           </div>
-          <div class="login">
-            <form>
-              <div class="email">
-                <label for="user-email-phone" id="user-email-phone-label"
-                  >Email ou telefone</label>
-                <input class="input-login" id="user-email-phone" />
+          <form class="input-form" action="">
+            <div class="inputs">
+              <div class="input-email">
+                <label for="user-email-phone" id="user-email-phone-label" >Email ou telefone</label>
+                <input id="user-email-phone" type="text" />
               </div>
-              <div class="senha">
+              <div class="input-senha">
                 <label for="user-password">Senha</label>
-                <input class="input-login" type="password" id="user-password" />
-                <div class="recuperacao">
-                  <a href="#">Esqueceu a conta?</a>
+                <input id="user-password" type="password" />
+                <div class="forgot-password">
+                  <a href="">Esqueceu sua conta?</a>
                 </div>
               </div>
-              <button class="botao-entrar" id="button-login">Entrar</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </header>
-    <section>
-      <div class="corpo">
-        <div class="corpoParte">
-          <p class="help">
-            O Facebook ajuda você a se conectar e compartilhar com as pessoas que
-            fazem parte da sua vida.
-          </p>
-          <img src="networking.png" alt="" id="facebook-networking" />
-        </div>
-        <div class="corpoParte">
-          <h1>Abra uma conta</h1>
-          <h2>É rápido e fácil.</h2>
-          <form action="/" method="GET">
-            <div class="double-container">
-              <div class="double">
-                <input class="inputForms" type="text" placeholder="Nome">
-              </div>
-              <div class="double teste">
-                <input class="inputForms" type="text" placeholder="Sobrenome">
-              </div>
+              <button id="button-login">Entrar</button>
             </div>
-            <div class="single-container">
-              <input class="single inputForms" type="text" placeholder="Celular ou email">
-              <input class="single inputForms" type="password" placeholder="Nova senha">
-            </div>
-            <div class="data">
-              <label for="datepicker">Data de nascimento</label>
-              <input class="inputForms" type="text" id="datepicker" placeholder="dd/mm/aaaa">
-            </div>
-            <div>
-              <p>Gênero</p>
-              <input type="radio" name="genero" value="Feminino" id="feminino">
-              <label for="feminino">Feminino</label>
-              <input type="radio" name="genero" value="Masculino" id="masculino">
-              <label for="masculino">Masculino</label>
-              <input type="radio" name="genero" value="Personalizado" id="personalizado">
-              <label for="personalizado">Personalizado</label>
-            </div>
-            <p>Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
-            <button id="facebook-register">Cadastre-se</button>
           </form>
         </div>
+      </header>
+      <div class="container-main">
+        <div class="main">
+          <div class="text-face">
+            O Facebook ajuda você a se conectar e compartilhar com as pessoas
+            que fazem parte da sua vida.
+          </div>
+          <div>
+            <img src="networking.png" id="facebook-networking" alt="facebook-networking" />
+          </div>
+        </div>
+        <div class="main">
+          <div class="open-an-account">
+            <div class="text-open-an-account">
+              <span>Abra uma conta</span>
+            </div>
+            <div class="easy-and-quickly">É rápido e fácil.</div>
+          </div>
+          <form action="">
+            <input class="form-sign-in double" type="text" placeholder="Nome" />
+            <input
+              class="form-sign-in double"
+              type="text"
+              placeholder="Sobrenome"
+            />
+            <input
+              class="form-sign-in unique"
+              type="text"
+              placeholder="Celular ou email"
+            />
+            <input
+              class="form-sign-in unique"
+              type="password"
+              placeholder="Nova senha"
+            />
+            <div class="easy-and-quickly data-nascimento">
+              <label for="datapicker">Data de nascimento</label>
+              <input class="form-sign-in unique" type="text" id="datepicker" placeholder="dd/mm/aaaa" />
+            </div>
+            <div class="easy-and-quickly">
+              <div class="gender">Gênero</div>
+              <input type="radio" class="female" id="female" name="gender" value="female">
+              <label for="female">Feminino</label>
+              <input type="radio" class="male" id="male" name="gender" value="male">
+              <label for="male">Maculino</label>
+              <input type="radio" class="custom" id="custom" name="gender" value="custom">
+              <label for="custom">Personalizado</label>
+            </div>
+            <p class="policy">Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>, <a href="#">Política de Dados</a> e <a href="#">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+            <button id="facebook-register" class="cadastrar">Cadastre-se</button>
+          </form>
+          <p class="create-a-page"><a href="#">Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
+        </div>
       </div>
-    </section>
+    </div>
     <script src="libs/pikaday.js"></script>
     <script>
-      let picker = new Pikaday({field: document.getElementById('datepicker')});
+      let picker = new Pikaday({field:document.getElementById('datepicker')});
     </script>
   </body>
 </html>
