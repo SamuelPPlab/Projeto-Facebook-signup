@@ -1,4 +1,5 @@
 body {
+  background-color: rgb(233, 235, 238);
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -10,10 +11,11 @@ body {
   border-bottom: 1px solid #133783;
   color: white;
   display: flex;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Freight Sans, Helvetica, Arial, sans-serif;
   font-size: 12px;
   justify-content: space-around;
   line-height: 1.92em;
+  padding: 0 0 0 14px
 }
 
 .login-form {
@@ -23,18 +25,42 @@ body {
 .login-column {
   display: flex;
   flex-direction: column;
-  padding: 7px;
+  padding: 13px 7px 1px;
 }
 
-button {
+.button-login {
   align-self: center;
-  display: flex;
+  background-color: rgb(66, 103, 178);
+  border: 1px solid rgb(41, 72, 125);
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-left: 7px;
+  margin-top: 12px;
+  padding: 2px 6px;
 }
 
 .facebook-logo {
   height: 34px;
-  margin-top: 10px;
+  margin-top: 30px;
+  padding-right: 190px;
   width: 170px;
+}
+
+.login-column input {
+  border: 1px solid rgb(29, 42, 91);
+  padding-bottom: 4px;
+  width: 142px;
+}
+
+a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 0.6;
 }
 
 .content {
@@ -48,6 +74,22 @@ button {
   width: 480px;
 }
 
+.left-side {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 50%;
+}
+
+.left-side p {
+  color: rgb(59, 89, 153);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 150px;
+}
+
 .fullname {
   display: flex;
   flex-direction: row;
@@ -57,6 +99,6 @@ button {
   flex-grow: 1;
 }
 
-.fullname input:nth-child( 1 ) {
+.fullname input:nth-child( 1) {
   margin-right: 10px;
 }
