@@ -13,7 +13,7 @@
     justify-content: center;
     min-width: 980px;
   }
-  
+
   .top-bar {
     align-items: center;
     background-color: #3b5998;
@@ -143,7 +143,6 @@
   height: 39px;
   width: 190px;
   margin: 8px 0;
-  
 }
 
 .label-cadastro-2 {
@@ -191,7 +190,7 @@ h2 {
     justify-content: center;
     margin: 0;
   }
-  
+
   .top-bar {
     align-items: center;
     background-color: #3b5998;
@@ -205,11 +204,10 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
   }
 
   #t {
     display: none;
   }
-
 }
