@@ -84,6 +84,14 @@ body {
   width: 42%;
 }
 
+.title {
+  font-size: 36px;
+}
+
+p {
+  font-size: 19px;
+}
+
 .formulario-login {
   display: none;
 }
