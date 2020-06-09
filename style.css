@@ -54,6 +54,7 @@ body {
 
 .top-content {
   align-items: center;
+  border: 1px solid black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -112,10 +113,11 @@ body {
 }
 
 .main-content {
+  border: 1px solid black;
   display: flex;
   flex-flow: row;
-  justify-content: space-around;
   height: 640px;
+  justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
   width: 980px;
@@ -180,6 +182,11 @@ body {
 }
 
 .user-name {
+<<<<<<< HEAD
+=======
+
+  /* border: 1px solid black; */
+>>>>>>> 31da5425880d549e5c1c61d0de995eb40443270e
   display: flex;
   justify-content: space-between;
   width: 399px;
@@ -198,6 +205,11 @@ input {
 }
 
 .create-new-user {
+<<<<<<< HEAD
+=======
+
+  /* border: 1px solid black; */
+>>>>>>> 31da5425880d549e5c1c61d0de995eb40443270e
   flex-direction: column;
   height: 423.83px;
   justify-content: space-between;
