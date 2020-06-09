@@ -12,7 +12,7 @@ btn2.addEventListener('click', function () {
     if (entradas[i].value === '') {
       alerta = false;
       alert('Dados Inválidos');
-      return
+      return;
     }
   }
   if (alerta === true) {
