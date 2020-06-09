@@ -120,16 +120,18 @@ a {
 }
 
 .left-side p {
-  color: rgb(59, 89, 153);
+  color: rgb(14, 56, 95);
   font-size: 18px;
   font-weight: 700;
-  margin-left: 150px;
+  margin-left: 60px;
+  margin-top: 40px;
+  width: 65%;
 }
 
 .left-side img {
-  align-self: flex-end;
-
+  padding-left: 120px;
 }
+
 .fullname {
   display: flex;
   flex-direction: row;
@@ -152,6 +154,10 @@ a {
 .birthdate {
   margin-bottom: 5px;
   margin-top: 10px;
+}
+
+.gender {
+  margin-bottom: 10px;
 }
 
 .gender-option {
