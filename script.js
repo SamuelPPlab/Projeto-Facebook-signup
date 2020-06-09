@@ -9,8 +9,10 @@ function alerta() {
 
 submitButton.addEventListener('click', alerta);
 
+/* global Pikaday:true */
+/* eslint no-undef: "error" */
 const picker = new Pikaday({
-  field: document.getElementById('data'),
+  field: data,
   format: 'D/M/YYYY',
   toString(date, format) {
     // you should do formatting based on the passed format,
