@@ -54,7 +54,6 @@ body {
 
 .top-content {
   align-items: center;
-  border: 1px solid black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -113,7 +112,6 @@ body {
 }
 
 .main-content {
-  border: 1px solid black;
   display: flex;
   flex-flow: row;
   height: 640px;
