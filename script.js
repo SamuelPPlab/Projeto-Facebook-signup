@@ -9,7 +9,6 @@ function alerta() {
 
 submitButton.addEventListener('click', alerta);
 
-/* eslint-disable no-new */
 new Pikaday({
   field: data,
   format: 'D/MM/YYYY',
