@@ -1,6 +1,7 @@
 body {
   background-color: rgb(233, 235, 238);
   box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -11,7 +12,6 @@ body {
   border-bottom: 1px solid #133783;
   color: white;
   display: flex;
-  font-family: Freight Sans, Helvetica, Arial, sans-serif;
   font-size: 12px;
   justify-content: space-around;
   line-height: 1.92em;
@@ -46,8 +46,8 @@ body {
 .facebook-logo {
   height: 34px;
   margin-top: 30px;
-  padding-right: 190px;
-  width: 170px;
+  padding-right: 183px;
+  width: 168px;
 }
 
 .login-column input {
@@ -71,7 +71,32 @@ a {
   display: flex;
   flex-direction: column;
   margin-left: 50px;
-  width: 480px;
+  width: 400px;
+  line-height: 1.34;
+}
+
+.right-side input {
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+}
+
+.right-side h1 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.right-side p {
+  color: #333;
+  font-size: 19px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+::-webkit-input-placeholder {
+  color: #999;
 }
 
 .left-side {
@@ -83,21 +108,36 @@ a {
 
 .left-side p {
   color: rgb(59, 89, 153);
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   margin-left: 150px;
 }
 
+.left-side img {
+  align-self: flex-end;
+
+}
 .fullname {
   display: flex;
   flex-direction: row;
 }
 
 .fullname input {
-  flex-grow: 1;
+  width: 100%
 }
 
 .fullname input:nth-child( 1 ) {
   margin-right: 10px;
+}
+
+.birthdate, .gender {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.gender-option {
+  margin-right: 4px;
 }

@@ -39,18 +39,18 @@
         </div>
         <input type="text" name="cellphone-email" placeholder="Celular ou email" />
         <input type="password" name="new-password" placeholder="Nova senha" />
-        <label for="">Data de nascimento</label>
-        <input id="" type="date" placeholder="dd/mm/aaaa" />
-        <label for="">Gênero</label>
+        <label class="birthdate" for="birthdate">Data de nascimento</label>
+        <input id="birthdate" type="date" name="birthdate" placeholder="dd/mm/aaaa" />
+        <label for="" class="gender">Gênero</label>
         <div id="gender-field">
           <input id="feminino" name="gender" type="radio" value="Feminino" />
-          <label for="feminino">Feminino</label>
+          <label for="feminino" class="gender-option">Feminino</label>
           <input id="masculino" name="gender" type="radio" value="Masculino"/>
-          <label for="masculino">Masculino</label>
+          <label for="masculino" class="gender-option">Masculino</label>
           <input id="personalizado" name="gender" type="radio" value="Personalizado" />
-          <label for="personalizado">Personalizado</label>
-          <button id="facebook-register">Cadastre-se</button>
+          <label for="personalizado" class="gender-option">Personalizado</label>
         </div>
+        <button id="facebook-register">Cadastre-se</button>
       </div>
     </div>
     <script src="script.js"></script>
