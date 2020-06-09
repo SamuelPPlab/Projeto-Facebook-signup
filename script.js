@@ -1,4 +1,3 @@
-
 /* global validation */
 
 validation.init();
