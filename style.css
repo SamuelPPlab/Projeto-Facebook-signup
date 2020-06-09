@@ -20,12 +20,13 @@ body {
 
 .login-form {
   display: flex;
+  padding-right: 19px;
 }
 
 .login-column {
   display: flex;
   flex-direction: column;
-  padding: 13px 7px 1px;
+  padding: 11px 7px 0;
 }
 
 .button-login {
@@ -39,27 +40,34 @@ body {
   font-weight: 700;
   line-height: 18px;
   margin-left: 7px;
-  margin-top: 12px;
+  margin-top: 9px;
   padding: 2px 6px;
 }
 
 .facebook-logo {
   height: 34px;
   margin-top: 30px;
-  padding-right: 183px;
+  padding-right: 160px;
   width: 168px;
+  margin-left: 5px;
 }
 
 .login-column input {
   border: 1px solid rgb(29, 42, 91);
-  padding-bottom: 4px;
+  padding-bottom: 5px;
+  padding-left: 4px;
+  margin-bottom: 2px;
   width: 142px;
+}
+
+.login-label {
+  padding-left: 1px;
 }
 
 a {
   color: white;
   cursor: pointer;
-  opacity: 0.6;
+  opacity: 0.56;
   text-decoration: none;
 }
 
@@ -70,9 +78,9 @@ a {
 .right-side {
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
-  width: 400px;
   line-height: 1.34;
+  margin-left: 90px;
+  width: 400px;
 }
 
 .right-side input {
@@ -85,18 +93,23 @@ a {
 
 .right-side h1 {
   color: #333;
+  font-size: 36px;
+  line-height: 120%;
   margin-bottom: 5px;
+  margin-top: 20px;
 }
 
-.right-side p {
+.title-information {
   color: #333;
   font-size: 19px;
+  line-height: 126%;
   margin-bottom: 20px;
   margin-top: 0;
 }
 
 ::-webkit-input-placeholder {
   color: #999;
+  
 }
 
 .left-side {
@@ -123,21 +136,54 @@ a {
 }
 
 .fullname input {
-  width: 100%
+  width: 100%;
 }
 
 .fullname input:nth-child( 1 ) {
   margin-right: 10px;
 }
 
-.birthdate, .gender {
+.birthdate , .gender {
   color: #90949c;
   font-size: 16px;
   font-weight: 700;
+}
+
+.birthdate {
   margin-bottom: 5px;
   margin-top: 10px;
 }
 
 .gender-option {
-  margin-right: 4px;
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.question-image {
+  cursor: pointer;
+  margin-left: 5px;
+  width: 20px;
+}
+
+.register-information {
+  color: #777;
+  font-size: 11px;
+  width: 316px;
+}
+
+.register-button {
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 7px 20px;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+  width: 50%;
 }

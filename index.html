@@ -11,11 +11,11 @@
       <img class="facebook-logo" src="imgs/facebook.png" />
       <div class="login-form">
         <div class="login-column">
-          <label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
+          <label class="login-label" for="user-email-phone">Email ou telefone</label>
           <input id="user-email-phone" type="text" name="user-email-phone" />
         </div>
         <div class="login-column">
-          <label for="user-password">Senha</label>
+          <label class="login-label" for="user-password">Senha</label>
           <input id="user-password" type="password" name="user-password" />
           <a href="">Esqueceu a conta?</a>
         </div>
@@ -32,7 +32,7 @@
       </div>
       <div class="right-side">
         <h1>Abra uma conta</h1>
-        <p>É rápido e fácil.</p>
+        <p class="title-information">É rápido e fácil.</p>
         <div class="fullname">
           <input type="text" name="user-name" placeholder="Nome" />
           <input type="text" name="user-lastname" placeholder="Sobrenome" />
@@ -50,7 +50,10 @@
           <input id="personalizado" name="gender" type="radio" value="Personalizado" />
           <label for="personalizado" class="gender-option">Personalizado</label>
         </div>
-        <button id="facebook-register">Cadastre-se</button>
+        <img class="question-image" src="imgs/question-mark.png">
+        <p class="register-information">Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser</p>
+        <button id="facebook-register" class="register-button">Cadastre-se</button>
+        <p>Criar uma Página para uma celebridade, banda ou empresa.</p>
       </div>
     </div>
     <script src="script.js"></script>
