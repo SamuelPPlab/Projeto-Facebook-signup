@@ -1,13 +1,14 @@
-* {
-  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+div {
   box-sizing: border-box;
+  font-family: 'Freight Sans 700', Helvetica, Arial, sans-serif;
   line-height: 1.34;
 }
 
-@media (min-width: 600.00001px) {
+@media ( min-width : 600.01px ) {
+
   .cabecalho {
     align-items: center;
-    background-color: #3b5998;
+    background-color: rgb(59, 89, 152);
     display: flex;
     height: 83px;
     justify-content: center;
@@ -16,7 +17,7 @@
 
   .top-bar {
     align-items: center;
-    background-color: #3b5998;
+    background-color: rgb(59, 89, 152);
     display: flex;
     height: 83px;
     justify-content: space-between;
@@ -30,16 +31,13 @@
   }
 }
 
-
-
-
 .corpo {
+  background: linear-gradient(white, rgb(211, 216, 232));
   color: #1c1e21;
-  background: linear-gradient(white, #D3D8E8);
   display: flex;
   justify-content: center;
-  min-width: 980px;
   margin: auto;
+  min-width: 980px;
 }
 
 .corpo-pagina {
@@ -64,67 +62,57 @@
 }
 
 .button-cadastro {
-  margin: 10px 0;
-  border: 1px black solid;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  text-shadow: 0 1px 2px rgba(0,0,0,.5);
   background: linear-gradient(#67ae55, #578843);
   background-color: #69a74e;
-  box-shadow: inset 0 1px 1px #a4e388;
+  border: 1px black solid;
   border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px #a4e388;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 126%;
+  margin: 10px 0;
   min-width: 194px;
   padding: 7px 20px;
+  position: relative;
   text-align: center;
-  line-height: 126%;
-  font-weight: bold !important;
-  font-size: 19px;
+  text-shadow: 0 1px 2px black;
   width: 194px;
 }
 
 .button-login {
-  background: none;
-  border: 0;
+  background-color: #4267b2;
+  border: 1px solid #ccd0d5;
+  border-color: #29487d;
+  border-radius: 2px;
+  color: white;
   cursor: pointer;
   display: inline-block;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 18px;
   margin: 0;
-  padding: 0;
-  white-space: nowrap;
-  border-radius: 2px;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 18px;
   padding: 2px 6px;
   text-align: center;
   text-decoration: none;
   text-shadow: none;
   vertical-align: top;
   white-space: nowrap;
-  border: 1px solid #ccd0d5;
-  background-color: #4267b2;
-  border-color: #29487d;
-  color: #fff;
 }
 
 .input-inicial {
-  border-color: #1d2a5b;
-  margin: 0;
-  width: 142px;
-  padding-bottom: 4px;
+  background-color: white;
   border: 1px solid #1d2a5b;
+  border-color: #1d2a5b;
   border-radius: 0;
-  padding: 3px;
-  font-size: 12px;
-  background-color: #fff;
   color: #1c1e21;
+  font-size: 12px;
+  margin: 0;
+  padding: 3px;
+  width: 142px;
 }
 
 .blocos-header {
@@ -132,58 +120,62 @@
 }
 
 .label-header {
-  color: #fff;
-  font-weight: normal;
-  padding-left: 1px;
+  color: white;
   font-size: 12px;
+  font-weight: 400;
+  padding-left: 1px;
   text-align: left;
 }
 
 .label-cadastro-1 {
   height: 39px;
-  width: 190px;
   margin: 8px 0;
+<<<<<<< HEAD
+=======
+  width: 190px;
+>>>>>>> lucas-allan-facebook-signup
 }
 
 .label-cadastro-2 {
   height: 39px;
-  width: 399px;
   margin: 8px;
+  width: 399px;
 }
 
 h1 {
-  padding-top: 20px;
+  color: rgb(51, 51, 51);
   font-size: 36px;
-  color: #333;
   font-weight: 600;
   margin-bottom: 5px;
+  padding-top: 20px;
 }
 
 h2 {
-  color: #1d2129;
+  color: rgb(29, 33, 41);
   font-size: 19px;
-  font-weight: normal;
+  font-weight: 400;
   padding-bottom: 20px;
 }
 
 .texto-apresentacao {
-  color: #0e385f;
+  color: rgb(14, 56, 95);
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 29px;
   margin-top: 40px;
   width: 450px;
   word-spacing: -1px;
 }
 
-@media (max-width: 600px) {
+@media ( max-width : 600px ) {
+
   .corpo {
     display: none;
   }
 
   .cabecalho {
     align-items: center;
-    background-color: #3b5998;
+    background-color: rgb(59, 89, 152);
     display: flex;
     flex-direction: column;
     height: 83px;
@@ -193,7 +185,7 @@ h2 {
 
   .top-bar {
     align-items: center;
-    background-color: #3b5998;
+    background-color: rgb(59, 89, 152);
     display: flex;
     flex-direction: column;
     height: 83px;
@@ -204,10 +196,17 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+<<<<<<< HEAD
 
+=======
+>>>>>>> lucas-allan-facebook-signup
   }
 
-  #t {
+  .esconder {
     display: none;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> lucas-allan-facebook-signup
