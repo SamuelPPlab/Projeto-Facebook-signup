@@ -125,7 +125,8 @@ p {
 }
 
 .interrogacao {
-  width: 5%;
+  cursor: pointer;
+  width: 4%;
 }
 
 em {
@@ -137,6 +138,7 @@ em {
   border-radius: 4px;
   border-top: 1px solid #257833;
   color: white;
+  cursor: pointer;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
   padding: 8.5px 17px;
@@ -157,4 +159,8 @@ em {
 
 .nome {
   margin-right: 15px;
+}
+
+.genero {
+  cursor: pointer;
 }
