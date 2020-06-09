@@ -53,7 +53,6 @@ body {
 
 
 .top-content {
-  border: 1px solid black;
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -63,7 +62,6 @@ body {
 
 .login-content {
   align-content: center;
-  border: 1px solid;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -122,7 +120,6 @@ body {
   margin-right: auto;
   width: 980px;
   zoom: 1;
-  border: 1px solid black;
 }
 
 .left-main-content {
@@ -183,7 +180,6 @@ body {
 }
 
 .user-name {
-  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
   width: 399px;
@@ -202,7 +198,6 @@ input {
 }
 
 .create-new-user {
-  /* border: 1px solid black; */
   flex-direction: column;
   height: 423.83px;
   justify-content: space-between;
