@@ -114,8 +114,8 @@ body {
 .main-content {
   display: flex;
   flex-flow: row;
-  justify-content: space-around;
   height: 640px;
+  justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
   width: 980px;
@@ -180,7 +180,6 @@ body {
 }
 
 .user-name {
-  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
   width: 399px;
@@ -199,7 +198,6 @@ input {
 }
 
 .create-new-user {
-  /* border: 1px solid black; */
   flex-direction: column;
   height: 423.83px;
   justify-content: space-between;
