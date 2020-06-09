@@ -16,6 +16,13 @@ btn2.addEventListener('click', function () {
     }
   }
   if (alerta === true) {
-    alert(`${entradas[2].value} ${entradas[3].value}`);
+    const entradas1 = document.querySelectorAll('.genero');
+    let sexo = '';
+    for (let i = 1; i < entradas1.length; i += 1) {
+      if (entradas1[i].checked) {
+        sexo = entradas1[i].value;
+      }
+    }
+    alert(`${entradas[2].value} ${entradas[3].value} - ${sexo}`);
   }
 });
