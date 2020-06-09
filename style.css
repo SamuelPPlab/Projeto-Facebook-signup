@@ -10,13 +10,14 @@ body {
 .top-bar {
   background-color: #3b5998;
   display: flex;
-  height: 9%;
+  height: 80%;
   justify-content: space-around;
   width: 100%;
 }
 
 header section {
   display: flex;
+  justify-content: space-around;
   max-height: 100%;
   max-width: 50%;
 }
@@ -38,16 +39,17 @@ header section {
 }
 
 .button {
-  background: #2f477a;
+  background-color: #3b5998;
   border: 1px solid #2f477a;
   color: white;
   cursor: pointer;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 0.9em;
+  font-size: 0.7em;
+  margin-top: 12px;
   padding: 5px 10px;
   text-decoration: none;
   vertical-align: middle;
-  width: 25%;
+  width: 100%;
 }
 
 .button:hover {
@@ -66,15 +68,17 @@ header section {
 }
 
 .user-email-phone {
-  height: 10%;
-  width: 80%;
+  height: 20%;
+  margin-top: 12px;
+  width: 100%;
 }
 
 .user-email-phone-label {
   color: white;
-  font-size: 0.9em;
-  height: 30%;
-  width: 60%;
+  font-size: 0.8em;
+  margin-top: 15px;
+  max-height: 10%;
+  width: 100%;
 }
 
 .middle {
@@ -86,19 +90,28 @@ header section {
 .div-esquerda {
   color: #1b435e;
   height: 100%;
+  margin-left: 60px;
   padding: 35px;
-  width: 25%;
+  width: 35%;
+}
+
+h2 {
+  font-size: 20px;
 }
 
 .div-direita {
   height: 100%;
   padding: 35px;
-  width: 25%;
+  width: 35%;
+}
+
+.facebook-networking {
+  max-width: 100%;
+  height: 50%;
 }
 
 .form-row {
   display: flex;
-  justify-content: space-between;
   width: 100%;
 }
 
@@ -140,4 +153,8 @@ em {
 .btn-submit:active {
   background: #257833;
   border-top-color: #257833;
+}
+
+.nome {
+  margin-right: 15px;
 }
