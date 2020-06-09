@@ -81,6 +81,14 @@ header section {
   width: 100%;
 }
 
+.recovery {
+  color: white;
+  cursor: pointer;
+  font-size: 0.7em;
+  margin: 2px;
+  opacity: 60%;
+}
+
 .middle {
   display: flex;
   justify-content: center;
@@ -96,7 +104,7 @@ header section {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 1.3em;
 }
 
 .div-direita {
@@ -140,7 +148,7 @@ em {
   color: white;
   cursor: pointer;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 1em;
   padding: 8.5px 17px;
   text-decoration: none;
   vertical-align: middle;
