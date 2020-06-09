@@ -1,7 +1,5 @@
 const submitButton = document.getElementById('button-login');
 
-const data = document.getElementById('data');
-
 function alerta() {
   const login = document.getElementById('user-email-phone').value;
   alert(login);
@@ -10,6 +8,6 @@ function alerta() {
 submitButton.addEventListener('click', alerta);
 
 new Pikaday({
-  field: data,
+  field: document.getElementById('data'),
   format: 'D/MM/YYYY',
 });
