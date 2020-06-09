@@ -9,7 +9,8 @@ function alerta() {
 
 submitButton.addEventListener('click', alerta);
 
-const picker = new Pikaday({
+/* eslint-disable no-new */
+new Pikaday({
   field: data,
   format: 'D/MM/YYYY',
 });
