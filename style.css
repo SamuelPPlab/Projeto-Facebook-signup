@@ -208,15 +208,13 @@
 
 .footer ul {
   display: flex;
-  width: 100%;
 }
 
 .footer ul li {
   flex-basis: 100%;
-  flex-wrap: wrap;
+  justify-content: flex-start;
   list-style-type: none;
-  padding-right: 14px;
-  white-space: nowrap;
+  padding-right: 5px;
 }
 
 /*  div {
