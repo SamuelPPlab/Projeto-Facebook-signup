@@ -101,7 +101,7 @@ p a {
   padding: 8px 10px;
 }
 
-.right-side-box h1 {
+h1 {
   color: #333;
   font-size: 36px;
   line-height: 120%;
@@ -153,7 +153,7 @@ p a {
   margin-right: 10px;
 }
 
-.birthdate, .gender {
+.birthdate , .gender {
   color: #90949c;
   font-size: 16px;
   font-weight: 700;
