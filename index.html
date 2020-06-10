@@ -3,108 +3,377 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Facebook</title>
+    <title>Página Teste Facebook</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body class="body">
     <header class="top-bar">
       <h1 class="facebook-logo">facebook</h1>
-      <div class="entradas">
-        <!--div das entradas e botão-->
-        <div class="label-com-input">
-          <!--div do email-->
-          <label
-            class="textos-cabecalho"
-            id="user-email-phone-label"
-            for="user-email-phone"
-            >Email ou telefone</label
-          >
-          <input
-            class="input-cabecalho"
-            type="text"
-            name="user"
-            id="user-email-phone"
-          />
+      <div class="entradas"><!--div das entradas e botão-->
+        <div class="input-user-pass">
+          <div class="user"><!--div do email-->
+            <label class="label-cabecalho" id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
+            <input class="input-cabecalho" type="text" name="user" id="user-email-phone" />
+          </div>
+          <div class="pass"><!--div da senha-->
+            <label class="label-cabecalho" id="senha-label" for="user-password">Senha</label>
+            <input class="input-cabecalho" type="password" name="senha" id="user-password"/>
+            <small><a class="text-forgot" href="#">Esqueceu a conta?</a></small>
+          </div>
         </div>
-        <div class="label-com-input">
-          <!--div da senha-->
-          <label class="textos-cabecalho" id="senha-label" for="user-password"
-            >Senha</label
-          >
-          <input
-            class="input-cabecalho"
-            type="password"
-            name="senha"
-            id="user-password"
-          />
-          <spam><a class="link" href="#">Esqueceu a conta?</a></spam>
-        </div>
-        <button class="button-cabecalho" id="button-login">Entrar</button>
+        <button class="button-entrar" id="button-login">Entrar</button>
       </div>
     </header>
-    <div class="dividir">
-      <div class="apresentacao">
-        <h2 class="texto-direito">
-          O Facebook ajuda você a se conectar e compartilhar com as pessoas que
-          fazem parte da sua vida.
-        </h2>
-        <img
-          class="conf-img"
-          id="facebook-networking"
-          src="networking.png"
-          alt="Figura networking"
-        />
+    <div class="esq-dir">
+      <div class="lado-esquerdo">
+        <h2 class="texto-esq">O Facebook ajuda você a se conectar e<br>compartilhar com as pessoas que
+          fazem parte<br>da sua vida.</h2>
+        <img class="conf-img" id="facebook-networking" src="networking.png" alt="Figura networking" />
       </div>
-      <form class="cadastro">
-        <h2>Abra uma conta</h2>
-        <h3>É rápido e fácil.</h3>
-        <div class="nome">
-          <input class="input-corpo" id="nome" type="text" placeholder="Nome" />
-          <input
-            class="input-corpo"
-            id="sobrenome"
-            type="text"
-            placeholder="Sobrenome"
-          />
-        </div>
-        <div></div>
-        <div>
-          <input
-            class="input-corpo"
-            type="text"
-            placeholder="Celular ou email"
-          />
-        </div>
-        <div>
-          <input class="input-corpo" type="password" placeholder="Nova senha" />
-        </div>
-        <div><label for="data-de-nascimento">Data de nascimento</label></div>
-        <div>
-          <input
-            type="date"
-            name=""
-            id="data-de-nascimento"
-            placeholder="dd/mm/aaaa"
-          />
-        </div>
-        <div>
-          <label for="">Gênero</label>
-          <input type="radio" name="" id="" value="Feminino" /><label for=""
-            >Feminino</label
-          >
-          <input type="radio" name="" id="" value="Masculino" /><label for=""
-            >Masculino</label
-          >
-          <input type="radio" name="" id="" value="Personalizado" /><label
-            for=""
-            >Personalizado</label
-          >
-        </div>
-        <div>
+      <div class="lado-direito">
+        <h1 class="titulo-principal">Abra uma conta</h1>
+        <h3 class="titulo-secundario">É rápido e fácil.</h3>
+        <form class="form-cadastro">
+          <div class="centralizar">
+            <div class="nome-sobrenome">
+              <input class="input-corpo" id="nome" type="text" placeholder="Nome" />
+              <input class="input-corpo" id="sobrenome" type="text" placeholder="Sobrenome" />
+            </div>
+            <div>
+              <input class="input-corpo" type="text" placeholder="Celular ou email" />
+            </div>
+            <div>
+              <input class="input-corpo" type="password" placeholder="Nova senha" />
+            </div>
+            <div class="texto-direito just-esq">
+              <label for="data-de-nascimento">Data de nascimento</label>
+            </div>
+            <div class="data just-esq">
+              <input type="date" name="" id="data-de-nascimento" placeholder="dd/mm/aaaa" />
+            </div>
+            <div class="texto-direito just-esq">
+              <label for="">Gênero</label>
+            </div>
+            <div class="radio-buttons">
+              <input type="radio" name="genero" id="" value="Feminino" /><label for="">Feminino</label>
+              <input type="radio" name="genero" id="" value="Masculino" /><label for="">Masculino</label>
+              <input type="radio" name="genero" id="" value="Personalizado" /><label for="">Personalizado</label>
+            </div>
+          </div>
+          <div class="texto-pequeno just-esq">
+            <small>Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>,<br><a href="#">Política de Dados</a> e 
+              <a href="#">Política de Cookies</a>. Você pode receber<br>notificações por SMS e pode cancelar isso quando quiser.</small>
+          </div>
           <button class="btn-cadastrar" id="facebook-register">Cadastre-se</button>
-        </div>
-      </form>
+          <p class="texto-rodape"><a href="#">Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
+        </form>
+      </div>
     </div>
-    <footer></footer>
+    <footer class="footer" id="pageFooter" data-referrer="page_footer" data-testid="page_footer">
+      <ul class="" data-nocookies="1">
+        <li>Português (Brasil)</li>
+        <li>
+          <a
+            class="_sv4"
+            href="https://www.facebook.com/"
+            title="English (US)"
+            >English (US)</a
+          >
+        </li>
+        <li>
+          <a
+            class="_sv4"
+            href="https://es-la.facebook.com/"
+            title="Spanish"
+            >Español</a
+          >
+        </li>
+        <li>
+          <a
+            class="_sv4"
+            href="https://fr-fr.facebook.com/"
+            title="French (France)"
+            >Français (France)</a
+          >
+        </li>
+        <li>
+          <a
+            class="_sv4"
+            href="https://it-it.facebook.com/"
+            title="Italian"
+            >Italiano</a
+          >
+        </li>
+        <li>
+          <a
+            class="_sv4"
+            href="https://ar-ar.facebook.com/"
+            title="Arabic"
+            >العربية</a
+          >
+        </li>
+        <li>
+          <a
+            class="_sv4"
+            href="https://de-de.facebook.com/"
+            title="German"
+            >Deutsch</a
+          >
+        </li>
+        <li>
+          <a
+            class="_sv4"
+            href="https://hi-in.facebook.com/"
+            title="Hindi"
+            >हिन्दी</a
+          >
+        </li>
+        <li>
+          <a
+            class="_sv4"
+            href="https://zh-cn.facebook.com/"
+            title="Simplified Chinese (China)"
+            >中文(简体)</a
+          >
+        </li>
+        <li>
+          <a
+            class="_sv4"
+            href="https://ja-jp.facebook.com/"
+            title="Japanese"
+            >日本語</a
+          >
+        </li>
+        <li>
+          <a
+            role="button"
+            class="_42ft _4jy0 _517i _517h _51sy"
+            rel="dialog"
+            href="#"
+            title="Mostrar mais idiomas"
+            ><i class="img sp_sG2S1OTONin sx_0eaf28"></i
+          ></a>
+        </li>
+      </ul>
+      <div id="contentCurve"></div>
+      <div
+        id="pageFooterChildren"
+        aria-label="Links para sites do Facebook"
+      >
+        <ul class="uiList pageFooterLinkList _509- _4ki _703 _6-i">
+          <li>
+            <a href="/r.php" title="Cadastre-se no Facebook">Cadastre-se</a>
+          </li>
+          <li><a href="/login/" title="Entrar no Facebook">Entrar</a></li>
+          <li>
+            <a href="https://messenger.com/" title="Confira o Messenger."
+              >Messenger</a
+            >
+          </li>
+          <li>
+            <a href="/lite/" title="Facebook Lite para Android.">Facebook Lite</a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/watch/"
+              title="Navegue pelos nossos vídeos do Watch."
+            >
+              Watch
+            </a>
+          </li>
+          <li>
+            <a
+              href="/directory/people/"
+              title="Navegue no nosso diretório de pessoas."
+              >Pessoas</a
+            >
+          </li>
+          <li>
+            <a
+              href="/directory/pages/"
+              title="Pesquisar nosso diretório de páginas."
+              >Páginas</a
+            >
+          </li>
+          <li><a href="/pages/category/">Categorias de Página</a></li>
+          <li>
+            <a href="/places/" title="Confira locais populares no Facebook."
+              >Locais</a
+            >
+          </li>
+          <li>
+            <a href="/games/" title="Confira os jogos do Facebook.">Jogos</a>
+          </li>
+          <li>
+            <a
+              href="/directory/places/"
+              title="Navegue pelo nosso diretório de locais."
+              >Locais</a
+            >
+          </li>
+          <li>
+            <a href="/marketplace/" title="Compre e venda no Facebook Marketplace."
+              >Marketplace</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://pay.facebook.com/"
+              target="_blank"
+              title="Learn more about Facebook Pay"
+              >Facebook Pay</a
+            >
+          </li>
+          <li>
+            <a
+              href="/directory/groups/"
+              title="Navegue pelo nosso diretório de grupos."
+              >Grupos</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.oculus.com/"
+              target="_blank"
+              title="Learn more about Oculus"
+              >Oculus</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://portal.facebook.com/"
+              target="_blank"
+              title="Saiba mais sobre o Portal do Facebook"
+              >Portal</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&amp;h=AT2QDgiMgHMDNW6pQ9ce9ZX4p-PO70KT3ROUenFRsU6ThCDRGjDM--7GYX9Q5fvFaNLebJMdhje94-Png7fXRi5rPnTLnEO5qdq5M6Qpv2aGsCxecz7JbA8BKmiYvWqlQ-iI3_VTov4_iKttcl6Qrfq8U0CJsw"
+              title="Confira o Instagram"
+              target="_blank"
+              data-lynx-mode="asynclazy"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a
+              href="/local/lists/245019872666104/"
+              title="Navegar pelo nosso diretório de listas locais."
+              >Local</a
+            >
+          </li>
+          <li>
+            <a href="/fundraisers/" title="Doe para causas importantes."
+              >Campanhas de arrecadação de fundos</a
+            >
+          </li>
+          <li>
+            <a
+              href="/biz/directory/"
+              title="Navegue pelo nosso diretório de serviços do Facebook."
+              >Serviços</a
+            >
+          </li>
+          <li>
+            <a
+              href="/facebook"
+              accesskey="8"
+              title="Leia nosso blog, descubra a central de recursos e encontre oportunidades de trabalho."
+              >Sobre</a
+            >
+          </li>
+          <li>
+            <a
+              href="/ad_campaign/landing.php?placement=pflo&amp;campaign_id=402047449186&amp;extra_1=auto"
+              title="Anuncie no Facebook."
+              >Criar anúncio</a
+            >
+          </li>
+          <li>
+            <a href="/pages/create/?ref_type=site_footer" title="Criar uma Página"
+              >Criar Página</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://developers.facebook.com/?ref=pf"
+              title="Desenvolver em nossa plataforma."
+              >Desenvolvedores</a
+            >
+          </li>
+          <li>
+            <a
+              href="/careers/?ref=pf"
+              title="Dê um passo adiante na sua carreira em nossa incrível empresa."
+              >Carreiras</a
+            >
+          </li>
+          <li>
+            <a
+              data-nocookies="1"
+              href="/privacy/explanation"
+              title="Saiba mais sobre sua privacidade e o Facebook."
+              >Privacidade</a
+            >
+          </li>
+          <li>
+            <a
+              href="/policies/cookies/"
+              title="Saiba mais sobre cookies e o Facebook"
+              data-nocookies="1"
+              >Cookies</a
+            >
+          </li>
+          <li>
+            <a
+              class="_41ug"
+              data-nocookies="1"
+              href="https://www.facebook.com/help/568137493302217"
+              title="Saiba mais sobre as Opções de anúncio."
+              >Opções de anúncio<i class="img sp_Gm5ra99xcN4 sx_845f27"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              data-nocookies="1"
+              href="/policies?ref=pf"
+              accesskey="9"
+              title="Leia os nossos termos e políticas."
+              >Termos</a
+            >
+          </li>
+          <li>
+            <a
+              href="/help/?ref=pf"
+              accesskey="0"
+              title="Acesse nossa Central de Ajuda."
+              >Ajuda</a
+            >
+          </li>
+          <li>
+            <a
+              accesskey="6"
+              class="accessible_elem"
+              href="/settings"
+              title="Visualize e edite suas configurações do Facebook."
+              >Configurações</a
+            >
+          </li>
+          <li>
+            <a
+              accesskey="7"
+              class="accessible_elem"
+              href="/allactivity?privacy_source=activity_log_top_menu"
+              title="Ver seu Registro de Atividades"
+              >Registro de Atividades</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="mvl copyright">
+        <div><span> Paulinho e Isabela © 2020</span></div>
+      </div>
+    </footer>
   </body>
 </html>

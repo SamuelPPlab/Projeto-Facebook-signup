@@ -7,7 +7,7 @@
 }
 
 .body {
-  background-color: rgba(225, 227, 238, 1);
+  background-color: rgba(235, 237, 238, 1);
   margin: 0;
   padding: 0;
 }
@@ -20,49 +20,145 @@
   margin-left: 150px;
   margin-top: 17px;
 }
-
+/*inclui entrada de email, senha, e botão*/
 .entradas {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 200px;
 }
-
-.label-com-input {
+/* envolve somente email e senha, sem o botão*/
+.input-user-pass {
   align-content: flex-end;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
-.link {
-  color: rgb(156, 180, 216);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-decoration: none;
-}
-
-.textos-cabecalho {
+/*textos das inputs de email e senha do header*/
+.label-cabecalho {
   color: white;
+  display: flex;
+  flex-direction: column;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
 }
-
+/*inputs de fato, de email e senha*/
 .input-cabecalho {
   margin-bottom: 4px;
   margin-right: 15px;
 }
-
-.button-cabecalho {
-  background-color: rgb(56, 88, 152);
-  border: 1px solid black;
+/*texto pequeno 'Esqueceu a senha?'*/
+.text-forgot {
+  color: rgb(156, 180, 216);
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+/*botão entrar*/
+.button-entrar {
+  background-color: rgb(66, 103, 180);
+  border: 1px solid rgb(30, 60, 130);
+  border-radius: 2px;
   color: white;
   font-weight: 200;
   height: 18px;
 }
-
-.dividir {
+/*div mais de fora, envolve todas as outras*/
+.esq-dir {
   display: flex;
-  justify-content: space-between;
-  min-width: 999px;
+  flex-direction: row;
 }
-
+/*envolve texto azul e imagem networking*/
+.lado-esquerdo {
+  min-width: 400px;
+  padding: 10px 50px 0 150px;
+}
+/*texto azul, titulo grande*/
+.texto-esq {
+  color: rgb(14, 56, 95);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding-top: 15px;
+}
+/*img networking*/
+.conf-img {
+  height: 194px;
+  width: auto;
+}
+/*INICIO DO LADO DIREITO*/
+/*titulo 'Abra uma conta'*/
+.titulo-principal {
+  color: rgb(51, 51, 51);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  margin: 30px;
+  margin-bottom: 10px;
+}
+/*titulo 'É rápido e fácil'*/
+.titulo-secundario {
+  color: rgb(51, 51, 51);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 30px;
+  margin-top: 0;
+}
+/*forms incluindo o botao e o texto pequeno*/
+.form-cadastro {
+  flex-direction: column;
+  min-width: 400px;
+  padding: 10px 50px 0 30px;
+}
+/*envolve somente as entradas do forms*/
+.centralizar {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  text-align: center;
+  align-content: stretch;
+}
+/*configura as inputs do forms*/
+.input-corpo {
+  border: 1px solid rgb(180, 180, 200);
+  border-radius: 4px;
+  height: 2.5em;
+  font-size: 1em;
+  width: 96%;
+  /*flex: 1;*/
+  margin: 5px;
+}
+/*envolve somente nome e sobrenome para deixar em linha*/
+.nome-sobrenome {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+/*textos de data de nascimento e genero*/
+.texto-direito {
+  color: rgb(150, 150, 150);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 15px;
+  padding-bottom: 5px;
+}
+/*configura o texto dos radio-buttons*/
+.radio-buttons {
+  color: rgb(30, 30, 30);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  padding: 0 10px 0 3px;
+}
+/*configuracoes do texto pequeno*/
+.texto-pequeno {
+  color: rgb(100, 100, 100);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  justify-content: flex-start;
+  padding: 20px;
+  text-decoration: none;
+}
+/*configuracoes do botao verde*/
 .btn-cadastrar {
   background-color: rgb(95, 156, 76);
   border: 1px solid rgb(161, 183, 163);
@@ -71,35 +167,38 @@
   font-size: 18px;
   font-weight: 800;
   height: 40px;
+  padding: 5px 40px;
 }
 
-.conf-img {
-  height: 194px;
-  width: auto;
+.just-esq {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0;
+  padding-left: 0;
 }
 
-.input-corpo {
-  border: 1px solid rgb(180, 180, 200);
-  border-radius: 6px;
-  height: 2em;
+.texto-rodape {
+  font-size: 15px;
 }
 
-.texto-direito {
-  color: rgb(14, 56, 95);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.footer {
+  font-size: 13px;
+  text-decoration: none;
 }
 
-.apresentacao {
-  min-width: 400px;
-  padding: 10px 100px 0 150px;
+.footer ul {
+  display: flex;
+  width: 100%;
+}
+
+.footer ul li {
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-right: 14px;
+  white-space: nowrap;
 }
 
 div {
   border: 1px red solid;
-}
-
-.cadastro {
-  flex-direction: column;
-  min-width: 600px;
-  padding: 10px 50px 0 30px;
-}
+}*/
