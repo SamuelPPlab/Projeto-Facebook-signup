@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Teste Facebook</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body class="body">
+    <header class="top-bar">
+      <h1 class="facebook-logo">facebook</h1>
+      <div class="entradas">
+        <!--div das entradas e botão-->
+        <div class="input-user-pass">
+          <div class="user">
+            <!--div do email-->
+            <label
+              class="label-cabecalho"
+              id="user-email-phone-label"
+              for="user-email-phone"
+              >Email ou telefone</label
+            >
+            <input
+              class="input-cabecalho"
+              type="text"
+              name="user"
+              id="user-email-phone"
+            />
+          </div>
+          <div class="pass">
+            <!--div da senha-->
+            <label class="label-cabecalho" id="senha-label" for="user-password"
+              >Senha</label
+            >
+            <input
+              class="input-cabecalho"
+              type="password"
+              name="senha"
+              id="user-password"
+            />
+            <small><a class="text-forgot" href="#">Esqueceu a conta?</a></small>
+          </div>
+        </div>
+        <button class="button-entrar" id="button-login">Entrar</button>
+      </div>
+    </header>
+    <div class="esq-dir">
+      <div class="lado-esquerdo">
+        <h2 class="texto-esq">
+          O Facebook ajuda você a se conectar e compartilhar com as pessoas
+          que fazem parte da sua vida.
+        </h2>
+        <img
+          class="conf-img"
+          id="facebook-networking"
+          src="networking.png"
+          alt="Figura networking"
+        />
+      </div>
+      <div class="lado-direito">
+        <h1 class="titulo-principal">Abra uma conta</h1>
+        <h3 class="titulo-secundario">É rápido e fácil.</h3>
+        <form class="form-cadastro">
+          <div class="centralizar">
+            <div class="nome-sobrenome">
+              <input
+                class="input-corpo"
+                id="nome"
+                type="text"
+                placeholder="Nome"
+              />
+              <input
+                class="input-corpo"
+                id="sobrenome"
+                type="text"
+                placeholder="Sobrenome"
+              />
+            </div>
+            <div>
+              <input
+                class="input-corpo"
+                type="text"
+                placeholder="Celular ou email"
+              />
+            </div>
+            <div>
+              <input
+                class="input-corpo"
+                type="password"
+                placeholder="Nova senha"
+              />
+            </div>
+            <div class="texto-direito just-esq">
+              <label for="data-de-nascimento">Data de nascimento</label>
+            </div>
+            <div class="data just-esq">
+              <input
+                type="date"
+                name=""
+                id="data-de-nascimento"
+                placeholder="dd/mm/aaaa"
+              />
+            </div>
+            <div class="texto-direito just-esq">
+              <label for="">Gênero</label>
+            </div>
+            <div class="radio-buttons">
+              <input type="radio" name="genero" id="" value="Feminino" /><label
+                for=""
+                >Feminino</label
+              >
+              <input type="radio" name="genero" id="" value="Masculino" /><label
+                for=""
+                >Masculino</label
+              >
+              <input
+                type="radio"
+                name="genero"
+                id=""
+                value="Personalizado"
+              /><label for="">Personalizado</label>
+            </div>
+          </div>
+          <div class="texto-pequeno just-esq">
+            <small
+              >Ao clicar em Cadastre-se, você concorda com nossos
+              <a href="#">Termos</a>,<br /><a href="#">Política de Dados</a> e
+              <a href="#">Política de Cookies</a>. Você pode receber<br />notificações
+              por SMS e pode cancelar isso quando quiser.</small
+            >
+          </div>
+          <button class="btn-cadastrar" id="facebook-register">
+            Cadastre-se
+          </button>
+          <p class="texto-rodape">
+            <a href="#">Criar uma Página</a> para uma celebridade, banda ou
+            empresa.
+          </p>
+        </form>
+      </div>
+    </div>
+    <footer
+      class="footer"
+      id="pageFooter"
+      data-referrer="page_footer"
+      data-testid="page_footer"
+    >
+      <ul class="" data-nocookies="1">
+        <li>Português (Brasil)</li>
+        <li>
+          <a class="_sv4" href="https://www.facebook.com/" title="English (US)"
+            >English (US)</a
+          >
+        </li>
+        <li>
+          <a class="_sv4" href="https://es-la.facebook.com/" title="Spanish"
+            >Español</a
+          >
+        </li>
+        <li>
+          <a
+            class="_sv4"
+            href="https://fr-fr.facebook.com/"
+            title="French (France)"
+            >Français (France)</a
+          >
+        </li>
+        <li>
+          <a class="_sv4" href="https://it-it.facebook.com/" title="Italian"
+            >Italiano</a
+          >
+        </li>
+        <li>
+          <a class="_sv4" href="https://ar-ar.facebook.com/" title="Arabic"
+            >العربية</a
+          >
+        </li>
+        <li>
+          <a class="_sv4" href="https://de-de.facebook.com/" title="German"
+            >Deutsch</a
+          >
+        </li>
+        <li>
+          <a class="_sv4" href="https://hi-in.facebook.com/" title="Hindi"
+            >हिन्दी</a
+          >
+        </li>
+        <li>
+          <a
+            class="_sv4"
+            href="https://zh-cn.facebook.com/"
+            title="Simplified Chinese (China)"
+            >中文(简体)</a
+          >
+        </li>
+        <li>
+          <a class="_sv4" href="https://ja-jp.facebook.com/" title="Japanese"
+            >日本語</a
+          >
+        </li>
+        <li>
+          <a
+            role="button"
+            class="_42ft _4jy0 _517i _517h _51sy"
+            rel="dialog"
+            href="#"
+            title="Mostrar mais idiomas"
+            ><i class="img sp_sG2S1OTONin sx_0eaf28"></i
+          ></a>
+        </li>
+      </ul>
+      <div id="contentCurve"></div>
+      <div class="mvl copyright">
+        <div><span> Paulinho e Isabela © 2020</span></div>
+      </div>
+    </footer>
+  </body>
+</html>
