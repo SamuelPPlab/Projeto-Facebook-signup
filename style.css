@@ -22,8 +22,8 @@
 }
 /*inclui entrada de email, senha, e botão*/
 .entradas {
-  display: flex;
   align-items: center;
+  display: flex;
   flex-direction: row;
   margin-right: 200px;
 }
@@ -111,11 +111,11 @@
 }
 /*envolve somente as entradas do forms*/
 .centralizar {
+  align-content: stretch;
   display: flex;
   flex-direction: column;
-  width: 400px;
   text-align: center;
-  align-content: stretch;
+  width: 400px;
 }
 /*configura as inputs do forms*/
 .input-corpo {
@@ -123,9 +123,8 @@
   border-radius: 4px;
   height: 2.5em;
   font-size: 1em;
-  width: 96%;
-  /*flex: 1;*/
   margin: 5px;
+  width: 96%;
 }
 /*envolve somente nome e sobrenome para deixar em linha*/
 .nome-sobrenome {
@@ -199,6 +198,6 @@
   white-space: nowrap;
 }
 
-div {
+/*div {
   border: 1px red solid;
 }*/
