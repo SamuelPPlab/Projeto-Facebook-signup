@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(233, 235, 238);
+  background: linear-gradient(white, rgb(211, 216, 232));;
   box-sizing: border-box;
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
@@ -46,17 +46,17 @@ body {
 
 .facebook-logo {
   height: 34px;
+  margin-left: 5px;
   margin-top: 30px;
   padding-right: 160px;
   width: 168px;
-  margin-left: 5px;
 }
 
 .login-column input {
   border: 1px solid rgb(29, 42, 91);
+  margin-bottom: 2px;
   padding-bottom: 5px;
   padding-left: 4px;
-  margin-bottom: 2px;
   width: 142px;
 }
 
@@ -73,7 +73,7 @@ body {
 
 .content {
   display: flex;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .right-side-box {
@@ -92,8 +92,8 @@ body {
   border: 1px solid #bdc7d8;
   border-radius: 5px;
   font-size: 18px;
-  padding: 8px 10px;
   margin-bottom: 10px;
+  padding: 8px 10px;
 }
 
 .right-side-box h1 {
@@ -114,7 +114,6 @@ body {
 
 ::-webkit-input-placeholder {
   color: #999;
-  
 }
 
 .left-side-box {
@@ -123,16 +122,17 @@ body {
 
 .left-side-content p {
   color: rgb(14, 56, 95);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
+  line-height: 29px;
   margin-top: 40px;
   margin-left: 23.5%;
-  width: 65%;
+  width: 70%;
 }
 
 .left-side-content img {
-  width: 80%;
-  margin-left: 23%;
+  width: 85%;
+  margin-left: 25%;
 }
 
 .fullname {
@@ -144,11 +144,11 @@ body {
   width: 100%;
 }
 
-.fullname input:nth-child( 1 ) {
+.fullname input:nth-child( 1) {
   margin-right: 10px;
 }
 
-.birthdate , .gender {
+.birthdate, .gender {
   color: #90949c;
   font-size: 16px;
   font-weight: 700;
@@ -193,7 +193,7 @@ body {
   margin-bottom: 10px;
   margin-top: 10px;
   padding: 7px 20px;
-  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
   width: 50%;
 }
 
@@ -216,14 +216,26 @@ p a {
   display: flex;
   align-items: baseline;
   padding-bottom: 11px;
-  padding-top: 8px;
+  padding-top: 14px;
 }
 
 .language a {
-  color: #385898;;
+  color: #385898;
   cursor: pointer;
   font-size: 12px;
   padding-right: 10px;
+}
+
+.language button {
+  background-color: #f5f6f7;
+  border: 1px solid #ccd0d5;
+  border-radius: 2px;
+  color: #4b4f56;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 0 8px;
 }
 
 .services {
@@ -233,7 +245,7 @@ p a {
 }
 
 .services a {
-  color: #385898;;
+  color: #385898;
   cursor: pointer;
   font-size: 12px;
   line-height: 1.6;
