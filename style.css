@@ -142,15 +142,13 @@ input::placeholder {
 
 .fullname {
   display: flex;
-  flex-direction: row;
-}
-
-.fullname input {
+  justify-content: space-between;
+  margin-right: 10px;
   width: 100%;
 }
 
-.fullname input:nth-child( 1 ) {
-  margin-right: 10px;
+.fullname input {
+  width: 43.25%;
 }
 
 .birthdate , .gender {
