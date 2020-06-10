@@ -21,7 +21,7 @@
   margin-top: 17px;
 }
 
-/*inclui entrada de email, senha, e botão*/
+/* inclui entrada de email, senha, e botão */
 
 .entradas {
   align-items: center;
@@ -30,7 +30,7 @@
   margin-right: 200px;
 }
 
-/* envolve somente email e senha, sem o botão*/
+/*  envolve somente email e senha, sem o botão */
 
 .input-user-pass {
   align-content: flex-end;
@@ -39,7 +39,7 @@
   justify-content: space-around;
 }
 
-/*textos das inputs de email e senha do header*/
+/* textos das inputs de email e senha do header */
 
 .label-cabecalho {
   color: white;
@@ -49,14 +49,14 @@
   font-size: 12px;
 }
 
-/*inputs de fato, de email e senha*/
+/* inputs de fato, de email e senha */
 
 .input-cabecalho {
   margin-bottom: 4px;
   margin-right: 15px;
 }
 
-/*texto pequeno 'Esqueceu a senha?'*/
+/* texto pequeno 'Esqueceu a senha?' */
 
 .text-forgot {
   color: rgb(156, 180, 216);
@@ -67,7 +67,7 @@
   text-decoration: none;
 }
 
-/*botão entrar*/
+/* botão entrar */
 
 .button-entrar {
   background-color: rgb(66, 103, 180);
@@ -78,21 +78,21 @@
   height: 18px;
 }
 
-/*div mais de fora, envolve todas as outras*/
+/* div mais de fora, envolve todas as outras */
 
 .esq-dir {
   display: flex;
   flex-direction: row;
 }
 
-/*envolve texto azul e imagem networking*/
+/* envolve texto azul e imagem networking */
 
 .lado-esquerdo {
   min-width: 400px;
   padding: 10px 50px 0 150px;
 }
 
-/*texto azul, titulo grande*/
+/* texto azul, titulo grande */
 
 .texto-esq {
   color: rgb(14, 56, 95);
@@ -101,16 +101,16 @@
   padding-top: 15px;
 }
 
-/*img networking*/
+/* img networking */
 
 .conf-img {
   height: 194px;
   width: auto;
 }
 
-/*INICIO DO LADO DIREITO*/
+/* INICIO DO LADO DIREITO */
 
-/*titulo 'Abra uma conta'*/
+/* titulo 'Abra uma conta' */
 
 .titulo-principal {
   color: rgb(51, 51, 51);
@@ -120,7 +120,7 @@
   margin-bottom: 10px;
 }
 
-/*titulo 'É rápido e fácil'*/
+/* titulo 'É rápido e fácil' */
 
 .titulo-secundario {
   color: rgb(51, 51, 51);
@@ -129,7 +129,7 @@
   margin-top: 0;
 }
 
-/*forms incluindo o botao e o texto pequeno*/
+/* forms incluindo o botao e o texto pequeno */
 
 .form-cadastro {
   flex-direction: column;
@@ -137,7 +137,7 @@
   padding: 10px 50px 0 30px;
 }
 
-/*envolve somente as entradas do forms*/
+/* envolve somente as entradas do forms */
 
 .centralizar {
   align-content: stretch;
@@ -147,7 +147,7 @@
   width: 400px;
 }
 
-/*configura as inputs do forms*/
+/* configura as inputs do forms */
 
 .input-corpo {
   border: 1px solid rgb(180, 180, 200);
@@ -158,7 +158,7 @@
   width: 96%;
 }
 
-/*envolve somente nome e sobrenome para deixar em linha*/
+/* envolve somente nome e sobrenome para deixar em linha */
 
 .nome-sobrenome {
   display: flex;
@@ -166,7 +166,7 @@
   width: 100%;
 }
 
-/*textos de data de nascimento e genero*/
+/* textos de data de nascimento e genero */
 
 .texto-direito {
   color: rgb(150, 150, 150);
@@ -177,7 +177,7 @@
   padding-bottom: 5px;
 }
 
-/*configura o texto dos radio-buttons*/
+/* configura o texto dos radio-buttons */
 
 .radio-buttons {
   color: rgb(30, 30, 30);
@@ -186,7 +186,7 @@
   padding: 0 10px 0 3px;
 }
 
-/*configuracoes do texto pequeno*/
+/* configuracoes do texto pequeno */
 
 .texto-pequeno {
   color: rgb(100, 100, 100);
@@ -197,7 +197,7 @@
   text-decoration: none;
 }
 
-/*configuracoes do botao verde*/
+/* configuracoes do botao verde */
 
 .btn-cadastrar {
   background-color: rgb(95, 156, 76);
@@ -239,6 +239,6 @@
   white-space: nowrap;
 }
 
-/* div {
+/*  div {
   border: 1px red solid;
-}*/
+} */
