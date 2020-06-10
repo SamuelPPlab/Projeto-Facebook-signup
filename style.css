@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(white, rgb(211, 216, 232));;
+  background: linear-gradient(white, rgb(211, 216, 232));
   box-sizing: border-box;
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
@@ -64,6 +64,11 @@ body {
   padding-left: 1px;
 }
 
+p a {
+  color: #385898;
+  cursor: pointer;
+}
+
 .login-column a {
   color: white;
   cursor: pointer;
@@ -125,14 +130,14 @@ body {
   font-size: 20px;
   font-weight: 700;
   line-height: 29px;
-  margin-top: 40px;
   margin-left: 23.5%;
+  margin-top: 40px;
   width: 70%;
 }
 
 .left-side-content img {
-  width: 85%;
   margin-left: 25%;
+  width: 85%;
 }
 
 .fullname {
@@ -144,7 +149,7 @@ body {
   width: 100%;
 }
 
-.fullname input:nth-child( 1) {
+.fullname input:nth-child( 1 ) {
   margin-right: 10px;
 }
 
@@ -183,17 +188,17 @@ body {
 .register-button {
   background: linear-gradient(#67ae55, #578843);
   background-color: #69a74e;
-  box-shadow: inset 0 1px 1px #a4e388;
   border: 1px solid;
   border-color: #3b6e22 #3b6e22 #2c5115;
   border-radius: 5px;
+  box-shadow: inset 0 1px 1px #a4e388;
   color: white;
   font-size: 19px;
   font-weight: 700;
   margin-bottom: 10px;
   margin-top: 10px;
   padding: 7px 20px;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   width: 50%;
 }
 
@@ -201,20 +206,15 @@ body {
   border-top: 1px solid #dddfe2;
   color: #666;
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 700;
   margin-top: 10px;
   padding-top: 15px;
 }
 
-p a {
-  color: #385898;
-  cursor: pointer;
-}
-
 .language {
+  align-items: baseline;
   border-bottom: 1px solid #dddfe2;
   display: flex;
-  align-items: baseline;
   padding-bottom: 11px;
   padding-top: 14px;
 }
@@ -260,11 +260,11 @@ footer {
 .footer-content {
   margin: auto;
   padding-left: 22px;
-  width: 78%
+  width: 78%;
 }
 
 .copyright {
   color: #737373;
   font-size: 11px;
-  padding: 10px 0 10px;
+  padding: 10px 0;
 }
