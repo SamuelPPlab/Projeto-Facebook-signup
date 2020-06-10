@@ -1,6 +1,8 @@
-const picker = new Pikaday({
+new Pikaday({
   field: document.getElementById('datepicker'),
-  toString(date, format) {
-    return moment(date).format(' DD / MM / YYYY');
-  }
+  firstDay: 0,
+  maxDate: new Date(),
+  toString(date) {
+    return moment(date).format('DD / MM / YYYY');
+  },
 });
