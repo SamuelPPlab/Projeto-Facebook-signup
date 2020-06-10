@@ -22,7 +22,6 @@
 }
 
 /* inclui entrada de email, senha, e botão */
-
 .entradas {
   align-items: center;
   display: flex;
@@ -31,7 +30,6 @@
 }
 
 /*  envolve somente email e senha, sem o botão */
-
 .input-user-pass {
   align-content: flex-end;
   display: flex;
@@ -40,7 +38,6 @@
 }
 
 /* textos das inputs de email e senha do header */
-
 .label-cabecalho {
   color: white;
   display: flex;
@@ -50,14 +47,12 @@
 }
 
 /* inputs de fato, de email e senha */
-
 .input-cabecalho {
   margin-bottom: 4px;
   margin-right: 15px;
 }
 
 /* texto pequeno 'Esqueceu a senha?' */
-
 .text-forgot {
   color: rgb(156, 180, 216);
   display: flex;
@@ -68,7 +63,6 @@
 }
 
 /* botão entrar */
-
 .button-entrar {
   background-color: rgb(66, 103, 180);
   border: 1px solid rgb(30, 60, 130);
@@ -79,21 +73,18 @@
 }
 
 /* div mais de fora, envolve todas as outras */
-
 .esq-dir {
   display: flex;
   flex-direction: row;
 }
 
 /* envolve texto azul e imagem networking */
-
 .lado-esquerdo {
   min-width: 400px;
   padding: 10px 50px 0 150px;
 }
 
 /* texto azul, titulo grande */
-
 .texto-esq {
   color: rgb(14, 56, 95);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -102,16 +93,13 @@
 }
 
 /* img networking */
-
 .conf-img {
   height: 194px;
   width: auto;
 }
 
 /* INICIO DO LADO DIREITO */
-
 /* titulo 'Abra uma conta' */
-
 .titulo-principal {
   color: rgb(51, 51, 51);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -121,7 +109,6 @@
 }
 
 /* titulo 'É rápido e fácil' */
-
 .titulo-secundario {
   color: rgb(51, 51, 51);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -130,7 +117,6 @@
 }
 
 /* forms incluindo o botao e o texto pequeno */
-
 .form-cadastro {
   flex-direction: column;
   min-width: 400px;
@@ -138,7 +124,6 @@
 }
 
 /* envolve somente as entradas do forms */
-
 .centralizar {
   align-content: stretch;
   display: flex;
@@ -148,7 +133,6 @@
 }
 
 /* configura as inputs do forms */
-
 .input-corpo {
   border: 1px solid rgb(180, 180, 200);
   border-radius: 4px;
@@ -159,7 +143,6 @@
 }
 
 /* envolve somente nome e sobrenome para deixar em linha */
-
 .nome-sobrenome {
   display: flex;
   flex-direction: row;
@@ -167,7 +150,6 @@
 }
 
 /* textos de data de nascimento e genero */
-
 .texto-direito {
   color: rgb(150, 150, 150);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -178,7 +160,6 @@
 }
 
 /* configura o texto dos radio-buttons */
-
 .radio-buttons {
   color: rgb(30, 30, 30);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -187,7 +168,6 @@
 }
 
 /* configuracoes do texto pequeno */
-
 .texto-pequeno {
   color: rgb(100, 100, 100);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -198,7 +178,6 @@
 }
 
 /* configuracoes do botao verde */
-
 .btn-cadastrar {
   background-color: rgb(95, 156, 76);
   border: 1px solid rgb(161, 183, 163);
