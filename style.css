@@ -179,3 +179,7 @@ h2 {
 .caiba {
   width: 170px;
 }
+
+.mobilebody {
+  display: none;
+}
