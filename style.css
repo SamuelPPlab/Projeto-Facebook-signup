@@ -97,12 +97,17 @@ h2 {
   font-size: 1em;
 }
 
+.signIn {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 400px;
+}
+
 .oneline {
-  align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  line-height: 3em;
+  width: 100%;
 }
 
 .inputing {
@@ -110,7 +115,7 @@ h2 {
   border-radius: 5px;
   line-height: 3em;
   margin-bottom: 10px;
-  width: 100%;
+  width: 98%;
 }
 
 .mgZ {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <title>Facebook</title>
+    <title>Facebook - Página Teste</title>
   </head>
   <body>
     <header class="top-bar">
@@ -17,12 +17,12 @@
       </section>
       <section class="formDir">
             <div class="inputs">
-              <label class="labelz" id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
+              <label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
               <input id="user-email-phone" type="text" required name="user-email-phone"/>
             <small class="gambi1"> alinhando na gambi</small>
           </div>
             <div class="inputs">
-              <label class="labelz" id="user-password" for="user-password">Senha</label>
+              <label id="user-password" for="user-password">Senha</label>
               <input type="password" id="user-password" required />
               <small class="esqueceuZe">Esqueceu a senha?</small>
             </div>
@@ -42,17 +42,19 @@
       <section class="lado-direito">
         <h1 class="topR">Abra uma conta</h1>
         <h2 class="topR">É rápido e fácil.</h2>
+        <div class="signIn">
       <div class="oneline">
-         <div>
           <input class="inputing" placeholder="Nome" type="text"/>
-        </div>
-        <div>
           <input class="inputing" placeholder="Sobrenome" type="text"/>
         </div>
+        <div>
+          <input class="inputing" placeholder="Celular ou Email" type="text"/>
+        </div>
+        <div>
+          <input class="inputing" placeholder="Nova senha" type="password"/>
+        </div>
       </div>
-      <input class="inputing" placeholder="Celular ou Email" type="text"/>
-      <input class="inputing" placeholder="Nova senha" type="password"/>
-      <div>
+        <div>
       <label class="mgZ" for="data">Data de nascimento</label>
           <input class="date" id="data" name="data" placeholder="dd/mm/aaaa" type="date"/>
       </div>
@@ -71,7 +73,7 @@
             </label>
           </div>
           <small class="vaiC">By clicking Sign Up, you agree to our Terms, Data Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</small>
-        <button class="btnCadas" id="facebook-register" type="button">Cadastre-se</button>
+          <button class="btnCadas" id="facebook-register" type="button">Cadastre-se</button>
       </section>
     </div>
     <script src="script.js"></script>
