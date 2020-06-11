@@ -130,10 +130,7 @@ div {
 .label-cadastro-1 {
   height: 39px;
   margin: 8px 0;
-<<<<<<< HEAD
-=======
   width: 190px;
->>>>>>> lucas-allan-facebook-signup
 }
 
 .label-cadastro-2 {
@@ -196,17 +193,9 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-<<<<<<< HEAD
-
-=======
->>>>>>> lucas-allan-facebook-signup
   }
 
   .esconder {
     display: none;
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> lucas-allan-facebook-signup
