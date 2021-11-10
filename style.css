@@ -1,0 +1,134 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  min-height: 80px;
+  width: 60%;
+}
+
+.azul {
+  background-color: #3b5998;
+}
+
+.email , .senha , .data {
+  display: inline-block;
+}
+
+.email {
+  margin-right: 5px;
+}
+
+.senha {
+  margin: 0 5px;
+}
+
+.login {
+  color: white;
+  display: flex;
+  margin-top: 10px;
+}
+
+.email input , .senha input , .data input {
+  display: block;
+}
+
+.facebook-logo {
+  height: 35px;
+  padding-top: 5px;
+  width: 170px;
+}
+
+.imagem {
+  align-items: center;
+  display: flex;
+}
+
+.input-login {
+  padding: 4px;
+}
+
+.botao-entrar {
+  background-color: #4166b2;
+  border: 1px solid #29487c;
+  color: white;
+  padding: 5px;
+}
+
+.recuperacao {
+  position: absolute;
+}
+
+.recuperacao a {
+  color: #8ea7d0;
+}
+
+.corpo {
+  display: flex;
+  margin: 0 auto;
+  max-width: 60%;
+  width: 60%;
+}
+
+.corpoParte {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.double {
+  margin-left: 0;
+  width: 100%;
+}
+
+.single {
+  width: 100%;
+}
+
+.single-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.double-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.double-container:last-child {
+  margin-right: 10px;
+}
+
+.help {
+  color: #0e385f;
+  font-weight: 700;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 75%;
+}
+
+.inputForms {
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.teste {
+  margin-left: 35px;
+}
+
+h1 {
+  font-size: 35px;
+  margin: 20px 0 10px;
+}
+
+h2 {
+  font-size: medium;
+  margin-bottom: 20px;
+}
+
+body {
+  background-image: linear-gradient(#fefefe, #d3d8e8);
+}
